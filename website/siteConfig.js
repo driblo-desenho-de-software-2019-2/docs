@@ -38,10 +38,9 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    {doc: 'richPicture', label: 'Dinâmicas e Seminários'},
+    { href: 'https://github.com/driblo-desenho-de-software-2019-2/docs', external: true ,label: 'GitHub' },
+  
   ],
 
   // If you have users set above, you add it here:
@@ -54,8 +53,8 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#464f49',
-    secondaryColor: '#313733',
+    primaryColor: '#500889',
+    secondaryColor: '#9c4682',
   },
 
   /* Custom fonts for website */
@@ -73,7 +72,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} Driblô`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
