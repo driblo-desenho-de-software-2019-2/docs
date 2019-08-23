@@ -1,0 +1,145 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Plano de Gerenciamento de Custos · Driblô</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## Histórico de Revisão"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Plano de Gerenciamento de Custos · Driblô"/><meta property="og:type" content="website"/><meta property="og:url" content="https://driblo-desenho-de-software-2019-2.github.io/docs/"/><meta property="og:description" content="## Histórico de Revisão"/><meta property="og:image" content="https://driblo-desenho-de-software-2019-2.github.io/docs/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://driblo-desenho-de-software-2019-2.github.io/docs/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/docs/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/docs/js/scrollSpy.js"></script><link rel="stylesheet" href="/docs/css/main.css"/><script src="/docs/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/docs/"><img class="logo" src="/docs/img/favicon.ico" alt="Driblô"/><h2 class="headerTitleWithLogo">Driblô</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/docs/docs/richPicture" target="_self">Dinâmicas e Seminários</a></li><li class=""><a href="https://github.com/driblo-desenho-de-software-2019-2/docs" target="_blank">GitHub</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Dinâmica e Seminário I</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Dinâmica e Seminário I</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/docs/richPicture">Rich Picture</a></li><li class="navListItem"><a class="navItem" href="/docs/docs/5w2h">5W2H</a></li><li class="navListItem"><a class="navItem" href="/docs/docs/ishikawa">Causa e Efeito</a></li><li class="navListItem"><a class="navItem" href="/docs/docs/mapaMental">Mapa Mental</a></li><li class="navListItem"><a class="navItem" href="/docs/docs/lexicos">Léxicos</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docs/docs/gerenciamentoCustos">Plano de Gerenciamento de Custos</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Plano de Gerenciamento de Custos</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="historico-de-revisão"></a><a href="#historico-de-revisão" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Histórico de Revisão</h2>
+<table>
+<thead>
+<tr><th style="text-align:center">Data</th><th style="text-align:center">Versão</th><th style="text-align:center">Descrição</th><th style="text-align:center">Autor(es)</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center">22/08/2019</td><td style="text-align:center">0.1</td><td style="text-align:center">Criação do documento</td><td style="text-align:center">Matheus Rodrigues</td></tr>
+<tr><td style="text-align:center">22/08/2019</td><td style="text-align:center">0.2</td><td style="text-align:center">Criação dos tópicos 1, 2, 3, 4 e 5</td><td style="text-align:center">Matheus Rodrigues</td></tr>
+</tbody>
+</table>
+<h2><a class="anchor" aria-hidden="true" id="1-introducão"></a><a href="#1-introducão" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1. Introdução</h2>
+<p><br></p>
+<p align="justify">O plano de gerenciamento dos custos define o formato e estabelece as atividades e os critérios de planejamento, estruturação e controle dos custos do projeto.</p>
+<h2><a class="anchor" aria-hidden="true" id="2-estimativa-de-custo"></a><a href="#2-estimativa-de-custo" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2. Estimativa de Custo</h2>
+<p><br></p>
+<p align="justify">O cálculo da expectativa de custo vai levar em conta custos de aquisição, custos com pessoal e uma porcentagem para cobrir eventuais riscos.</p>
+<h2><a class="anchor" aria-hidden="true" id="3-custo-de-aquisicão"></a><a href="#3-custo-de-aquisicão" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3. Custo de Aquisição</h2>
+<p><br></p>
+<p align="justify">Incluem equipamentos, espaço de trabalho, transporte e alimentação. Para levantar o custo dos equipamentos os integrantes levantaram os requisitos mínimos que um notebook precisa ter para que o desenvolvimento possa ser realizado tranquilamente. Com base nisso, foi realizado uma pesquisa de preço e o modelo de Notebooks que atendem aos requisitos impostos equalizando qualidade e bom preço. No quesito espaço de trabalho os integrantes chegaram a conclusão que a melhor saída é alugar um espaço de Coworking pois todos os outros gastos e preocupações como contas de água, luz e a manutenção do espaço estão embutidas no aluguel. Por fim para definir um valor para as despesas com transporte, foi considerado que cada membro da equipe pegará no máximo duas conduções para se deslocar até o local de trabalho.</p>
+<p><br></p>
+<table>
+<thead>
+<tr><th style="text-align:center">Recurso</th><th style="text-align:center">Quantidade</th><th style="text-align:center">Valor Unitário</th><th style="text-align:center">Valor Total</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center">Notebook Lenovo IdeaPad 330</td><td style="text-align:center">10 unidades</td><td style="text-align:center">R$ 2.979,00*</td><td style="text-align:center">R$ 29.790,00</td></tr>
+<tr><td style="text-align:center">Coworking</td><td style="text-align:center">15 semanas</td><td style="text-align:center">R$ 1.150,00**</td><td style="text-align:center">R$ 17.250,00</td></tr>
+<tr><td style="text-align:center">Transporte</td><td style="text-align:center">75 dias de deslocamento x quantidade de membros</td><td style="text-align:center">R$ 17,00***</td><td style="text-align:center">R$ 12.750,00</td></tr>
+<tr><td style="text-align:center"><strong>Total</strong></td><td style="text-align:center">-</td><td style="text-align:center">-</td><td style="text-align:center"><strong>R$ 59.790,00</strong></td></tr>
+</tbody>
+</table>
+<p><br></p>
+<p>*Preço aproximado definido com base em pesquisa feita dia 22/08/2019 no site de comparação de preços Buscapé. Link da pesquisa: <a href="https://www.buscape.com.br/lenovo-ideapad-330-81fe0002br-intel-core-i5-8250u-1-6-ghz-8192-mb-1024-gb">Lenovo IdeaPad 330</a>.</p>
+<p>**Preço aproximado do aluguel de 5 salas com espaço para um pareamento em cada sala durante 10 horas por semana, com base em pesquisa feita dia 22/08/2019. Link da pesquisa: <a href="https://coworkingbrasil.org/spaces/conecta-coworking/">Conecta Coworking</a>.</p>
+<p>***Preço das passagens de ônibus no DF utilizando uma linha de R$ 5,00 e outra de R$ 3,50 para ir e para voltar. Link da pesquisa: <a href="http://www.dftrans.df.gov.br/tarifas/">DFTRANS</a>.</p>
+<h2><a class="anchor" aria-hidden="true" id="4-custo-de-pessoal"></a><a href="#4-custo-de-pessoal" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>4. Custo de Pessoal</h2>
+<p><br></p>
+<p align="justify"> Para chegar nos valores salariais definidos a equipe fez uma pesquisa de quanto se paga em média por uma hora de trabalho de desenvolvedores júnior para se estimar o salário de cada um da equipe.</p>
+<p><br></p>
+<table>
+<thead>
+<tr><th style="text-align:center">Cargo</th><th style="text-align:center">Quantidade</th><th style="text-align:center">Salário Mensal (R$16,83 à hora)</th><th style="text-align:center">Meses de Trabalho</th><th style="text-align:center">Custo Total</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center">Desenvolvedor júnior</td><td style="text-align:center">10</td><td style="text-align:center">R$ 673,50*</td><td style="text-align:center">4</td><td style="text-align:center">R$ 26.940,00</td></tr>
+</tbody>
+</table>
+<p><br></p>
+<p>*Valor médio do salário de um desenvolvedor júnior (R$ 2.694,00). Valor aproximado definido com base em pesquisa feita dia 22/08/2019 no site Glassdoor. Link da pesquisa: <a href="https://www.glassdoor.com.br/Sal%C3%A1rios/desenvolvedor-j%C3%BAnior-sal%C3%A1rio-SRCH_KO0,20.htm">Glassdoor</a>.</p>
+<h2><a class="anchor" aria-hidden="true" id="5-custo-total"></a><a href="#5-custo-total" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>5. Custo Total</h2>
+<p><br></p>
+<p align="justify">Para estimar o custo total, além de somar todas as despesas levantadas nos tópicos anteriores a equipe adicionou um acréscimo de 20% no custo para garantir uma margem para cobrir eventuais riscos ou atrasos que venham a ocorrer durante a execução do projeto.</p>
+<p><br></p>
+<table>
+<thead>
+<tr><th style="text-align:center">Custo</th><th style="text-align:center">Valor Total</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center">Aquisição</td><td style="text-align:center">R$ 59.790,00</td></tr>
+<tr><td style="text-align:center">Pessoal</td><td style="text-align:center">R$ 26.940,00</td></tr>
+<tr><td style="text-align:center"><strong>Total</strong></td><td style="text-align:center"><strong>R$ 86.730,00</strong></td></tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<thead>
+<tr><th style="text-align:center">Custo</th><th style="text-align:center">Valor Total</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center">Custos de aquisição e pessoal</td><td style="text-align:center">R$ 86.730,00</td></tr>
+<tr><td style="text-align:center">Acrescimo de risco</td><td style="text-align:center">R$ 17.346,00</td></tr>
+<tr><td style="text-align:center"><strong>Total</strong></td><td style="text-align:center"><strong>R$ 104.076,00</strong></td></tr>
+</tbody>
+</table>
+<p><br></p>
+<h2><a class="anchor" aria-hidden="true" id="8-referencias"></a><a href="#8-referencias" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>8. Referências</h2>
+<p><br></p>
+<blockquote>
+<p>GUIA PMBOK®. Disponível em: <a href="https://brasil.pmi.org/brazil/PMBOKGuideAndStandards.aspx">https://brasil.pmi.org/brazil/PMBOKGuideAndStandards.aspx</a></p>
+</blockquote>
+<blockquote>
+<p>Glassdoor. <b>Salário desenvolvedor júnior</b>. Disponível em: <a href="https://www.glassdoor.com.br/">https://www.glassdoor.com.br/</a>.</p>
+</blockquote>
+<blockquote>
+<p>COWORKING BRASIL.<b> Espaços para Coworking no Distrito Federal</b>. Disponível em:
+<a href="https://coworkingbrasil.org/df/">https://coworkingbrasil.org/df/</a>.</p>
+</blockquote>
+<hr>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/docs/lexicos"><span class="arrow-prev">← </span><span>Léxicos</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#historico-de-revisão">Histórico de Revisão</a></li><li><a href="#1-introducão">1. Introdução</a></li><li><a href="#2-estimativa-de-custo">2. Estimativa de Custo</a></li><li><a href="#3-custo-de-aquisicão">3. Custo de Aquisição</a></li><li><a href="#4-custo-de-pessoal">4. Custo de Pessoal</a></li><li><a href="#5-custo-total">5. Custo Total</a></li><li><a href="#8-referencias">8. Referências</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="copyright">Copyright © 2019 Driblô</section></footer></div></body></html>
