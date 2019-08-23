@@ -4,6 +4,13 @@ title: Léxicos
 sidebar_label: Léxicos
 ---
 
+#### Histórico de versão
+
+| Data       | Versão | Descrição            | Autor(es)       |
+| ---------- | ------ | -------------------- | --------------- |
+| 22/08/2019 | 0.1 | Criação de documento e adição tópicos 1, 2, 3 e 5| Byron Kamal |
+|22/08/2019|0.2|Adição dos Léxicos (tópico 4)| Matheus Rodrigues|
+
 ## 1.Introdução
 Este modelo auxilia no entendimento e simplificação da compreensão do contexto do Driblô, pois pega termos específicos, os define e mostra onde são utilizados e quando podem ocorrer, trazendo uma familiarização com o escopo do Driblô.
 

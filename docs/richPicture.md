@@ -4,7 +4,7 @@ title: Rich Picture
 sidebar_label: Rich Picture
 ---
 
-# Histórico de Versão
+#### Histórico de versão
 
 |    Data    |                                                  Autor(es)                                                   |                      Descrição                       | Versão |
 | :--------: | :----------------------------------------------------------------------------------------------------------: | :--------------------------------------------------: | :----: |
@@ -36,14 +36,23 @@ Rich Picture com foco na aplicação e escopo do projeto.
 
 #### Versão 1.0
 
+[![Problemática](assets/richpicture_problematica_v01.jpg)](assets/richpicture_problematica_v01.jpg)
+
+#### Versão 1.1
+
+[![Problemática](assets/richpicture_problematica_v02.png)](assets/richpicture_problematica_v02.png)
+
 ## Aplicação
 
 Rich Picture com foco na aplicação e escopo do projeto.<br>
 
+#### Versão 1.0
+
+[![Problemática](assets/richpicture_aplicacao_v01.jpg)](assets/richpicture_aplicacao_v01.jpg)
+
 #### Versão 1.1
 
-**Versão 1.0**
-[ ![Problemática](./asserts/richpicture_aplicacao_v02.png) ](./asserts/richpicture_aplicacao_v02.png)
+[![Problemática](assets/richpicture_aplicacao_v02.png)](assets/richpicture_aplicacao_v02.png)
 
 ## 5.Conclusão
 

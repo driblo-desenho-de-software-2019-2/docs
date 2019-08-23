@@ -4,9 +4,12 @@ title: Mapa Mental
 sidebar_label: Mapa Mental
 ---
 
-| Data       | Versão | Descrição                                             | Autor(es)   |
-| ---------- | ------ | ----------------------------------------------------- | ----------- |
-| 22/08/2019 | 0.1    | Criação de documento e adição dos tópicos 1, 2, 3 e 5 | Byron Kamal |
+#### Histórico de versão
+
+| Data       | Versão | Descrição                      | Autor(es)         |
+| ---------- | ------ | ------------------------------ | ----------------- |
+| 22/08/2019 | 0.1    | Criação do documento           | Marcelo Magalhães |
+| 22/08/2019 | 0.2    | Adição dos tópicos 1, 2, 3 e 5 | Byron Kamal       |
 
 ## 1.Introdução
 
@@ -21,6 +24,18 @@ Mostrar os mapas mentais produzidos para melhor entendimento do contexto do app 
 Alguns integrantes do grupo levantaram pontos importantes e ficaram responsáveis pela produção dos mapas mentais. Os mapas mentais foram produzidos com o auxílio da ferrementa Draw.io.
 
 ## 4.Mapas Mentais
+
+### Problemas
+
+#### Versão 1.0
+
+[![Problemas](assets/mapa-mental-problemas-pelada.png)](assets/mapa-mental-problemas-pelada.png)
+
+### Driblô
+
+#### Versão 1.0
+
+[![Driblô](assets/mapa-mental-driblo.png)](assets/mapa-mental-driblo.png)
 
 ## 5.Conclusão
 
