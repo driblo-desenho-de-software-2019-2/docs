@@ -1,7 +1,7 @@
 ---
 id: gerenciamentoCustos
-title: Gerenciamento de Custos
-sidebar_label: Gerenciamento de Custos
+title: Plano de Gerenciamento de Custos
+sidebar_label: Plano de Gerenciamento de Custos
 ---
 
 ## Histórico de Revisão

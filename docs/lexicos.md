@@ -28,7 +28,7 @@ Foram levantados termos que foram julgados importantes para compreensão do dom�
 |**Nome**| **Resenha**|
 |**Sinônimo**| conversa, bate-papo |
 |**Noção**| Momento de bate-papo e descontração entre os amigos peladeiros.|
-|**Impacto**| <li> No final do fut sempre rola aquela resenha. <br><li>Na resenha, a rapaziada dar muita rizada.<br><li>Depois da resenha a galera vai embora.|
+|**Impacto**|  No final do fut sempre rola aquela resenha. <br>Na resenha, a rapaziada dar muita rizada.<br>Depois da resenha a galera vai embora.|
 
 
 ###  Pelada
@@ -37,7 +37,7 @@ Foram levantados termos que foram julgados importantes para compreensão do dom�
 |**Nome**| **Pelada**|
 |**Sinônimo**| Partida, Fut, jogo |
 |**Noção**| Partida de futebol amadora|
-|**Impacto**| <li>A pelada foi marcada para o fim de semana. <br><li>O juiz vai apitar na pelada de hoje.<br><li>Na pelada de ontem, 10 jogadores marcaram presença.<br><li>Compraram uma nova bola pra pelada.<br><i>|
+|**Impacto**| A pelada foi marcada para o fim de semana. <br>O juiz vai apitar na pelada de hoje.<br>Na pelada de ontem, 10 jogadores marcaram presença.<br>Compraram uma nova bola pra pelada.<br><i>|
 
 ###  Peladeiro
 |         |        |
@@ -45,7 +45,7 @@ Foram levantados termos que foram julgados importantes para compreensão do dom�
 |**Nome**| **Peladeiro**|
 |**Sinônimo**| Jogador, peladeiros |
 |**Noção**| Jogador de futebol amador|
-|**Impacto**| <li>Os peladeiros pagaram o aluguel do campo. <br><li>A lista de peladeiros está cheia.<br><li>Nenhum peladeiro faltou.<br><li>Os peladeiros estão se aquecendo para a partida.<br><i>|
+|**Impacto**| Os peladeiros pagaram o aluguel do campo. <br>A lista de peladeiros está cheia.<br>Nenhum peladeiro faltou.<br>Os peladeiros estão se aquecendo para a partida.<br><i>|
 
 ###  Caixinha
 |         |        |
@@ -53,7 +53,7 @@ Foram levantados termos que foram julgados importantes para compreensão do dom�
 |**Nome**| **Caixinha**|
 |**Sinônimo**| - |
 |**Noção**| Valor monetário constituído em conjunto. |
-|**Impacto**| <li>A caixinha do fut possui R$ 200,00.<br><li>O dinheiro que sobrou da caixinha foi usado para a compra dos coletes.<br><li>O dinheiro da caixinha é usado para o pagamento do aluguel do campo.|
+|**Impacto**| A caixinha do fut possui R$ 200,00.<br>O dinheiro que sobrou da caixinha foi usado para a compra dos coletes.<br>O dinheiro da caixinha é usado para o pagamento do aluguel do campo.|
 
 ###  Garçom
 |         |        |
@@ -61,7 +61,7 @@ Foram levantados termos que foram julgados importantes para compreensão do dom�
 |**Nome**| **Garçom**|
 |**Sinônimo**| - |
 |**Noção**| Jogador que dar assistência. |
-|**Impacto**| <li>Com 10 passes para gol, joãozinho foi o garçom da pelada.<br><li>Todo garçom dar assistência com classe .|
+|**Impacto**| Com 10 passes para gol, joãozinho foi o garçom da pelada.<br>Todo garçom dar assistência com classe .|
 
 ### Panela
 |         |        |
@@ -69,7 +69,7 @@ Foram levantados termos que foram julgados importantes para compreensão do dom�
 |**Nome**| **Panela**|
 |**Sinônimo**| - |
 |**Noção**| Time formado pelos melhores jogadores. |
-|**Impacto**| <li>Os melhores jogadores formaram uma panela.<br><li>A ordem de chegada proporciona a formação de panelas na pelada.<br><li>Mesmo formando panela, o time não ganhou nenhuma partida.|
+|**Impacto**| Os melhores jogadores formaram uma panela.<br>A ordem de chegada proporciona a formação de panelas na pelada.<br>Mesmo formando panela, o time não ganhou nenhuma partida.|
 
 ###  Artilheiro
 |         |        |
@@ -77,7 +77,7 @@ Foram levantados termos que foram julgados importantes para compreensão do dom�
 |**Nome**| **Artilheiro**|
 |**Sinônimo**| - |
 |**Noção**| Jogador que marca o maior numero de gols. |
-|**Impacto**| <li>Com 9 gols, ele foi o artilheiro da pelada .<br><li>Ele só é artilheiro porque formou a panela pra jogar.<br><li>O artilheiro não treme na frente do goleiro.|
+|**Impacto**| Com 9 gols, ele foi o artilheiro da pelada .<br>Ele só é artilheiro porque formou a panela pra jogar.<br>O artilheiro não treme na frente do goleiro.|
 
 ###  Raça
 |         |        |
@@ -85,7 +85,7 @@ Foram levantados termos que foram julgados importantes para compreensão do dom�
 |**Nome**| **Raça**|
 |**Sinônimo**| - |
 |**Noção**| Vontade excessiva. |
-|**Impacto**| <li>O peladeiro chegou no lance com raça.<br><li>O jogador marcou o gol na base da raça<br><li>Você é um jogador que tem raça.|
+|**Impacto**| O peladeiro chegou no lance com raça.<br>O jogador marcou o gol na base da raça<br>Você é um jogador que tem raça.|
 
 ## 5.Conclusão
 Até o momento foram elicitados 8 léxicos, que estão descritos acima. 
