@@ -1,0 +1,167 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Léxicos · Driblô</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## 1.Introdução"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Léxicos · Driblô"/><meta property="og:type" content="website"/><meta property="og:url" content="https://driblo-desenho-de-software-2019-2.github.io/docs/"/><meta property="og:description" content="## 1.Introdução"/><meta property="og:image" content="https://driblo-desenho-de-software-2019-2.github.io/docs/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://driblo-desenho-de-software-2019-2.github.io/docs/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/docs/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/docs/js/scrollSpy.js"></script><link rel="stylesheet" href="/docs/css/main.css"/><script src="/docs/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/docs/"><img class="logo" src="/docs/img/favicon.ico" alt="Driblô"/><h2 class="headerTitleWithLogo">Driblô</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/docs/docs/richPicture" target="_self">Dinâmicas e Seminários</a></li><li class=""><a href="https://github.com/driblo-desenho-de-software-2019-2/docs" target="_blank">GitHub</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Dinâmica e Seminário I</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Dinâmica e Seminário I</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/docs/richPicture">Rich Picture</a></li><li class="navListItem"><a class="navItem" href="/docs/docs/5w2h">5W2H</a></li><li class="navListItem"><a class="navItem" href="/docs/docs/ishikawa">Causa e Efeito</a></li><li class="navListItem"><a class="navItem" href="/docs/docs/mindMap">Mapa Mental</a></li><li class="navListItem"><a class="navItem" href="/docs/docs/mapaMental">Mapa Mental</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docs/docs/lexicos">Léxicos</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Léxicos</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="1introducão"></a><a href="#1introducão" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1.Introdução</h2>
+<p>Este modelo auxilia no entendimento e simplificação da compreensão do contexto do Driblô, pois pega termos específicos, os define e mostra onde são utilizados e quando podem ocorrer, trazendo uma familiarização com o escopo do Driblô.</p>
+<h2><a class="anchor" aria-hidden="true" id="2objetivo"></a><a href="#2objetivo" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2.Objetivo</h2>
+<p>O objetivo deste artefato é trazer uma visão mais clara sobre termos específicos que permeiam o domínio do Dribô. Eles se dividem em 3 tipos: verbo, objeto e estado. Cada um deles com um significado e aplicação descritos a seguir.</p>
+<h2><a class="anchor" aria-hidden="true" id="3metodologia"></a><a href="#3metodologia" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3.Metodologia</h2>
+<p>Foram levantados termos que foram julgados importantes para compreensão do domínio do Driblô. Cada léxico se mostrou bastante importante, pois fazem parte do vocabulário informal das &quot;peladas&quot;.</p>
+<h2><a class="anchor" aria-hidden="true" id="4lexicos"></a><a href="#4lexicos" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>4.Léxicos</h2>
+<h3><a class="anchor" aria-hidden="true" id="resenha"></a><a href="#resenha" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Resenha</h3>
+<table>
+<thead>
+<tr><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Nome</strong></td><td><strong>Resenha</strong></td></tr>
+<tr><td><strong>Sinônimo</strong></td><td>conversa, bate-papo</td></tr>
+<tr><td><strong>Noção</strong></td><td>Momento de bate-papo e descontração entre os amigos peladeiros.</td></tr>
+<tr><td><strong>Impacto</strong></td><td><li> No final do fut sempre rola aquela resenha. <br><li>Na resenha, a rapaziada dar muita rizada.<br><li>Depois da resenha a galera vai embora.</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="pelada"></a><a href="#pelada" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Pelada</h3>
+<table>
+<thead>
+<tr><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Nome</strong></td><td><strong>Pelada</strong></td></tr>
+<tr><td><strong>Sinônimo</strong></td><td>Partida, Fut, jogo</td></tr>
+<tr><td><strong>Noção</strong></td><td>Partida de futebol amadora</td></tr>
+<tr><td><strong>Impacto</strong></td><td><li>A pelada foi marcada para o fim de semana. <br><li>O juiz vai apitar na pelada de hoje.<br><li>Na pelada de ontem, 10 jogadores marcaram presença.<br><li>Compraram uma nova bola pra pelada.<br><i></td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="peladeiro"></a><a href="#peladeiro" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Peladeiro</h3>
+<table>
+<thead>
+<tr><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Nome</strong></td><td><strong>Peladeiro</strong></td></tr>
+<tr><td><strong>Sinônimo</strong></td><td>Jogador, peladeiros</td></tr>
+<tr><td><strong>Noção</strong></td><td>Jogador de futebol amador</td></tr>
+<tr><td><strong>Impacto</strong></td><td><li>Os peladeiros pagaram o aluguel do campo. <br><li>A lista de peladeiros está cheia.<br><li>Nenhum peladeiro faltou.<br><li>Os peladeiros estão se aquecendo para a partida.<br><i></td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="caixinha"></a><a href="#caixinha" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Caixinha</h3>
+<table>
+<thead>
+<tr><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Nome</strong></td><td><strong>Caixinha</strong></td></tr>
+<tr><td><strong>Sinônimo</strong></td><td>-</td></tr>
+<tr><td><strong>Noção</strong></td><td>Valor monetário constituído em conjunto.</td></tr>
+<tr><td><strong>Impacto</strong></td><td><li>A caixinha do fut possui R$ 200,00.<br><li>O dinheiro que sobrou da caixinha foi usado para a compra dos coletes.<br><li>O dinheiro da caixinha é usado para o pagamento do aluguel do campo.</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="garcom"></a><a href="#garcom" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Garçom</h3>
+<table>
+<thead>
+<tr><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Nome</strong></td><td><strong>Garçom</strong></td></tr>
+<tr><td><strong>Sinônimo</strong></td><td>-</td></tr>
+<tr><td><strong>Noção</strong></td><td>Jogador que dar assistência.</td></tr>
+<tr><td><strong>Impacto</strong></td><td><li>Com 10 passes para gol, joãozinho foi o garçom da pelada.<br><li>Todo garçom dar assistência com classe .</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="panela"></a><a href="#panela" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Panela</h3>
+<table>
+<thead>
+<tr><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Nome</strong></td><td><strong>Panela</strong></td></tr>
+<tr><td><strong>Sinônimo</strong></td><td>-</td></tr>
+<tr><td><strong>Noção</strong></td><td>Time formado pelos melhores jogadores.</td></tr>
+<tr><td><strong>Impacto</strong></td><td><li>Os melhores jogadores formaram uma panela.<br><li>A ordem de chegada proporciona a formação de panelas na pelada.<br><li>Mesmo formando panela, o time não ganhou nenhuma partida.</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="artilheiro"></a><a href="#artilheiro" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Artilheiro</h3>
+<table>
+<thead>
+<tr><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Nome</strong></td><td><strong>Artilheiro</strong></td></tr>
+<tr><td><strong>Sinônimo</strong></td><td>-</td></tr>
+<tr><td><strong>Noção</strong></td><td>Jogador que marca o maior numero de gols.</td></tr>
+<tr><td><strong>Impacto</strong></td><td><li>Com 9 gols, ele foi o artilheiro da pelada .<br><li>Ele só é artilheiro porque formou a panela pra jogar.<br><li>O artilheiro não treme na frente do goleiro.</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="raca"></a><a href="#raca" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Raça</h3>
+<table>
+<thead>
+<tr><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Nome</strong></td><td><strong>Raça</strong></td></tr>
+<tr><td><strong>Sinônimo</strong></td><td>-</td></tr>
+<tr><td><strong>Noção</strong></td><td>Vontade excessiva.</td></tr>
+<tr><td><strong>Impacto</strong></td><td><li>O peladeiro chegou no lance com raça.<br><li>O jogador marcou o gol na base da raça<br><li>Você é um jogador que tem raça.</td></tr>
+</tbody>
+</table>
+<h2><a class="anchor" aria-hidden="true" id="5conclusão"></a><a href="#5conclusão" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>5.Conclusão</h2>
+<p>Até o momento foram elicitados 8 léxicos, que estão descritos acima.
+A compreensão adquirida do domínio e escopo do Driblô após o levantamento dos léxicos cresceu. Termos antes desconhecidos, mas que são importantes estão tornando-se de uso comum entre os integrantes da equipe.</p>
+<h2><a class="anchor" aria-hidden="true" id="6referencias"></a><a href="#6referencias" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>6.Referências</h2>
+<ul>
+<li>Conhecimentos adquiridos na Disciplina Requisitos de Software, FGA-UnB</li>
+</ul>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/docs/mapaMental"><span class="arrow-prev">← </span><span>Mapa Mental</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#1introducão">1.Introdução</a></li><li><a href="#2objetivo">2.Objetivo</a></li><li><a href="#3metodologia">3.Metodologia</a></li><li><a href="#4lexicos">4.Léxicos</a><ul class="toc-headings"><li><a href="#resenha">Resenha</a></li><li><a href="#pelada">Pelada</a></li><li><a href="#peladeiro">Peladeiro</a></li><li><a href="#caixinha">Caixinha</a></li><li><a href="#garcom">Garçom</a></li><li><a href="#panela">Panela</a></li><li><a href="#artilheiro">Artilheiro</a></li><li><a href="#raca">Raça</a></li></ul></li><li><a href="#5conclusão">5.Conclusão</a></li><li><a href="#6referencias">6.Referências</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="copyright">Copyright © 2019 Driblô</section></footer></div></body></html>
