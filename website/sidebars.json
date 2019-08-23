@@ -1,6 +1,12 @@
 {
   "docs": {
-    "Dinâmica e Seminário I": ["richPicture", "5w2h"]
-   
+    "Dinâmica e Seminário I": [
+      "richPicture",
+      "5w2h",
+      "ishikawa",
+      "mindMap",
+      "mapaMental",
+      "lexicos"
+    ]
   }
 }

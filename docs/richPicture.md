@@ -32,18 +32,15 @@ Alguns integrantes do grupo ficaram responsáveis pela produção dos Rich Pictu
 
 Rich Picture com foco nos problemas e dificuldades enfrentados pelos frequentadores de futebol amador.<br>
 
-**Versão 1.0**
-[ ![Problemática](./asserts/richpicture_problematica_v01.jpg) ](./asserts/richpicture_problematica_v01.jpg)
+Rich Picture com foco na aplicação e escopo do projeto.
 
-**Versão 1.0**
-[ ![Problemática](./asserts/richpicture_problematica_v02.png) ](./asserts/richpicture_problematica_v02.png)
+#### Versão 1.0
 
 ## Aplicação
 
 Rich Picture com foco na aplicação e escopo do projeto.<br>
 
-**Versão 1.0**
-[ ![Problemática](./asserts/richpicture_aplicacao_v01.jpg) ](./asserts/richpicture_aplicacao_v01.jpg)
+#### Versão 1.1
 
 **Versão 1.0**
 [ ![Problemática](./asserts/richpicture_aplicacao_v02.png) ](./asserts/richpicture_aplicacao_v02.png)
