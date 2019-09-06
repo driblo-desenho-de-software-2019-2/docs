@@ -11,8 +11,9 @@ sidebar_label: Rich Picture
 | 19/08/2019 | Byron Kamal, Caio Oliveira, João Pedro Mota, Matheus Rodrigues, Marcelo Araújo, Rafael Santos, Samuel Barros |                 Criação do documento                 |  0.1   |
 | 20/08/2019 |                                                Marcelo Araújo                                                |                Criação da introdução                 |  0.2   |
 | 21/08/2019 |                                               Henrique Martins                                               |  Adição da versão 1.0 do rich picture da aplicação   |  0.3   |
-| 22/08/2019 |                                                Marcelo Araújo                                                | Adição da versão 1.0 do rich picture da problemática |  0.4   |
-| 22/08/2019 |                                                 Byron Kamal                                                  |             Adição dos tópicos 2, 3 e 5              |  0.5   |
+| 22/08/2019 |                                                Matheus Rodrigues                                                | Adição da versão 1.0 do rich picture da problemática |  0.4   |
+| 22/08/2019 |                                                Marcelo Araújo                                                | Adição da versão 1.1 do rich picture da problemática |  0.5   |
+| 22/08/2019 |                                                 Byron Kamal                                                  |             Adição dos tópicos 2, 3 e 5              |  0.6   |
 
 ## 1.Introdução
 
