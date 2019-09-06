@@ -15,6 +15,7 @@ sidebar_label: Metodologia
 | 05/09/2019 | 0.3.2  |  Tópico 7.3 - Diagrama Sprint Review  |                  Byron Kamal                   |
 | 6/09/2019  |  0.4   |          Revisão ortógrafica          |                João Pedro Mota                 |
 | 6/09/2019  |  0.5   |          Tópico 7.4 diagrama da decisão das tecnologias e tópico 7.5 diagrama da entrega contínua|                Matheus Rodrigues |
+| 6/09/2019  |  0.6   |          Correção de erro             |                Henrique Martins                |
 
 ## 1.Introdução
 
