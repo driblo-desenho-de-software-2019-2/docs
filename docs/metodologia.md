@@ -1,4 +1,4 @@
-﻿---
+---
 id: metodologia
 title: Metodologia
 sidebar_label: Metodologia
