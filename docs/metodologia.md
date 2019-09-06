@@ -16,6 +16,7 @@ sidebar_label: Metodologia
 | 6/09/2019  |  0.4   |          Revisão ortógrafica          |                João Pedro Mota                 |
 | 6/09/2019  |  0.5   |          Tópico 7.4 diagrama da decisão das tecnologias e tópico 7.5 diagrama da entrega contínua|                Matheus Rodrigues |
 | 6/09/2019  |  0.6   |          Correção de erro             |                Henrique Martins                |
+| 6/09/2019  |  0.7   |  Tópico 7.7 diagrama do seminário     |                Henrique Martins                |
 
 ## 1.Introdução
 
@@ -208,6 +209,12 @@ Padrão de código para que que o código possa ser mantido por qualquer membro 
 
 #### 7.6 Entrega contínua
 [![Entrega contínua](assets/entrega_continua.png)](assets/entrega_continua.png)
+
+#### 7.7 Seminário
+##### Seminário - V1.0
+[![Seminário1.0](assets/Seminário%201.0.png)](assets/Seminário%201.0.png)
+##### Seminário - V1.1
+[![Seminário1.1](assets/Seminário%201.1.png)](assets/Seminário%201.1.png)
 
 ### 8. Referências
 
