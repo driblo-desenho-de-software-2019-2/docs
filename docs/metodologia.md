@@ -18,8 +18,8 @@ sidebar_label: Metodologia
 | 6/09/2019  |  0.6   |          Correção de erro             |                Henrique Martins                |
 | 6/09/2019  |  0.7   |  Tópico 7.7 diagrama do seminário     |                Henrique Martins                |
 | 6/09/2019  |  0.8   |  Tópico 7.8 diagrama do backlog do produto     |                Marcelo Araújo                |
-| 6/09/2019  |  0.9   |  Tópico 7.9 diagrama do usuário comum     |                Rafael Teodosio, Samuel Borges, João Mota                |
-| 6/09/2019  |  1.0   |  Tópico 7.9.1 diagrama do administrador     |                Rafael Teodosio, Samuel Borges, João Mota                |
+| 6/09/2019  |  0.9   |  Tópico 7.9 diagrama do administrador     |                Rafael Teodosio, Samuel Borges, João Mota                |
+| 6/09/2019  |  1.0   |  Tópico 7.9.1 diagrama do usuário comum     |                Rafael Teodosio, Samuel Borges, João Mota                |
 
 ## 1.Introdução
 
@@ -234,11 +234,11 @@ Foi feito uma reunião com o scrum master para definição dos temas dos diagram
 #### 7.8 Backlog do produto - Versão 1.0
 [![Backlog do produto](assets/backlog.png)](assets/backlog.png)
 
-#### 7.9 Usuário Comum - Versão 1.0
-[![Usuario Comum](assets/BPMN_geral_usuario.png)](assets/BPMN_geral_usuario.png)
-
-#### 7.9.1 Administrador - Versão 1.0
+#### 7.9 Administrador - Versão 1.0
 [![Backlog do produto](assets/BPMN_do_Administrador_v01.png)](assets/BPMN_do_Administrador_v01.png)
+
+#### 7.9.1 Usuário Comum - Versão 1.0
+[![Usuario Comum](assets/BPMN_geral_usuario.png)](assets/BPMN_geral_usuario.png)
 
 ### 8. Referências
 
