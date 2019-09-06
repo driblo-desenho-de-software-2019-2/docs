@@ -17,6 +17,7 @@ sidebar_label: Metodologia
 | 6/09/2019  |  0.5   |          Tópico 7.4 diagrama da decisão das tecnologias e tópico 7.5 diagrama da entrega contínua|                Matheus Rodrigues |
 | 6/09/2019  |  0.6   |          Correção de erro             |                Henrique Martins                |
 | 6/09/2019  |  0.7   |  Tópico 7.7 diagrama do seminário     |                Henrique Martins                |
+| 6/09/2019  |  0.8   |  Tópico 7.8 diagrama do backlog do produto     |                Marcelo Araújo                |
 
 ## 1.Introdução
 
@@ -188,6 +189,18 @@ Padrão de código para que que o código possa ser mantido por qualquer membro 
 
 ## 7. Diagramas
 
+### Introdução
+
+Diagramas no modelo bpmn BPMN (Business Process Model and Notation) que representa um fluxo, com notação padronizada. 
+
+### Objetivo
+
+Servirá para auxiliar o grupo no entendimento dos fluxos e processos de desenvolvimento da aplicação.
+
+### Metodologia
+
+Foi feito uma reunião com o scrum master para definição dos temas dos diagramas e seus autores. Foi utilizado as ferramentas [Bizagi](https://www.bizagi.com/pt) e o [bpmn.io](https://bpmn.io/) para confecção dos artefatos.
+
 #### 7.1 Metodologia - Versão 1.0
 
 [![Metodologia](assets/funciomaneto_sprint.png)](assets/funciomaneto_sprint.png)
@@ -215,6 +228,9 @@ Padrão de código para que que o código possa ser mantido por qualquer membro 
 [![Seminário1.0](assets/Seminário%201.0.png)](assets/Seminário%201.0.png)
 ##### Seminário - V1.1
 [![Seminário1.1](assets/Seminário%201.1.png)](assets/Seminário%201.1.png)
+
+#### 7.8 Backlog do produto - Versão 1.0
+[![Backlog do produto](assets/backlog.png)](assets/backlog.png)
 
 ### 8. Referências
 
