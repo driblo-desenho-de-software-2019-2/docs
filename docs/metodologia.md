@@ -126,8 +126,6 @@ Para o desenvolvimento do projeto Driblô foi visto que era preciso usar uma com
 
 ### Scrum
 
-### Scrum
-
 Os conceitos utilizados serão :
 
 - **Sprints**
@@ -230,7 +228,7 @@ Foi feito uma reunião com o scrum master para definição dos temas dos diagram
 [![Seminário1.1](assets/Seminário%201.1.png)](assets/Seminário%201.1.png)
 
 #### 7.8 Backlog do produto - Versão 1.0
-[![Backlog do produto](assets/backlog.png)](assets/backlog.png)
+[![Backlog do produto](assets/backlog.svg)](assets/backlog.svg)
 
 ### 8. Referências
 
