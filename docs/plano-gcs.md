@@ -11,6 +11,7 @@ sidebar_label: Plano de GCS
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|
 | 6/09/2019 | 0.1 | Criação do Documento e adição dos tópicos Introdução, Políticas de commit | Matheus Rodrigues |
+| 6/09/2019 | 0.2 | adição do políticas de branch | Matheus Rodrigues |
 
 ## 1. Introdução
 
@@ -52,6 +53,29 @@ sidebar_label: Plano de GCS
 ***<i>commit</i> não destinado à conclusão***
 
 ```[US00] Criando estrutura de usuário.```
+
+
+### 2.2 Política de Branches
+
+
+Serão utilizados os princípios do **Gitflow** que ajudarão no controle do que está sendo produzido pela a equipe, onde, ao mesmo tempo falhas serão corrigidas, novas funcionalidades serão implementadas, garantindo o funcionamento do código de produção. O **Gitflow** foi criado em 2010, é considerado um ótimo modelo de <i>branching</i>. É um modelo fortemente baseado em branches, mas focados em entregas de projetos, ele define os papéis de cada branch e como elas devem interagir. Apesar dele ser um pouco mais complexo que outros workflows, ele disponibiliza um framework robusto para gerenciar projetos mais complexos.
+
+<p align = "justify">A <i>master</i> será a <i>branch</i> estável do projeto, sendo ela proveniente da <i>develop</i> por meio de aprovação de <i>pull request</i> ao fim de cada <i>release</i>. Nenhum membro será autorizado a fazer <i>commits</i> diretamente na <i>master</i> ou na <i>develop</i>.</p>  
+
+<p align = "justify">As <i>branches</i> auxiliares são destinadas a implementação de funcionalidades, realização de histórias técnicas e conserto de <i>bugs</i>. Cada uma dessas atividades terá sua própria <i>branch</i>, criada a partir da <i>develop</i>, as <i>Hotfix</i> são as branches criadas a partir da master e servem para resolver de forma rápida, os bugs em produção. Terão como padrão de nomenclatura: </p>
+  
+
+``` <Identificador da atividade>-<Nome issue associada a atividade>```
+
+**Exemplos:**
+
+```feature/TS03-Configurar-Ambientes```
+
+```hotfix/BUG-Duplicação-no-Banco```
+
+```feature/US01-Implementar-Login```
+  
+<p align = "justify">Após o fim do desenvolvimento nas <i>branches</i> auxiliares elas devem ser incorporadas a <i>develop</i> por meio de <i>pull request</i>.</p>
 
 ## Referências
 
