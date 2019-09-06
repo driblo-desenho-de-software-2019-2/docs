@@ -11,6 +11,7 @@ sidebar_label: Mapa Mental
 | 22/08/2019 | 0.1    | Criação do documento           | Marcelo Magalhães |
 | 22/08/2019 | 0.2    | Adição dos tópicos 1, 2, 3 e 5 | Byron Kamal       |
 | 23/08/2019 | 0.3    | Adição de mapa mental | Luís Cláudio T. Lima       |
+| 23/08/2019 | 0.4    | Adição de mapa mental de ações | João Pedro Mota   |
 
 ## 1.Introdução
 
@@ -43,6 +44,12 @@ Alguns integrantes do grupo levantaram pontos importantes e ficaram responsávei
 #### Versão 1.0
 
 [![Driblô](assets/APP_DRIBLO_funcionalidades.png)](assets/APP_DRIBLO_funcionalidades.png)
+
+### Ações
+
+#### Versão 1.0
+
+[![Driblô](assets/mapa-mental-de-acoes-driblo-v01.png)](assets/mapa-mental-de-acoes-driblo-v01.png)
 
 ## 5.Conclusão
 

@@ -48,7 +48,7 @@ Rich Picture com foco na aplicação e escopo do projeto.<br>
 
 #### Versão 1.0
 
-[![Problemática](assets/richpicture_aplicacao_v01.jpg)](assets/richpicture_aplicacao_v01.jpg)
+![Problemática](assets/richpicture_aplicacao_v01.jpg)
 
 #### Versão 1.1
 
