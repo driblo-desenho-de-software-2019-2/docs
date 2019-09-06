@@ -12,9 +12,9 @@ sidebar_label: Metodologia
 | 5/09/2019  |  0.2   |   Criação dos tópicos 1,2,3,4,5 e 6   | Byron Kamal, Caio Oliveira, Matheus Rodrigues  |
 | 05/09/2019 |  0.3   | Tópico 7.1 - Diagrama de Metodologia  | Byron Kamal, Caio Oliveira e Marcelo Magalhães |
 | 05/09/2019 | 0.3.1  | Tópico 7.2 - Diagrama Sprint Planning |        Byron Kamal e Marcelo Magalhães         |
-| 05/09/2019 | 0.3.2  |  Tópico 7.3 - Diagrama Sprint Review  |                  Byron Kamal                   |
+| 05/09/2019 | 0.3.2  |  Tópico 7.3 - Diagrama Sprint Review e Tópico 7.4 - Fluxo do Projeto  |                  Byron Kamal                   |
 | 6/09/2019  |  0.4   |          Revisão ortógrafica          |                João Pedro Mota                 |
-| 6/09/2019  |  0.5   |          Tópico 7.4 diagrama da decisão das tecnologias e tópico 7.5 diagrama da entrega contínua|                Matheus Rodrigues |
+| 6/09/2019  |  0.5   |          Tópico 7.5 diagrama da decisão das tecnologias e tópico 7.6 diagrama da entrega contínua|                Matheus Rodrigues |
 | 6/09/2019  |  0.6   |          Correção de erro             |                Henrique Martins                |
 | 6/09/2019  |  0.7   |  Tópico 7.7 diagrama do seminário     |                Henrique Martins                |
 | 6/09/2019  |  0.8   |  Tópico 7.8 diagrama do backlog do produto     |                Marcelo Araújo                |
@@ -215,7 +215,7 @@ Foi feito uma reunião com o scrum master para definição dos temas dos diagram
 
 [![Processo Sprint Planning](assets/processo_sprint_review.png)](assets/processo_sprint_review.png)
 
-#### 7.4 Processo do Projeto 1.0
+#### 7.4 Fluxo do Projeto 1.0
 
 [![Processo Sprint Planning](assets/processo.jpeg)](assets/processo.jpeg)
 
