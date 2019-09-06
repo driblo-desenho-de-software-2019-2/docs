@@ -12,6 +12,7 @@ sidebar_label: Plano de GCS
 |:--:|:--:|:--:|:--:|
 | 6/09/2019 | 0.1 | Criação do Documento e adição dos tópicos Introdução, Políticas de commit | Matheus Rodrigues |
 | 6/09/2019 | 0.2 | adição do políticas de branch | Matheus Rodrigues |
+| 6/09/2019 | 0.3 | adição da política de Aprovação do Código e uso de issues| Matheus Rodrigues |
 
 ## 1. Introdução
 
@@ -76,6 +77,56 @@ Serão utilizados os princípios do **Gitflow** que ajudarão no controle do que
 ```feature/US01-Implementar-Login```
   
 <p align = "justify">Após o fim do desenvolvimento nas <i>branches</i> auxiliares elas devem ser incorporadas a <i>develop</i> por meio de <i>pull request</i>.</p>
+
+### Política de Aprovação do Código
+
+<p align = "justify"> Para a aprovação do código, o <i>pull request</i> deve ser revisado por ao menos 1 membro da equipe, a nomenclatura da <i>branch</i> e dos <i>commits</i> devem estar de acordo com as definições deste documento, o código deve estar escrito seguindo a folha de estilo, a build não pode apresentar erros e o <i>pull request</i> deve seguir o template do <i>community</i> .</p>
+
+  
+## 3. Uso de Issues
+
+<br>
+
+<p align = "justify">As <i>issues</i> serão criadas com o objetivo de mapear e descrever todo o trabalho a ser desenvolvido durante o projeto, possibilitando controle e transparência do que está sendo feito. Com isso, conseguiremos manter o rastro de tudo que foi planejado e efetuado.</p>
+
+<p align = "justify">As issues vão conter identificadores e <i>labels</i>, para que se possa indicar sua natureza. Os identificadores definidos para o projeto serão:</p>
+
+* **[EPIC]** - Utilizado para as issues que representam épicos.
+
+* **[US]** - Utilizado para as issues que representam histórias de usuário.  
+
+* **[TS]** - Utilizado para as issues que representam histórias técnicas.
+
+* **[FT]** - Utilizado para as issues que representam <i>features</i>.
+
+<p align = "justify"> O formato padrão de nomenclatura para essas issues é: </p>  
+
+``` [<Identificador><Número da issue>] <Nome definido pela equipe para issue> ```
+
+**Exemplo:**
+
+```[US01] Prototipação```
+
+* **[REFACTOR]** - Utilizado para <i>issues</i> que representam refatoração.  
+
+* **[BUG]** - Utilizado para <i>issues</i> que representam correção de <i>bugs</i>.
+
+* **[DOC]** - Utilizado para as <i>issues</i> que representam tarefas de documentação.
+
+* **[TRAINNING]** - Utilizado para <i>issues</i> que representam atividades de estudo e treinamento.  
+
+* **[QUESTION]** - Utilizado para <i>issues</i> que representam perguntas que a comunidade deseja fazer aos mantenedores.
+
+* **[SUGGESTION]** - Utilizado para <i>issues</i> que representam sugestões que a comunidade deseja fazer aos mantenedores.
+
+<p align = "justify"> O formato padrão de nomenclatura para essas <i>issues</i> é: </p>
+
+``` [<Identificador>] <Nome definido para a issue pela equipe> ```
+
+**Exemplo:**
+
+```[BUG] Duplicação no Banco```
+
 
 ## Referências
 
