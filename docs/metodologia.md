@@ -13,6 +13,7 @@ sidebar_label: Metodologia
 | 05/09/2019 |  0.3   | Tópico 7.1 - Diagrama de Metodologia  | Byron Kamal, Caio Oliveira e Marcelo Magalhães |
 | 05/09/2019 | 0.3.1  | Tópico 7.2 - Diagrama Sprint Planning |        Byron Kamal e Marcelo Magalhães         |
 | 05/09/2019 | 0.3.2  |  Tópico 7.3 - Diagrama Sprint Review  |                  Byron Kamal                   |
+| 6/09/2019  |  0.4   |          Revisão ortógrafica          |                João Pedro Mota                 |
 
 ## 1.Introdução
 
@@ -43,9 +44,9 @@ O scrum é uma metodologia ágil para a gestão de projetos de software. Tipicam
 
 Existem 3 papéis no SCRUM o Product owner,Scrum master e dev.
 
-- **O product owner** é responsável por manter o product backlog priorizado, visando dar valor de negocio ao projeto e passar a visão do que é o produto para todo o time.
+- **O product owner** é responsável por manter o product backlog priorizado, visando dar valor de negócio ao projeto e passar a visão do que é o produto para todo o time.
 - **Scrum master** é aquele que garante que os conceitos de scrum estejam sendo seguidos pela a equipe, direcionando o esforço para que o time atinja o máximo de performace durante o desenvolvimento do projeto, além de trabalhar com o PO para decidir atividades da sprint.
-- **Dev** é quem participa do time scrum, resposnsável por
+- **Dev** é quem participa do time scrum, responsável por
   desenvolver o projeto.
 
 #### Eventos
@@ -55,7 +56,7 @@ Existem 3 papéis no SCRUM o Product owner,Scrum master e dev.
 Os eventos são rituais feitos pelos membros da equipe para que o projeto possa ter uma melhor produtividade e
 
 - **Sprint** é o período de tempo definido para executar atividades propostas pelo PO e o scrum master.
-- **Sprint Planning** é quando o PO e scrum master definem a partir do backlog o que será executado na sprint.
+- **Sprint Planning** é quando o PO e scrum master definem, a partir do backlog, o que será executado na sprint.
 - **Sprint Review** reunião onde é feita a retrospectiva da sprint, levantando os pontos positivos e negativos para que possa haver uma maior produtividade da equipe.
 - **Daily meeting** uma pequena reunião que acontece todos os dias para que os membros da equipe tenham um alinhamento em relação do que está acontecendo em todas as áreas do projeto.
 
@@ -73,7 +74,7 @@ Os artefatos gerados servem para que facilitar a visão e a produtividade do pro
 
 ![Kanban](assets/kanban.png)
 
-Kanban é uma metodologia criada pela toyota na década de 1960, para ajudar a empresa com problemas de estoque.
+Kanban é uma metodologia criada pela Toyota na década de 1960, para ajudar a empresa com problemas de estoque.
 O kanban é uma ferramenta ágil e visual.
 
 - **Ágil** pois, pode gerenciar com rapidez das tarefas.
@@ -86,16 +87,16 @@ O kanban é uma ferramenta ágil e visual.
 
 ![xp](assets/XP.png)
 
-eXtreme Programming ou XP é uma metodologia ágil que trabalha bem como desenvolvimentos de médio e pequeno porte, com requisitos vagos e constante mudança, para isso us a estratégia de acompanhamento continuou e ajustes durante o desenvolvimento.
+eXtreme Programming ou XP é uma metodologia ágil que trabalha bem com desenvolvimentos de médio e pequeno porte, com requisitos vagos e constante mudança, para isso usa estratégias de acompanhamento continuo e ajustes durante o desenvolvimento.
 Existem 5 valores fundamentais no XP, que são:
 
 <p align='justify'>
 
 - **Comunicação** entre os membros da equipe e com os clientes.
-- **Simplicidade** o software deve ser simples e descirto de forma clara.
+- **Simplicidade** o software deve ser simples e descrito de forma clara.
 - **Feedback** o desenvolvedor deve sempre informar o cliente.
 - **Coragem** para conseguir apontar erros e simplificações necessárias no software.
-- **Respeito** entre os membros da equipe para que tenha uma boa comunicação entre todas as partes envolvidas.
+- **Respeito** entre os membros da equipe para que haja uma boa comunicação entre todas as partes envolvidas.
   <p align='justify'>
 
 Para conseguir seguir os valores fundamentais do XP são usadas práticas que reforçam esses valores, e são elas :
@@ -103,7 +104,7 @@ Para conseguir seguir os valores fundamentais do XP são usadas práticas que re
 - **Jogo do planejamento**
 - **Fases pequenas**
 - **Metáfora**
-- **Deisgn simples**
+- **Design simples**
 - **Testes de aceitação**
 - **Semana de 40hrs**
 - **Propriedade coletiva**
@@ -117,43 +118,46 @@ Para conseguir seguir os valores fundamentais do XP são usadas práticas que re
 
 <p align='justify'>
 
-Para o desenvolvimento do projeto Driblôfoi visto que era preciso usar uma combinação de elementos das metodologias citadas anteriormente, a metodologia hibrida veio a partir da necessidade do grupo, utilizando somente uma das metodologias não seria suficiente pelo contexto do projeto, então foram escolhidos os elementos com base na necessidade da equipe.
+Para o desenvolvimento do projeto Driblô foi visto que era preciso usar uma combinação de elementos das metodologias citadas anteriormente, a metodologia híbrida veio a partir da necessidade do grupo,já que utilizando somente uma das metodologias não seria suficiente pelo contexto do projeto, foram escolhidos os elementos com base na necessidade da equipe.
 
 ### Scrum
 
-Os conceito utilizados serão :
+### Scrum
+
+Os conceitos utilizados serão :
 
 - **Sprints**
 
 <p align='justify'>
-Com duração de 1 semana as sprints serão usadas para que não fique em aberto o que fazer e quando fazer, assim a progressão da aplicação se torna iterativa.
+Com duração de 1 semana, as sprints serão usadas para que não fiquem em aberto o que fazer e quando fazer, tornando a progressão da aplicação se torna iterativa.
 
 - **Sprint Planning**
   <p align='justify'>
-  O sprint planning será usando para não haja a priorização dos itens que serão implementados e controle da quantidade de trabalho.
+  O sprint planning será usado para que haja a priorização dos itens que serão implementados e controle da quantidade de trabalho.
 
 * **Sprint Review**
   <p align='justify'>
-   A reunião de review será usada para avaliar a produtividade e qualidade da do time, para que o PO e scrum master possam corrigir erros e continuar com decisões acertadas.
-* **Papéis**
+   A reunião de review será usada para avaliar a produtividade e qualidade do time, para que o PO e scrum master possam corrigir erros e continuar com as decisões acertadas.
+
+- **Papéis**
 
   <p align='justify'> 
-  Os papéis serão usados para dar um maior controle do que acontece dentro do projeto. Os papéis serão rotacionados entre os membros do grupo.
+  Os papéis serão utilizados para dar um maior controle do que acontece dentro do projeto. Os papéis serão rotacionados entre os membros do grupo.
 
-* **Product backlog**
+- **Product backlog**
 
    <p align='justify'> 
-  Artefalo será usado para o controle do que necessita ser feito para que se tenha o produto final.
+  Artefato utilizado para o controle do que necessita ser feito para que se tenha o produto final.
 
-* **Sprint backlog**
+- **Sprint backlog**
   <p align='justify'>
-  Artefato para controlar os trabalhos  que precisam ser desenvolvidos na sprint.
+  Artefato para controlar os trabalhos que precisam ser desenvolvidos na sprint.
 
 ### Kanban
 
 <p align='justify'> 
 Será adotado o kanban pois os elementos visuais ajudam com o acompanhamento das tarefas e manter o fluxo de trabalho flúido.
-Iremos utilizar a ferramenta zenhub devido a facilidade e integração com github.
+Iremos utilizar a ferramenta Zenhub devido a facilidade e integração com github.
 
 ### XP
 
@@ -168,7 +172,7 @@ No XP, iremos seguir todos os 5 valores fundamentais, pois acreditamos que tais 
 - **Programação pareada**
 
   <p align='justify'>
-  Implementação em conjuto para que caso surjam dúvidas ou dificuldades o seu par possa te ajudar.
+  Implementação em conjunto para que caso surjam dúvidas ou dificuldades o seu par possa te ajudar.
 
 - **Padronização de código**
   <p align='justify'>
