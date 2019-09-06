@@ -14,6 +14,7 @@ sidebar_label: Metodologia
 | 05/09/2019 | 0.3.1  | Tópico 7.2 - Diagrama Sprint Planning |        Byron Kamal e Marcelo Magalhães         |
 | 05/09/2019 | 0.3.2  |  Tópico 7.3 - Diagrama Sprint Review  |                  Byron Kamal                   |
 | 6/09/2019  |  0.4   |          Revisão ortógrafica          |                João Pedro Mota                 |
+| 6/09/2019  |  0.5   |          Tópico 7.4 diagrama da decisão das tecnologias e tópico 7.5 diagrama da entrega contínua|                Matheus Rodrigues |
 
 ## 1.Introdução
 
@@ -187,19 +188,25 @@ Padrão de código para que que o código possa ser mantido por qualquer membro 
 
 #### 7.1 Metodologia - Versão 1.0
 
-![Metodologia](assets/funciomaneto_sprint.png)
+[![Metodologia](assets/funciomaneto_sprint.png)](assets/funciomaneto_sprint.png)
 
 #### 7.2 Sprint Planning - Versão 1.0
 
-![Processo Sprint Planning](assets/processo_sprint_planning.png)
+[![Processo Sprint Planning](assets/processo_sprint_planning.png)](assets/processo_sprint_planning.png)
 
 #### 7.3 Sprint Review - Versão 1.0
 
-![Processo Sprint Planning](assets/processo_sprint_review.png)
+[![Processo Sprint Planning](assets/processo_sprint_review.png)](assets/processo_sprint_review.png)
 
-#### 7.4 Processo do Projeto
+#### 7.4 Processo do Projeto 1.0
 
-![Processo Sprint Planning](assets/processo.jpeg)
+[![Processo Sprint Planning](assets/processo.jpeg)](assets/processo.jpeg)
+
+#### 7.5 Processo da decisão das tecnologias 1.0
+[![Tecnologias](assets/tecnologias.png)](assets/tecnologias.png)
+
+#### 7.6 Entrega contínua
+[![Entrega contínua](assets/entrega_continua.png)](assets/entrega_continua.png)
 
 ### 8. Referências
 

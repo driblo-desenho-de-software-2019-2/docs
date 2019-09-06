@@ -11,6 +11,9 @@
       "questionario",
       "gerenciamentoCustos"
     ],
-    "Dinâmica e Seminário II": ["metodologia"]
+    "Dinâmica e Seminário II": [
+      "metodologia",
+      "plano-gcs"
+    ]
   }
 }
