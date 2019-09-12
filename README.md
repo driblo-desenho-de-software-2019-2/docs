@@ -10,7 +10,7 @@
 |-------------------------------|--------------------------|----------------------------------|------------|
 | Byron Kamal	| byronkamal@hotmail.com | [byronkamal](https://github.com/byronkamal) | 15/0007281|
 | Caio Oliveira	| caiooliv97@gmail.com | [caiooliv](https://github.com/caiooliv) | 15/0120630|
-| Henrique Martins	| lucassiqzro@gmail.com | [Henrike100](https://github.com/Henrike100) | 17/0050394|
+| Henrique Martins	|  | [Henrike100](https://github.com/Henrike100) | 17/0050394|
 | João Pedro Mota	| jpmota.unb@gmail.com | [jpmota2208](https://github.com/jpmota2208) | 16/0031982|
 | Luís Cláudio	| lclaudio.tl@gmail.com | [LuisCL94](https://github.com/LuisCL94) | 16/0153204|
 | Marcelo Araújo	| santos46ma@gmail.com | [santosm46](https://github.com/santosm46) | 16/0035481 |
