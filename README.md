@@ -4,6 +4,8 @@
 <p justify="center"> O driblô é um projeto desenvolvido na matéria de Arquitetura e desenho de software da FGA, o objetivo do driblô é ser um sistema que te ajude gerenciar partidas de futebol amadoras, auxiliando com a fomração das partidas, formação de times e gerenciamento dos pagamentos.</p>
 <br>
 
+<h2> Equipe </h2>
+
 | Membro | E-mail | Github |Matricula|
 |-------------------------------|--------------------------|----------------------------------|------------|
 | Byron Kamal	| byronkamal@hotmail.com | [byronkamal](https://github.com/byronkamal) | 15/0007281|
