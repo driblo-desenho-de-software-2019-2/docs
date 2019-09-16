@@ -2,7 +2,7 @@
 name: BUG
 about: Issue de BUG
 title: "[BUG]"
-labels: bug
+labels: ''
 assignees: ''
 
 ---
