@@ -8,11 +8,11 @@ sidebar_label: Plano de GCS
 
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|
-| 6/09/2019 | 0.1 | Criação do Documento e adição dos tópicos Introdução, Políticas de commit | Matheus Rodrigues |
-| 6/09/2019 | 0.2 | adição do políticas de branch | Matheus Rodrigues |
-| 6/09/2019 | 0.3 | adição da política de Aprovação do Código e uso de issues| Matheus Rodrigues |
-| 6/09/2019 | 0.4 | adição das ferramentas e integração das ferramentas |Matheus rodrigues|
-
+| 06/09/2019 | 0.1 | Criação do Documento e adição dos tópicos Introdução, Políticas de commit | Matheus Rodrigues |
+| 06/09/2019 | 0.2 | adição do políticas de branch | Matheus Rodrigues |
+| 06/09/2019 | 0.3 | adição da política de Aprovação do Código e uso de issues| Matheus Rodrigues |
+| 06/09/2019 | 0.4 | adição das ferramentas e integração das ferramentas |Matheus rodrigues|
+| 07/09/2019 | 0.5 | Correção do documento |Matheus rodrigues|
 
 ## 1. Introdução
 
@@ -35,11 +35,11 @@ sidebar_label: Plano de GCS
 
 ***<i>commit</i> destinado à conclusão***
 
-```[#1] Criado documento de arquitetura.```
+```[#1] Finalizado documento de arquitetura com as correções ortográficas.```
 
 ***<i>commit</i> não destinado à conclusão***
   
-```[#1] Criando documento de arquitetura.```
+```[#1] Corrigindo erros ortográficos do documento de arquitetura.```
 
 **Outros Repositórios**
 
@@ -98,8 +98,6 @@ Serão utilizados os princípios do **Gitflow** que ajudarão no controle do que
 
 * **[TS]** - Utilizado para as issues que representam histórias técnicas.
 
-* **[FT]** - Utilizado para as issues que representam <i>features</i>.
-
 <p align = "justify"> O formato padrão de nomenclatura para essas issues é: </p>  
 
 ``` [<Identificador><Número da issue>] <Nome definido pela equipe para issue> ```
@@ -107,6 +105,8 @@ Serão utilizados os princípios do **Gitflow** que ajudarão no controle do que
 **Exemplo:**
 
 ```[US01] Prototipação```
+
+<br>
 
 * **[REFACTOR]** - Utilizado para <i>issues</i> que representam refatoração.  
 
@@ -135,19 +135,19 @@ Serão utilizados os princípios do **Gitflow** que ajudarão no controle do que
 | Git | Ferramenta de versionamento |
 | GitHub | Ferramenta de hospedagem de repositórios |
 | ZenHub | Ferramenta de gerenciamento de equipe |
-| React Native | Ferramenta de criação de app mobile |
-| Node | Ferramenta para criação de API's |
+| React Native | Framework para a criação de aplicativos mobile |
+| Node | Tecnologia para criação de API's |
 | Docker | Ferramenta de virtualização e configuração de ambiente por meio de containers|
 | Docker Compose | Ferramenta de gerenciamento de containers Docker |
 | Travis CI | Ferramenta de integração contínua|
-| DigitalOcean | Ferramenta de deploy em produção |
+| DigitalOcean | Ferramenta para o deploy das APIs |
 | CodeCov | Ferramenta de análise de cobertura de testes |
-| VS Code | Ferramenta de edição de código fonte |
+| VS Code | Ferramenta de construção e edição de código fonte |
   
 
 ### Integração das Ferramentas
 
-<p align = "justify">O GitHub e o Docker tem um papel central na integração das ferramentas, considerando o seguinte pipeline, o desenvolvedor sobe seu ambiente isolado de desenvolvimento criado com containers Docker facilmente através do gerenciamento e orquestração dos containers proporcionado pelo Docker Compose, gera código fonte em  javascript através do editor de texto VS Code, controla o versionamento utilizando Git e sempre que possível sincronizar o trabalho realizado localmente com o repositório remoto hospedado no GitHub. A partir deste ponto entram em cena Travis e Code Climate, pois após cada alteração no repositório remoto o Travis gera uma nova build do projeto e o Code Climate realiza uma análise estática do código fonte. Além de realizar a build, o Travis também possui outras funções que em alguns casos fazem parte da build e em outros casos são eventos pós build ou pré build, como executar todos os testes automatizados e enviar as informações sobre os testes para o CodeCov verificar a cobertura de testes, e comunicar qualquer problema que ocorra no processo de build, impedindo que código quebrado se junte as versões estáveis do projeto. Por fim, e novamente através do GitHub, o Telegram e o ZenHub disparam notificações ou realizam ações com base em atualizações no repositório remoto, logicamente além das funções descritas acima, o Telegram e ZenHub também ajudam na comunicação e gerência da equipe através de algumas ações manuais feitas pelos membros, no entanto no caso do Telegram ainda existem alguns bots que são usados para automatizar certas atividades.</p>
+<p align = "justify">O GitHub e o Docker tem um papel central na integração das ferramentas, considerando o seguinte pipeline, o desenvolvedor sobe seu ambiente isolado de desenvolvimento criado com containers Docker facilmente através do gerenciamento e orquestração dos containers proporcionado pelo Docker Compose, gera código fonte em  javascript através do editor de texto VS Code, controla o versionamento utilizando Git e sempre que possível sincronizar o trabalho realizado localmente com o repositório remoto hospedado no GitHub. A partir deste ponto entra em cena o Travis CI, pois após cada alteração no repositório remoto o Travis gera uma nova build do projeto. Além de realizar a build, o Travis também possui outras funções que em alguns casos fazem parte da build e em outros casos são eventos pós build ou pré build, como executar todos os testes automatizados e enviar as informações sobre os testes para o CodeCov verificar a cobertura de testes, e comunicar qualquer problema que ocorra no processo de build, impedindo que código quebrado se junte as versões estáveis do projeto. Por fim, e novamente através do GitHub, o Telegram e o ZenHub disparam notificações ou realizam ações com base em atualizações no repositório remoto, logicamente além das funções descritas acima, o Telegram e ZenHub também ajudam na comunicação e gerência da equipe através de algumas ações manuais feitas pelos membros, no entanto no caso do Telegram ainda existem alguns bots que são usados para automatizar certas atividades.</p>
 
 ## 5. Referências
 
