@@ -39,7 +39,9 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'richPicture', label: 'Dinâmicas e Seminários'},
+    {doc: 'sp1', label: 'Sprints'},
     { href: 'https://github.com/driblo-desenho-de-software-2019-2/docs', external: true ,label: 'GitHub' },
+
   
   ],
 

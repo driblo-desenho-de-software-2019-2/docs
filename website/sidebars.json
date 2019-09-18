@@ -16,5 +16,10 @@
       "plano-gcs",
       "identidade"
     ]
+  },
+  "docs-sprints":{
+    "Sprint 01":[
+      "sp1"
+    ]
   }
 }
