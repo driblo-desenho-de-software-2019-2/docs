@@ -14,6 +14,7 @@ sidebar_label: Documento de Visão
 | 18/09/2019 | 0.2        | Adição Tópico 4                          | Byron Kamal          |
 | 18/09/2019 | 0.3        | Adição Tópico 3                          | Samuel Barros Borges |
 | 19/09/2019 | 0.4        | Adição Tópico 2                          | Marcelo Magalhães    |
+| 19/09/2019 | 0.5        | Adição Tópico 5                          | Marcelo Magalhães    |
 
 # 1 Introdução
 
@@ -50,7 +51,7 @@ Este documento é dividido em 5 tópicos que descrevem os detalhes e caracterís
 - **Posicionamento:** em que é descrito o problema que motivou a criação do produto, as oportunidades de negócio e o posicionamento do produto no mercado;
 - **Descrição de Usuário:** este tópico descreve o perfil das partes envolvidas e interessadas no projeto;
 - **Visão Geral do Produto:** fornece uma visão geral de alto nível das capacidades e recursos do produto e configurações dos sistemas;
-- **Restrições:** as restrições de design, restrições externas, como requisitos operacionais ou regulamentares;
+- **Restrições:** as restrições de design, restrições externas, como requisitos operacionais ou regulamentares.
 
 # 2 Posicionamento
 
@@ -79,7 +80,7 @@ Os principais problemas da criação até a realização e manutenção de uma p
 | O **Driblô**  | é um aplicativo                                                                                                                       |
 | Que           | facilita a administração de peladas, melhorando a comunicação, gerência de informações, controle das equipes e ordenação das partidas |
 | Diferente de  | outros aplicativos do tipo                                                                                                            |
-| Nosso produto | oferece uma experiência mais simples, intuitiva e agradável para os participantes                                                     |
+| Nosso produto | oferece uma experiência mais simples, intuitiva e agradável para os participantes.                                                    |
 
 # 3 Descrição de Usuário
 
@@ -151,6 +152,18 @@ O dono do grupo poderá definir regras data, horário, tipo de campo (futsal, so
 O aplicativo ajudará na divisão dos custos da pelada. Insumos como campo, bola, coletes dos times, etc, geram custos para a realização da pelada e para facilitar o pagamento, o app conta com um controle de pagamento em que é possível definir o preço dos insumos, dividir o valor entre os participantes e marca quem pagou e quanto.
 
 ## 5: Restrições
+
+#### 5.1 Restrições de Design
+
+O design será simples onde apenas o essencial tem lugar à vista, pensado em deixar o aplicativo bastante intuitivo e fácil de usar.
+
+#### 5.2 Restrições de Implementação
+
+O sistema será desenvolvido utilizando a linguagem JavaScript junto ao Node.js e o framework React Native.
+
+#### 5.4 Restrições de Uso
+
+Para o uso de algumas funcionalidades como fazer o cadastro, enviar convites e editar informações é necessário que o usuário tenha acesso a um dispositivo conectado à internet.
 
 ## 6: Referências
 
