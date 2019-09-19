@@ -161,7 +161,7 @@ O design será simples onde apenas o essencial tem lugar à vista, pensado em de
 
 O sistema será desenvolvido utilizando a linguagem JavaScript junto ao Node.js e o framework React Native.
 
-#### 5.4 Restrições de Uso
+#### 5.3 Restrições de Uso
 
 Para o uso de algumas funcionalidades como fazer o cadastro, enviar convites e editar informações é necessário que o usuário tenha acesso a um dispositivo conectado à internet.
 
