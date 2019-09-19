@@ -1,87 +1,63 @@
----
-id: docVisao
-title: Documento de Visão
-sidebar_label: Documento de Visão
----
+# Documento de Visão
 
-## Histórico de alterações
+| **Data**   | **Versão** | **Descrição**          | **Autor(es)**     |
+| ---------- | ---------- | ---------------------- | ----------------- |
+| 18/09/2019 | 0.1        | Iniciação do Documento | Marcelo Magalhães |
 
-|    Data    |              Autor(es)              |                     Descrição                      | Versão |
-| :--------: | :---------------------------------: | :------------------------------------------------: | :----: |
-|            |                                     |                                                    |        |
+# 1 Introdução
 
-# 1. Introdução
+O documento de visão serve para expor o escopo de alto nível do produto, o foco do software a ser desenvolvido e seu valor de mercado, com o objetivo de firmar e nivelar as expectativas das pessoas envolvidas exatamente o que é o software em questão.
 
-## 1.1. Propósito
+## 1.1 Propósito
 
-## 1.2. Escopo
+O documento presente tem a finalidade de apresentar e estabelecer uma visão ampla sobre o app Driblô de modo a deixar claro sua proposta, características e utilidade.
 
-## 1.3. Visão geral
+## 1.2 Escopo
 
-## 1.4. Definições, Acrônimos e Abreviações
+O projeto tem como finalidade facilitar a criação e a administração de peladas, ajudando principalmente a comunicação entre os membros, gerência de informações importantes como horários, locais e valores da pelada, também possui foco no controle das equipes formadas e ordem das partidas, visando assim economizar tempo e deixar a experiência dos participantes mais simples e agradável.
 
-| Abreviação | Descrição                                                                                                                                               |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|         |  |
+## 1.3 Definições, acrônimos e abreviações
 
-# 2. Posicionamento
+**Driblô** - Nome do sistema a ser desenvolvido
+**Pelada** - Evento onde pessoas se juntam para jogar partidas de futebol
+**Usuário, Jogador, Participante** - Usuário da aplicação participante do evento
+**Administrador** - Usuário que administra a pelada
+**Front-end** - Parte do software responsável pela interface de interação com o usuário
+**Back-end** - Parte do software responsável pelas regras de negócio da aplicação
 
-## 2.1. Oportunidade de negócio
+## 1.4 Referências
 
+## 1.5 Visão geral
 
-## 2.2. Descrição do problema
+# 2 Posicionamento
 
+## 2.1 Oportunidade de Negócio
 
-| Problema    | Quem é afetado    | Impactos | Solução     |
-| ---  | --- | --- | --- |
-|  |  | | |
+## 2.2 Descrição do Problema
 
-## 2.3. Posicionamento do produto
+## 2.3 Instrução de Posição do Produto:
 
-|               | Instrução de posição do produto  |
-| ------------- | ---------------------------------|
-| Para          |                                  |
-| Que           |                                  |
-| Driblô é   |                                  |
-| Que           |                                  |
-| Diferente do  |                                  |
-| Nosso produto |                                    
+# 3 Descrição de Usuário
 
-# 3. Visão geral do produto
+## 3.1 Usuário
 
-## 3.1. Escopo do produto
+## 3.2 Principais Necessidades do Usuário
 
+## 3.3 Ambiente de Usuário
 
-## 3.2. Propósito do produto
+## 3.4 Partes Envolvidas
 
-## 3.3. Tecnologias
+## 3.5 Alternativas e Concorrência
 
-### 3.3.1 Front-end
+## 4: Visão Geral do Produto
 
-### 3.3.2 Back-end
+## 4.1 Propósito do Produto
 
-### 3.3.3 Dev-ops
+## 4.2 Recursos do Produto
 
+## 5: Restrições
 
-## 3.4. Funcionalidades do produto
+## 6: Referências
 
-# 4. Faixas de qualidade
-
-# 5. Visão geral do produto
-
-## 5.1. Perfis das partes interessadas
-
-- **Cliente:** 
-- **Usuários:** 
-- **Equipe:** 
-
-## 5.2. Perfis do usuário
-
-| Representante | Descrição  | Responsabilidades    | Critérios de Sucesso | Envolvimento | Comentários ou Problema  |
-| ------------- | -----------| -------------        | ----------------     | ------------| ----------------          |
-|               |            |                      |                      |            |                           |
-
-# 6. Restrições
-
-
-# 7. Referências
+- IBM Knowledge Center - Documento de Visão: A estrutura de tópicos do documento de visão. Disponível em: https://www.ibm.com/support/knowledgecenter/pt-br/SSWMEQ_3.0.1/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.htm. Acesso em: 18 set. 2019;
+- Projeto Translate.me - Documento de visão, Acessado em: 18/09/2019. Disponível em: https://translate-me.github.io/docs/documentos/projeto/doc_de_visao/
