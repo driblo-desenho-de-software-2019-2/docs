@@ -11,6 +11,7 @@ sidebar_label: Documento de Visão
 | ---------- | ---------- | ---------------------- | ----------------- |
 | 18/09/2019 | 0.1        | Iniciação do Documento e Adição Tópico 1| Marcelo Magalhães |
 | 18/09/2019 | 0.2        | Adição Tópico 4 | Byron Kamal |
+| 18/09/2019 | 0.3        | Adição Tópico 3 | Samuel Barros Borges |
 
 
 # 1 Introdução
@@ -48,15 +49,46 @@ O projeto tem como finalidade facilitar a criação e a administração de pelad
 
 # 3 Descrição de Usuário
 
-## 3.1 Usuário
+## 3.1 Partes Envolvidas
 
-## 3.2 Principais Necessidades do Usuário
+### 3.1.1 Usuários
 
-## 3.3 Ambiente de Usuário
+São os usuários finais da aplicação em si, interessados em utilizar o sistema finalizado.
 
-## 3.4 Partes Envolvidas
+### 3.1.2 Desenvolvedores
+
+Consistem de um grupo de dez alunos cursando a matéria Arquitetura e Desenho de Software na Universidade de Brasília no segundo semestre de 2019. Estes são responsáveis por desenvolver, documentar e realizar a manutenção do sistema.
+
+### 3.1.3 Professores e Monitores
+
+Responsáveis por definir critérios de qualidade, prazos de entrega, definir padrões de projetos a serem utilizados e por fim, avaliar o sistema.
+
+## 3.2 Usuários Finais
+
+Os usuários finais do sistema consistem de pessoas engajadas na prática de partidas recreacionais de futebol amador (peladas), não existindo outras restrições.
+
+## 3.3 Principais Necessidades do Usuário
+
+Os potenciais usuários desse sistema enfrentam vários pequenos problemas que podem ser facilmente resolvidos, mas que quando acumulados se tornam um verdadeiro empecilho. Estes problemas são:
+
+* Dificuldade de agendamento das partidas;
+* Dificuldade na divisão balanceada dos times;
+* Dificuldade na divisão dos custos da reserva do local;
+* Dificuldade na divulgação do local escolhido;
+* Dificuldade na formulação e divulgação das regras.
+    
+
+## 3.4 Ambiente de Usuário
+
+O Ambiente atual do usuário apresenta sérios problemas de eficiência, com o agendamento feito por aplicativo de mensagens, o que prejudica a eficiência do processo de agendamento e precisão da lista de participantes. A divulgação do local e das regras, por também serem feitas por estes aplicativos, não possuem garantia de recebimento do usuário, podendo ser perdidas no meio de mensagens cotidianas.
 
 ## 3.5 Alternativas e Concorrência
+
+Existem alguns aplicativos que se propõem a resolver a questão de agendamento de partidas, mas nenhum destes divide o escopo completo com o produto proposto. Os aplicativos existentes são:
+
+* Appito
+* BoraJogar
+
 
 ## 4. Visão Geral do Produto
 
