@@ -69,16 +69,16 @@ O aplicativo tem como principal característica ajudar pessoas/jogadores a organ
 Os recursos e funcionalidades do aplicativo **Driblô** compreendem serviços implementados de forma independente, buscando facilitar o controle das peladas e integração entre os jogadores. Os recursos estão descritos abaixo.
 
 #### 4.2.1 Login e Cadastro
-	O aplicativo possui um sistema de cadastro que permite a inscrição do usuário e um sistema de Login para que o usuário possa utilizar os recursos disponíveis. 
+O aplicativo possui um sistema de cadastro que permite a inscrição do usuário e um sistema de Login para que o usuário possa utilizar os recursos disponíveis. 
 
 #### 4.2.2 Criação de Grupos
-	O dono do grupo (usuário que criou o grupo) poderá adicionar outros usuários e, assim, facilitar a comunicação centralizando assuntos em relação à pelada no aplicativo. Ele também poderá colocar conceder papel de administrador do grupo para outros integrantes.
+O dono do grupo (usuário que criou o grupo) poderá adicionar outros usuários e, assim, facilitar a comunicação centralizando assuntos em relação à pelada no aplicativo. Ele também poderá colocar conceder papel de administrador do grupo para outros integrantes.
 	
 #### 4.2.4 Controle da Pelada
-	O dono do grupo poderá definir regras data, horário, tipo de campo (futsal, society), tamanho dos times, local da pelada e formar os times através do sorteio dos integrantes, que será sorteado pela própria aplicação. Durante a execução da pelada será possível iniciar partidas (temporizador), ordenar times nas lista de espera, finalizar partida baseado nas regras (limite de gols ou de tempo) e controlar substituições de jogadores.
+O dono do grupo poderá definir regras data, horário, tipo de campo (futsal, society), tamanho dos times, local da pelada e formar os times através do sorteio dos integrantes, que será sorteado pela própria aplicação. Durante a execução da pelada será possível iniciar partidas (temporizador), ordenar times nas lista de espera, finalizar partida baseado nas regras (limite de gols ou de tempo) e controlar substituições de jogadores.
 
 #### 4.2.5 Controle de Pagamento
-	O aplicativo ajudará na divisão dos custos da pelada. Insumos como campo, bola, coletes dos times, etc, geram custos para a realização da pelada e para facilitar o pagamento, o app conta com um controle de pagamento em que é possível definir o preço dos insumos, dividir o valor entre os participantes e marca quem pagou e quanto.
+O aplicativo ajudará na divisão dos custos da pelada. Insumos como campo, bola, coletes dos times, etc, geram custos para a realização da pelada e para facilitar o pagamento, o app conta com um controle de pagamento em que é possível definir o preço dos insumos, dividir o valor entre os participantes e marca quem pagou e quanto.
 
 ## 5: Restrições
 
