@@ -1,8 +1,17 @@
+---
+id: docVisao
+title: Documento de Visão
+sidebar_label: Documento de Visão
+---
+
 # Documento de Visão
 
+### Histórico de versão
 | **Data**   | **Versão** | **Descrição**          | **Autor(es)**     |
 | ---------- | ---------- | ---------------------- | ----------------- |
-| 18/09/2019 | 0.1        | Iniciação do Documento | Marcelo Magalhães |
+| 18/09/2019 | 0.1        | Iniciação do Documento e Adição Tópico 1| Marcelo Magalhães |
+| 18/09/2019 | 0.2        | Adição Tópico 4 | Byron Kamal |
+
 
 # 1 Introdução
 
@@ -49,11 +58,27 @@ O projeto tem como finalidade facilitar a criação e a administração de pelad
 
 ## 3.5 Alternativas e Concorrência
 
-## 4: Visão Geral do Produto
+## 4. Visão Geral do Produto
 
-## 4.1 Propósito do Produto
+O **Driblô** trata-se de um aplicativo mobile que tem como objetivo auxiliar pessoas/jogadores com o controle de peladas. Os usuários do aplicativo poderão utilizá-lo para facilitar a criação de grupos de participantes da pelada e gerir o evento, evitando assim perda de tempo e otimizando a comunicação do grupo.
 
-## 4.2 Recursos do Produto
+### 4.1 Perspectiva do Produto
+O aplicativo tem como principal característica ajudar pessoas/jogadores a organizar e gerenciar melhor suas peladas e para realizar tal propósito o **Driblô** oferece uma usabilidade amigável, recursos que facilitem o controle da partida e a integração e competitividade saudável entres os grupo de jogadores.
+
+### 4.2 Funcionalidades do Produto
+Os recursos e funcionalidades do aplicativo **Driblô** compreendem serviços implementados de forma independente, buscando facilitar o controle das peladas e integração entre os jogadores. Os recursos estão descritos abaixo.
+
+#### 4.2.1 Login e Cadastro
+	O aplicativo possui um sistema de cadastro que permite a inscrição do usuário e um sistema de Login para que o usuário possa utilizar os recursos disponíveis. 
+
+#### 4.2.2 Criação de Grupos
+	O dono do grupo (usuário que criou o grupo) poderá adicionar outros usuários e, assim, facilitar a comunicação centralizando assuntos em relação à pelada no aplicativo. Ele também poderá colocar conceder papel de administrador do grupo para outros integrantes.
+	
+#### 4.2.4 Controle da Pelada
+	O dono do grupo poderá definir regras data, horário, tipo de campo (futsal, society), tamanho dos times, local da pelada e formar os times através do sorteio dos integrantes, que será sorteado pela própria aplicação. Durante a execução da pelada será possível iniciar partidas (temporizador), ordenar times nas lista de espera, finalizar partida baseado nas regras (limite de gols ou de tempo) e controlar substituições de jogadores.
+
+#### 4.2.5 Controle de Pagamento
+	O aplicativo ajudará na divisão dos custos da pelada. Insumos como campo, bola, coletes dos times, etc, geram custos para a realização da pelada e para facilitar o pagamento, o app conta com um controle de pagamento em que é possível definir o preço dos insumos, dividir o valor entre os participantes e marca quem pagou e quanto.
 
 ## 5: Restrições
 
