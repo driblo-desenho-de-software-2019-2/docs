@@ -18,17 +18,19 @@
       "umlEstatico",
       "diagramaClasse",
       "Diagramas de Atividade",
-      "Diagramas de Implantação",
+      "Diagramas de Estados",
+      "Diagramas de Implantação"
+    ]
+  },
+  "Iniciativas Extras": {
+    "Documentos do Projeto": [
+      "docVisao",
+      "NFR",
       "backlog",
       "priorizacao-moscow",
       "priorizacao-ftf",
-      "Diagramas de Estados",
       "priorizacao-ftf"
-    ],
-    "Iniciativas Extras": ["docVisao", "NFR"]
-  },
-  "Iniciativas Extras": {
-    "Documentos do Projeto": []
+    ]
   },
   "docs-sprints": {
     "Sprint 01": ["sp1"]
