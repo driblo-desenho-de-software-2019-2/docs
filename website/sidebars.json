@@ -15,8 +15,9 @@
     "Dinâmica e Seminário III": [
       "Diagramas de Sequência",
       "Diagramas de Colaboração",
-      "Diagramas de Atividade",
       "diagramaClasse",
+      "Diagramas de Atividade",
+      "Diagramas de Implantação",
       "backlog",
       "priorizacao-moscow",
       "priorizacao-ftf"
