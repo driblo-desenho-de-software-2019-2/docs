@@ -15,7 +15,13 @@
     "Dinâmica e Seminário III": [
       "Diagramas de Sequência",
       "Diagramas de Colaboração",
-      "umlEstatico"
+      "umlEstatico", 
+      "diagramaClasse",
+      "Diagramas de Atividade",
+      "Diagramas de Implantação",
+      "backlog",
+      "priorizacao-moscow",
+      "priorizacao-ftf"
     ]
   },
   "Iniciativas Extras": {
