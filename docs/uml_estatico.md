@@ -1,7 +1,7 @@
 ---
 id: umlEstatico
-title: UMLs Estáticos
-sidebar_label: UMLs Estáticos
+title: Diagrama de pacotes
+sidebar_label: Diagrama de pacotes
 ---
 
 #### Histórico de versão
