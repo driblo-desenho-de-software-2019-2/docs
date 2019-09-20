@@ -1,5 +1,5 @@
 ---
-id: diagrama_atividade
+id: Diagramas de Atividade
 title: Diagramas de Atividade
 sidebar_label: Diagramas de Atividade
 ---
