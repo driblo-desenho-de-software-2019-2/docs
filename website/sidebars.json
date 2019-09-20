@@ -19,7 +19,8 @@
     "Dinâmica e Seminário III": [
       "Diagramas de Sequência",
       "Diagramas de Colaboração",
-      "Diagramas de Atividade"
+      "Diagramas de Atividade",
+      "diagramaClasse"
     ]
   },
   "docs-sprints":{
