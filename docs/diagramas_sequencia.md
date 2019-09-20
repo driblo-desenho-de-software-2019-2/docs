@@ -33,7 +33,7 @@ função ou operação.
 
 ---
 
-### 2.1 Grupos e Membros
+### 2.2 Grupos e Membros
 
 #### versão 1.0
 
