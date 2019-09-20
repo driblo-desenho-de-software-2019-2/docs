@@ -15,6 +15,7 @@
     "Dinâmica e Seminário III": [
       "Diagramas de Sequência",
       "Diagramas de Colaboração",
+      "umlEstatico", 
       "diagramaClasse",
       "Diagramas de Atividade",
       "Diagramas de Implantação",
@@ -22,6 +23,9 @@
       "priorizacao-moscow",
       "priorizacao-ftf"
     ]
+  },
+  "Iniciativas Extras": {
+    "Documentos do Projeto": ["docVisao"]
   },
   "docs-sprints": {
     "Sprint 01": ["sp1"]
