@@ -8,11 +8,24 @@ sidebar_label: Diagramas de Sequência
 
 | Data       | Versão | Descrição            | Autor(es)       |
 | ---------- | ------ | -------------------- | --------------- |
-| 18/09/2019 | 0.1 | Criação de documento | Luís Cláudio T. Lima|
-| 18/09/2019 | 0.2 | Adição tópico 1 | Luís Cláudio T. Lima|
+| 19/09/2019 | 0.1 | Criação de documento | Luís Cláudio T. Lima|
+| 19/09/2019 | 0.2 | Adição tópico 1 | Luís Cláudio T. Lima|
 
 ## 1.Introdução
 O diagrama de sequência é uma solução de modelagem UML dinâmica que incide na 
 representação das interações entre os objetos em várias linhas de vida. Descreve
-como objetos e componentes intetagem uns com os outros para concluir um processo
+como objetos e componentes intetagem uns com os outros para concluir um processo,
 função ou operação.
+
+## 2.Diagramas
+
+### 2.1 Fluxo Inicial
+
+#### versão 1.0
+
+---
+
+[![Fluxo Inicial](assets/Diagrama_de_Sequencia_cadastro_login.png)](assets/Diagrama_de_Sequencia_cadastro_login.png)
+
+#### Autor: Luís Cláudio T. Lima
+---
