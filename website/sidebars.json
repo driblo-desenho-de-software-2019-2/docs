@@ -18,6 +18,9 @@
       "umlEstatico"
     ]
   },
+  "Iniciativas Extras": {
+    "Documentos do Projeto": ["docVisao"]
+  },
   "docs-sprints": {
     "Sprint 01": ["sp1"]
   }
