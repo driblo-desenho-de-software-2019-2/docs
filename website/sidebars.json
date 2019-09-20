@@ -11,19 +11,14 @@
       "questionario",
       "gerenciamentoCustos"
     ],
-    "Dinâmica e Seminário II": [
-      "metodologia",
-      "plano-gcs",
-      "identidade"
-    ],
+    "Dinâmica e Seminário II": ["metodologia", "plano-gcs", "identidade"],
     "Dinâmica e Seminário III": [
       "Diagramas de Sequência",
-      "Diagramas de Colaboração"
+      "Diagramas de Colaboração",
+      "umlEstatico"
     ]
   },
-  "docs-sprints":{
-    "Sprint 01":[
-      "sp1"
-    ]
+  "docs-sprints": {
+    "Sprint 01": ["sp1"]
   }
 }
