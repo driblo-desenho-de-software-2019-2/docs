@@ -12,6 +12,7 @@ sidebar_label: Diagramas de Sequência
 | 18/09/2019 | 0.2 | Adição tópico 1 | Luís Cláudio T. Lima|
 | 20/09/2019 | 0.3 | Adição tópico 2 | Marcelo Araújo |
 | 20/09/2019 | 0.4 | Adição dos diagramas de estados | Marcelo Araújo |
+| 20/09/2019 | 0.5 | Adição de conclusão e referência | Marcelo Araújo |
 
 2.1 Diagramas de estados
 
@@ -44,3 +45,12 @@ No app Driblô, há os estados deslogado, logado, fazendo login e fazendo cadast
 #### Versão 1.0
 
 [![Logado](assets/diagrama-de-estados_gerenciando-pelada.png)](assets/diagrama-de-estados_gerenciando-pelada.png)
+
+## 3. Conclusão
+
+Esses tipos de diagramas auxiliaram no entendimento e modelagem da dinâmica da aplicação Driblô, por representarem estados, sub-fluxos, objetos, interações e entre outros, dentro do sistema e com o meio exterior.
+
+## 4. Referência
+
+- State Machine Diagrams. Disponível em: https://www.uml-diagrams.org/state-machine-diagrams.html
+- Wikipedia: UML state machine. Disponível em: https://en.wikipedia.org/wiki/UML_state_machine
