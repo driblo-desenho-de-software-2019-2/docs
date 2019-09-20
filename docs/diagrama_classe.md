@@ -4,8 +4,6 @@ title: Diagrama de Classe
 sidebar_label: Diagrama de Classe
 ---
 
-# Documento de Visão
-
 ### Histórico de versão
 
 | **Data**   | **Versão** | **Descrição**          | **Autor(es)**     |
