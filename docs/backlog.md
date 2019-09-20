@@ -1,7 +1,7 @@
 ---
 id: backlog
-title: Backlog
-sidebar_label: Backlog
+title: Product Backlog
+sidebar_label: Product Backlog
 ---
 
 #### Histórico de versão
