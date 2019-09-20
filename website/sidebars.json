@@ -11,15 +11,12 @@
       "questionario",
       "gerenciamentoCustos"
     ],
-    "Dinâmica e Seminário II": [
-      "metodologia",
-      "plano-gcs",
-      "identidade"
-    ]
+    "Dinâmica e Seminário II": ["metodologia", "plano-gcs", "identidade"]
   },
-  "docs-sprints":{
-    "Sprint 01":[
-      "sp1"
-    ]
+  "Iniciaativas Extras": {
+    "Documentos do Projeto": ["docVisao"]
+  },
+  "docs-sprints": {
+    "Sprint 01": ["sp1"]
   }
 }
