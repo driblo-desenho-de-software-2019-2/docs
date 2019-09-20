@@ -22,7 +22,10 @@
       "backlog",
       "priorizacao-moscow",
       "priorizacao-ftf"
-    ]
+    ],
+    "Iniciativas Extras": [
+      "NFR"
+    ] 
   },
   "Iniciativas Extras": {
     "Documentos do Projeto": ["docVisao"]
