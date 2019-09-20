@@ -10,7 +10,8 @@ sidebar_label: Diagramas de Colaboração
 | ---------- | ------ | -------------------- | --------------- |
 | 18/09/2019 | 0.1 | Criação de documento    | Samuel Borges   |
 | 18/09/2019 | 0.2 | Adição tópico 1         | Samuel Borges   |
-| 19/09/2019 | 0.3 | Adição tópico 3         | Samuel Borges   |
+| 19/09/2019 | 0.3 | Adição tópico 2         | Samuel Borges   |
+| 19/09/2019 | 0.4 | Adição tópico 3         | Samuel Borges   |
 
 ## 1.Introdução
 Diagramas de Colaboração são usados para mostrar como objetos diferentes interagem para realizar o comportamento esperado deles em um caso de uso.
@@ -32,7 +33,7 @@ Diagramas de Colaboração representando a interação do usuário com o sistema
 
 **Autor: Samuel Borges**
 
-## 6.Referências
+## 3.Referências
 
 - What is UML Collaboration Diagram? Disponível em: https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-uml-collaboration-diagram/.
 - UML Communication Diagrams Overview em: https://www.uml-diagrams.org/communication-diagrams.html 
