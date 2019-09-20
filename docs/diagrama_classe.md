@@ -11,6 +11,7 @@ sidebar_label: Diagrama de Classe
 | **Data**   | **Versão** | **Descrição**      | **Autor(es)**     |
 | ---------- | ---------- | ------------------ | ----------------- |
 | 19/09/2019 | 0.1        | Iniciado Documento | Marcelo Magalhães |
+| 20/09/2019 | 0.2        | Adição do diagrama 1.0 | Henrique Martins |
 
 ## 1. Introdução
 
@@ -23,6 +24,9 @@ O diagrama de classe feito no intuito de modelar e elucidar as características 
 ## 3. Diagramas
 
 ### Diagrama de Classe
+
+#### Geral - V1.0
+[![Diagrama](assets/Diagrama_Classe_Geral1.0.png)](assets/Diagrama_Classe_Geral1.0.png)
 
 ## 4.Referências
 
