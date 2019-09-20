@@ -16,7 +16,11 @@
       "Diagramas de Sequência",
       "Diagramas de Colaboração",
       "diagramaClasse",
-      "Diagramas de Implantação"
+      "Diagramas de Atividade",
+      "Diagramas de Implantação",
+      "backlog",
+      "priorizacao-moscow",
+      "priorizacao-ftf"
     ]
   },
   "docs-sprints": {
