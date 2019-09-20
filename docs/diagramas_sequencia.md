@@ -12,6 +12,7 @@ sidebar_label: Diagramas de Sequência
 | 19/09/2019 | 0.2 | Adição tópico 1 | Luís Cláudio T. Lima|
 | 19/09/2019 | 0.3 | Adição tópico 2 e de diagrama fluxo inicial | Luís Cláudio T. Lima|
 | 19/09/2019 | 0.4 | Adição de diagrama grupos e membros| Luís Cláudio T. Lima|
+| 19/09/2019 | 0.5 | Adicição diagrama de Funcionamento de grupo | Caio Oliveira de Moraes |
 
 ## 1.Introdução
 O diagrama de sequência é uma solução de modelagem UML dinâmica que incide na 
@@ -33,7 +34,7 @@ função ou operação.
 
 ---
 
-### 2.1 Grupos e Membros
+### 2.2 Grupos e Membros
 
 #### versão 1.0
 
@@ -42,5 +43,15 @@ função ou operação.
 [![Fluxo Inicial](assets/Diagrama_de_Sequencia_grupos_e_membros.png)](assets/Diagrama_de_Sequencia_grupos_e_membros.png)
 
 #### Autor: Luís Cláudio T. Lima
+
+---
+
+### 2.3 Funcionamento de Grupo
+
+#### versão 1.0
+
+[![Fluxo de grupo](assets/Diagrama_de_Sequencia_Funcionamento_grupos.png)](assets/Diagrama_de_Sequencia_Funcionamento_grupos.png)
+
+#### Autor: Caio Oliveira de Moraes
 
 ---
