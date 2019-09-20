@@ -12,9 +12,10 @@ sidebar_label: Documento de Visão
 | ---------- | ---------- | ---------------------------------------- | -------------------- |
 | 18/09/2019 | 0.1        | Iniciação do Documento e Adição Tópico 1 | Marcelo Magalhães    |
 | 18/09/2019 | 0.2        | Adição Tópico 4                          | Byron Kamal          |
-| 18/09/2019 | 0.3        | Adição Tópico 3                          | Samuel Barros Borges |
+| 18/09/2019 | 0.3        | Adição Tópico 3                          | Samuel Borges        |
 | 19/09/2019 | 0.4        | Adição Tópico 2                          | Marcelo Magalhães    |
 | 19/09/2019 | 0.5        | Adição Tópico 5                          | Marcelo Magalhães    |
+| 19/09/2019 | 0.6        | Adição ao Tópico 5                       | Samuel Borges        |
 
 # 1 Introdução
 
@@ -155,15 +156,15 @@ O aplicativo ajudará na divisão dos custos da pelada. Insumos como campo, bola
 
 #### 5.1 Restrições de Design
 
-O design será simples onde apenas o essencial tem lugar à vista, pensado em deixar o aplicativo bastante intuitivo e fácil de usar.
+O design será simples, onde apenas o essencial tem lugar à vista, e a interface será responsiva para o contexto mobile. Tudo isso com o objetivo de deixar o aplicativo bastante intuitivo e fácil de usar.
 
 #### 5.2 Restrições de Implementação
 
-O sistema será desenvolvido utilizando a linguagem JavaScript junto ao Node.js e o framework React Native.
+O sistema será desenvolvido para mobile com a arquitetura orientada a microsservicos, utilizando a linguagem JavaScript junto ao Node.js para o backend e o framework React Native para o frontend. 
 
 #### 5.3 Restrições de Uso
 
-Para o uso de algumas funcionalidades como fazer o cadastro, enviar convites e editar informações é necessário que o usuário tenha acesso a um dispositivo conectado à internet.
+Para o uso de algumas funcionalidades como fazer o cadastro, enviar convites e editar informações é necessário que o usuário tenha acesso a um dispositivo conectado à internet. Ademais, levando em conta o contexto de ser um aplicativo mobile, também é esperado que o usuário tenha acesso a um smartphone.
 
 ## 6: Referências
 
