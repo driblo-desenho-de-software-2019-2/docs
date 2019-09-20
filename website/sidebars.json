@@ -14,6 +14,8 @@
     "Dinâmica e Seminário II": ["metodologia", "plano-gcs", "identidade"],
     "Dinâmica e Seminário III": [
       "Diagramas de Sequência",
+      "Diagramas de Colaboração",
+      "diagramaClasse"
       "backlog",
       "priorizacao-moscow",
       "priorizacao-ftf"
