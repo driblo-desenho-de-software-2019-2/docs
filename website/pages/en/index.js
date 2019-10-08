@@ -236,16 +236,14 @@ class Features extends React.Component {
             <div className="col-lg-4 col-md-6">
               <div className="feature-item">
                 <i className="ti-files"></i>
-                <h4>Lorem ipsum</h4>
+                <h4>Gerenciamento da conta</h4>
                 <div
                   className="wow fadeIn"
                   data-wow-duration="1s"
                   data-wow-delay=".3s"
                 >
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    Além dos dados cadastrais, escolha o seu time do coração para te representar no app.
                   </p>
                 </div>
               </div>
@@ -254,16 +252,15 @@ class Features extends React.Component {
             <div className="col-lg-4 col-md-6">
               <div className="feature-item">
                 <i className="ti-headphone-alt"></i>
-                <h4>Lorem ipsum</h4>
+                <h4>Configuração da pelada</h4>
                 <div
                   className="wow fadeIn"
                   data-wow-duration="1s"
                   data-wow-delay=".5s"
                 >
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    Crie um grupo com seus amigos, defina regras como o limite de jogadores e número de gols.
+                    Marque a data, horário e local da partida, escolha o tipo de campo e muito mais.
                   </p>
                 </div>
               </div>
@@ -272,16 +269,16 @@ class Features extends React.Component {
             <div className="col-lg-4 col-md-6">
               <div className="feature-item">
                 <i className="ti-crown"></i>
-                <h4>Lorem ipsum</h4>
+                <h4>Controle da pelada</h4>
                 <div
                   className="wow fadeIn"
                   data-wow-duration="1s"
                   data-wow-delay=".1s"
                 >
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    Marque a presença pelo próprio app e não perca tempo decidindo quem vai jogar, os times já vão ser
+                    sorteados visando o melhor equilíbrio de jogadores, incluindo a fila de espera.
+                    Registre as estatísticas da partida (gols, assistências e substituições) afim de descobrir o MVP.
                   </p>
                 </div>
               </div>
@@ -290,16 +287,17 @@ class Features extends React.Component {
             <div className="col-lg-4 col-md-6">
               <div className="feature-item">
                 <i className="ti-briefcase"></i>
-                <h4>Lorem ipsum</h4>
+                <h4>Avaliação de desempenho</h4>
                 <div
                   className="wow fadeIn"
                   data-wow-duration="1s"
                   data-wow-delay=".3s"
                 >
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    Assim que a partida se encerrar, avalie tanto seus companheiros quanto adversários de
+                    acordo com seu rendimento no jogo e, assim, o sistema conseguirá balancear os times
+                    e proporcionar a melhor experiencia possível. Veja suas próprias estatísticas e descubra seus pontos
+                    fortes e fracos.
                   </p>
                 </div>
               </div>
@@ -308,33 +306,16 @@ class Features extends React.Component {
             <div className="col-lg-4 col-md-6">
               <div className="feature-item">
                 <i className="ti-medall-alt"></i>
-                <h4>Lorem ipsum</h4>
+                <h4>Controle de pagamento</h4>
                 <div
                   className="wow fadeIn"
                   data-wow-duration="1s"
                   data-wow-delay=".5s"
                 >
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="feature-item">
-                <i className="ti-key"></i>
-                <h4>Lorem ipsum</h4>
-                <div
-                  className="wow fadeIn"
-                  data-wow-duration="1s"
-                  data-wow-delay=".1s"
-                >
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    Depois de tudo pronto, o aluguel do campo será dividido entre os participantes
+                    e o dono do grupo terá o controle sobre os pagamentos no próprio app.
+                    Chega de perder tempo com listinhas chatas ou caloteiros.
                   </p>
                 </div>
               </div>
