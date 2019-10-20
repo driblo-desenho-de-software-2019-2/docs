@@ -4,6 +4,7 @@
 | Data | Versão | Descrição | Autor(es) |
 | ---- | ------ | --------- | --------- |
 | 18/10/2019 | 0.1 | Criação do documento | Henrique Martins |
+| 20/10/2019 | 0.2 | Adicionando conteúdo para alguns padrões | Henrique Martins |
 
 ## Introdução
 
@@ -15,13 +16,13 @@
 
 ### O que é?
 
-Chain of Responsibility é um padrão GOF cuja principal função é evitar a dependência entre um objeto receptor e um objeto solicitante. Consiste em uma série de objetos receptores e de objetos de solicitação, onde cada objetos de solicitação possui uma lógica interna que separa quais são tipos de objetos receptores que podem ser manipulados. O restante é passado para o próximo objetos de solicitação da cadeia.
+Chain of Responsibility é um padrão cuja principal função é evitar a dependência entre um objeto receptor e um objeto solicitante. Consiste em uma série de objetos receptores e de objetos de solicitação, onde cada objetos de solicitação possui uma lógica interna que separa quais são tipos de objetos receptores que podem ser manipulados. O restante é passado para o próximo objetos de solicitação da cadeia.
 
-(Imagem de exemplo)
+[![Exemplo](assets/exemplo_chain_of_responsibility.png)](assets/exemplo_chain_of_responsibility.png)
 
 ### Estrutura mínima
 
-(Imagem da estrutura mínima do padrão)
+[![Diagrama](assets/chain_of_responsibility.png)](assets/chain_of_responsibility.png)
 
 ### Problemas solucionados pelo padrão
 
@@ -30,8 +31,10 @@ Chain of Responsibility é um padrão GOF cuja principal função é evitar a de
 
 ### Benefícios
 
- 1. A
- 1. B
+ 1. Reduz o grau de acoplamento. A dissociação solicitará o remetente e o destinatário.
+ 1. Objeto simplificado. O objeto não precisa conhecer a estrutura da cadeia.
+ 1. Aprimora a flexibilidade das tarefas atribuídas a objetos. Alterando os membros da cadeia ou alterando sua ordem, permita adicionar ou excluir responsabilidades dinamicamente.
+ 1. Aumenta a solicitação de processamento de nova classe de muito conveniente.
 
 ### Aplicável no Driblô?
 
@@ -50,11 +53,11 @@ Chain of Responsibility é um padrão GOF cuja principal função é evitar a de
 
 Command é um padrão no qual um objeto é usado para encapsular toda informação necessária para executar uma ação ou acionar um evento em um momento posterior.
 
-(Imagem de exemplo)
+[![Diagrama](assets/exemplo_command.png)](assets/exemplo_command.png)
 
 ### Estrutura mínima
 
-(Imagem da estrutura mínima do padrão)
+[![Diagrama](assets/command.png)](assets/command.png)
 
 ### Problemas solucionados pelo padrão
 
@@ -87,7 +90,7 @@ Interpreter é um dos padrões de projeto de software, famosos como "Design Patt
 
 ### Estrutura mínima
 
-(Imagem da estrutura mínima do padrão)
+[![Diagrama](assets/interpreter.png)](assets/interpreter.png)
 
 ### Problemas solucionados pelo padrão
 
@@ -96,8 +99,8 @@ Interpreter é um dos padrões de projeto de software, famosos como "Design Patt
 
 ### Benefícios
 
- 1. A
- 1. B
+ 1. É fácil alterar e estender a gramática. Como o padrão usa classes para representar regras gramaticais, você pode usar a herança para alterar ou estender a gramática. As expressões existentes podem ser modificadas incrementalmente, e novas expressões podem ser definidas como variações das antigas.
+ 1. A implementação da gramática também é fácil. As classes que definem nós na árvore de sintaxe abstrata têm implementações semelhantes. Essas classes são fáceis de escrever e geralmente sua geração pode ser automatizada com um compilador ou gerador de analisador.
 
 ### Aplicável no Driblô?
 
@@ -116,11 +119,11 @@ Interpreter é um dos padrões de projeto de software, famosos como "Design Patt
 
 No Iterator um iterador é usado para percorrer um container e acessar seus elementos. O padrão Iterator desacopla os algoritmos dos recipientes, porém em alguns casos, os algoritmos são necessariamente específicos dos containers e, portanto, não podem ser desacoplados.
 
-(Imagem de exemplo)
+[![Diagrama](assets/exemplo_iterator.png)](assets/exemplo_iterator.png)
 
 ### Estrutura mínima
 
-(Imagem da estrutura mínima do padrão)
+[![Diagrama](assets/iterator.png)](assets/iterator.png)
 
 ### Problemas solucionados pelo padrão
 
@@ -129,8 +132,10 @@ No Iterator um iterador é usado para percorrer um container e acessar seus elem
 
 ### Benefícios
 
- 1. A
- 1. B
+ 1. Princípio de responsabilidade única. Você pode limpar o código do cliente e as coleções extraindo algoritmos volumosos volumosos em classes separadas.
+ 1. Princípio Aberto / Fechado. Você pode implementar novos tipos de coleções e iteradores e passá-los para o código existente sem quebrar nada.
+ 1. Você pode iterar sobre a mesma coleção em paralelo porque cada objeto iterador contém seu próprio estado de iteração.
+ 1. Pelo mesmo motivo, você pode atrasar uma iteração e continuar quando necessário.
 
 ### Aplicável no Driblô?
 
@@ -378,11 +383,27 @@ O padrão de design Visitor é uma maneira de separar um algoritmo de uma estrut
 
 [Wikipédia - Chain of Responsibility](https://pt.wikipedia.org/wiki/Chain_of_Responsibility)
 
+[GeeksforGeeks - Chain of Responsibility](https://www.geeksforgeeks.org/chain-responsibility-design-pattern/)
+
+[Refactoring Guru - Chain of Responsibility](https://refactoring.guru/design-patterns/chain-of-responsibility)
+
 [Wikipédia - Command](https://pt.wikipedia.org/wiki/Command)
+
+[Source Making - Command Design Pattern](https://sourcemaking.com/design_patterns/command)
+
+[Refactoring Guru - Command](https://refactoring.guru/design-patterns/command)
 
 [Wikipédia - Interpreter](https://pt.wikipedia.org/wiki/Interpreter)
 
+[Wikipédia - Interpreter pattern](https://en.wikipedia.org/wiki/Interpreter_pattern)
+
+[GeeksforGeeks - Interpreter Design Pattern](https://www.geeksforgeeks.org/interpreter-design-pattern/)
+
 [Wikipédia - Iterador](https://pt.wikipedia.org/wiki/Iterador)
+
+[Wikipédia - Iterator pattern](https://en.wikipedia.org/wiki/Iterator_pattern)
+
+[Refactoring Guru - Iterator](https://refactoring.guru/design-patterns/iterator)
 
 [Wikipédia - Mediator](https://pt.wikipedia.org/wiki/Mediator)
 
@@ -395,3 +416,4 @@ O padrão de design Visitor é uma maneira de separar um algoritmo de uma estrut
 [Wikipédia - Strategy_pattern](https://en.wikipedia.org/wiki/Strategy_pattern)
 
 [Wikipédia - Template method pattern](https://en.wikipedia.org/wiki/Template_method_pattern)
+
