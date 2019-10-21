@@ -161,3 +161,5 @@ Primeiro o ListaJogadores cria um novo Command especificando seu Receptor, em se
 
 [Source Making - Command Design Pattern](https://sourcemaking.com/design_patterns/command)
 
+[Mediator Design pattern - Implementation](https://ramj2ee.blogspot.com/2013/12/mediator-design-pattern-implementation.html)
+
