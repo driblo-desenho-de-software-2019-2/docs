@@ -62,12 +62,10 @@ Qualquer classe pode funcionar como um Receiver.
 
 Primeiro o ListaJogadores cria um novo Command especificando seu Receptor, em seguida este Command é armazenado em um Invoker. O Invoker quando quer chamar a ação do Receptor, usa o método execute do Command que por sua vez chama a ação do Receptor. Deste modo o Invoker não conhece como funciona a ação e também não conhece o Receptor.
 
-### 1.5 Aplicável no Driblô?
 
-| Problema | Solução é útil ao Driblô? |
-| ------- | :-----: |
-| Usuário pode mudar de ideia em relação às informações passadas anteriormente.| Sim, pois facilitar a implementação de um sistema de desfazimento de ações seria bastante pertinente ao projeto. | 
-| Projeto visa entregar o minimo produto viável e crescer conforme necessário. | Sim, pois facilitar a adição de comandos novos ajudaria no desenvolvimento. |
+### 1.6 Exemplo em python de uso do padrão Command para um controle remoto
+
+[Link do código](https://github.com/driblo-desenho-de-software-2019-2/docs/tree/feature/padroes-gof/padroes-avulso/CommandPatternExemplo)
 
 ## 2. Mediator
 
