@@ -6,7 +6,9 @@
 | 20/10/2019 | 0.1 | Criação do documento | Samuel Borges |
 | 20/10/2019 | 0.2 | Complementação dos topicos 1 e 4 | Marcelo Magalhães |
 | 20/10/2019 | 0.3 | Pertinência em relação ao Driblô | Samuel Borges |
-|20/10/2019|| 0.4 | Tópico 1 - Mediator | Byron Kamal, João Pedro Mota, Caio Oliveira, Rafael Teodosio|
+|20/10/2019| 0.4 | Tópico 1 - Mediator | Byron Kamal, João Pedro Mota, Caio Oliveira, Rafael Teodosio|
+|20/10/2019| 0.5 | Tópico 2 - Mediator | Byron Kamal, João Pedro Mota, Caio Oliveira, Rafael Teodosio|
+
 
 ## 1.Command
 
@@ -49,6 +51,14 @@ Esse acoplamento torna um objeto refém de outros, fazendo com que ele não cons
 O resultado é uma modelagem com comportamentos distribuídos entre as classes, mas dependente de outros objetos, encaminhando o desenvolvedor a criar formas mais complexas para realizar customização.
 
 ### 2.2 Solução
+
+O Mediator atua como um mediador entre relacionamentos N para N, assim evita a referência explicita aos objetos. Outra vantagem do padrão, é que ele define a maneira que a interação entre os objetos ocorre.
+
+O padrão Mediator consiste de duas figuras principais: o Mediator e o Colleague. O Mediator recebe mensagens de um Colleague, define qual protocolo utilizar e então envia a mensagem. O Colleague define como receberá uma mensagem e envia uma mensagem para um Mediator, portanto é recomendado usar nas seguintes situações : 
+
+- Objetos se comunicam de forma especifica e complexa
+- Reutilização de um objeto se torna difícil, devido a quantidade de objetos no qual ele se comunica
+- Quando temos comportamentos distribuídos e esse comportamento deveria ser customizável.
 
 ### 2.3 Estrutura Minima
 
