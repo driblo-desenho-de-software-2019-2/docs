@@ -40,7 +40,7 @@ Dessa forma o padrão Command encapsula uma solicitação vinculando um conjunto
 
 ### 1.5 Exemplo de aplicação no conceito do Driblô
 
-O cenário a ser aplicado o padrão Command é relacionado a opção do jogador de marcar ou desmacar presença na pelada. Link do código
+O cenário a ser aplicado o padrão Command é relacionado a opção do jogador de marcar ou desmacar presença na pelada. [Link do código](https://github.com/driblo-desenho-de-software-2019-2/docs/tree/feature/padroes-gof/padroes-avulso/ExemploCommand)
 
 #### Diagrama de classe - versão 1.0
 
