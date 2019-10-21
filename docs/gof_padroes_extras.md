@@ -48,9 +48,9 @@ O cenário a ser aplicado o padrão Command é relacionado a opção do jogador 
 #### Autor: Matheus Rodrigues
 
 * **Command**: Declara uma interface.
-* **ConcreteCommand**: Define uma vinculação entre um objeto, um Receiver e uma ação. 
+* **ConcreteCommand**: Define uma vinculação entre um objeto, um Receptor e uma ação. 
 E também implementa o “execute”.
-* **ListaJogadores**: Cria um objeto ConcreteCommand e estabelece o seu receptor.
+* **ListaJogadores**: Cria um objeto ConcreteCommand e estabelece o seu Receptor.
 * **ControlePresencaInvoker**: Solicita ao Command a execução da solicitação
 * **PresencaReceiver**: Sabe como executar as operações associadas a uma solicitação. 
 Qualquer classe pode funcionar como um Receiver.
