@@ -88,7 +88,8 @@ O padrão Mediator consiste de duas figuras principais: o Mediator e o Colleague
 ### 2.3 Estrutura Minima
 
 ### 2.4 Exemplo em Java
-
+O exemplo a seguir simula a conversa de usuários no grupo do facebook, onde o grupo é o mediator e o usuário o colleague. <br>
+[Link do código](https://github.com/driblo-desenho-de-software-2019-2/docs/tree/feature/padroes-gof/padroes-avulso/ExemploCommand)
 ### Referências
 
 [Wikipédia - Command Pattern](https://pt.wikipedia.org/wiki/Command_pattern)
