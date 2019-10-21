@@ -4,7 +4,7 @@
 | Data | Versão | Descrição | Autor(es) |
 | ---- | ------ | --------- | --------- |
 | 18/10/2019 | 0.1 | Criação do documento | Henrique Martins |
-| 20/10/2019 | 0.2 | Adicionando conteúdo para alguns padrões | Henrique Martins |
+| 20/10/2019 | 0.2 | Adicionando imagens e benefícios para padrões | Henrique Martins |
 
 ## Introdução
 
@@ -154,7 +154,7 @@ No Iterator um iterador é usado para percorrer um container e acessar seus elem
 
 Mediador é um padrão de projeto usado frequentemente quando deseja-se encapsular como os objetos interagem, ou seja, a comunicação entre os objetos é estabelecida através do Mediator. Este padrão é considerado um padrão comportamental, pois o padrão pode alterar o comportamento da aplicação (programa).O Mediator promove o fraco acoplamento ao evitar que objetos se referiram uns aos outros explicitamente.
 
-(Imagem de exemplo)
+[![Diagrama](assets/exemplo_mediator.png)](assets/exemplo_mediator.png)
 
 ### Estrutura mínima
 
@@ -167,8 +167,9 @@ Mediador é um padrão de projeto usado frequentemente quando deseja-se encapsul
 
 ### Benefícios
 
- 1. A
- 1. B
+ 1. Diminuí consideravelmente o acoplamento (entre os Colegas) e consequentemente aumenta o reuso.
+ 1. Ocorre a eliminação de relacionamentos muitos para muitos (N para N)
+ 1. A política de comunicações fica centralizada no Mediator, logo, podemos alterar essa política sem precisar alterar os Colegas. 
 
 ### Aplicável no Driblô?
 
@@ -187,11 +188,11 @@ Mediador é um padrão de projeto usado frequentemente quando deseja-se encapsul
 
 Memento é um padrão de projeto de software documentado no Catálogo Gang of Four, sendo considerado como um padrão comportamental. Ele permite armazenar o estado interno de um objeto em um determinando momento, para que seja possível retorná-lo a este estado, sem que isso cause problemas com o encapsulamento.
 
-(Imagem de exemplo)
+[![Diagrama](assets/exemplo_memento.png)](assets/exemplo_memento.png)
 
 ### Estrutura mínima
 
-(Imagem da estrutura mínima do padrão)
+[![Diagrama](assets/memento.png)](assets/memento.png)
 
 ### Problemas solucionados pelo padrão
 
@@ -200,8 +201,8 @@ Memento é um padrão de projeto de software documentado no Catálogo Gang of Fo
 
 ### Benefícios
 
- 1. A
- 1. B
+ 1. Você pode produzir snapshots do estado do objeto sem violar seu encapsulamento.
+ 1. Você pode simplificar o código do autor, deixando o responsável manter o histórico do estado do autor.
 
 ### Aplicável no Driblô?
 
@@ -220,11 +221,11 @@ Memento é um padrão de projeto de software documentado no Catálogo Gang of Fo
 
 O Observer é um padrão de projeto de software que define uma dependência um-para-muitos entre objetos de modo que quando um objeto muda o estado, todos seus dependentes são notificados e atualizados automaticamente. Permite que objetos interessados sejam avisados da mudança de estado ou outros eventos ocorrendo num outro objeto.
 
-(Imagem de exemplo)
+[![Diagrama](assets/exemplo_observer.png)](assets/exemplo_observer.png)
 
 ### Estrutura mínima
 
-(Imagem da estrutura mínima do padrão)
+[![Diagrama](assets/observer.png)](assets/observer.png)
 
 ### Problemas solucionados pelo padrão
 
@@ -233,8 +234,8 @@ O Observer é um padrão de projeto de software que define uma dependência um-p
 
 ### Benefícios
 
- 1. A
- 1. B
+ 1. Princípio Aberto / Fechado.
+ 1. Você pode estabelecer relações entre objetos em tempo de execução.
 
 ### Aplicável no Driblô?
 
@@ -253,11 +254,11 @@ O Observer é um padrão de projeto de software que define uma dependência um-p
 
 State é um padrão de projeto de software usado quando o comportamento de um objeto muda, dependendo do seu estado.
 
-(Imagem de exemplo)
+[![Diagrama](assets/exemplo_state.png)](assets/exemplo_state.png)
 
 ### Estrutura mínima
 
-(Imagem da estrutura mínima do padrão)
+[![Diagrama](assets/state.png)](assets/observer.png)
 
 ### Problemas solucionados pelo padrão
 
@@ -266,8 +267,9 @@ State é um padrão de projeto de software usado quando o comportamento de um ob
 
 ### Benefícios
 
- 1. A
- 1. B
+ 1. Princípio de responsabilidade única. Organize o código relacionado a estados específicos em classes separadas.
+ 1. Princípio Aberto / Fechado. Introduzir novos estados sem alterar as classes de estado existentes ou o contexto.
+ 1. Simplifique o código do contexto, eliminando condicionais volumosos da máquina de estado.
 
 ### Aplicável no Driblô?
 
@@ -286,11 +288,11 @@ State é um padrão de projeto de software usado quando o comportamento de um ob
 
 O padrão de estratégia é um padrão comportamental que permite selecionar um algoritmo em tempo de execução. Em vez de implementar um único algoritmo diretamente, o código recebe instruções em tempo de execução sobre as quais em uma família de algoritmos usar.
 
-(Imagem de exemplo)
+[![Diagrama](assets/exemplo_strategy.png)](assets/exemplo_strategy.png)
 
 ### Estrutura mínima
 
-(Imagem da estrutura mínima do padrão)
+[![Diagrama](assets/strategy.png)](assets/strategy.png)
 
 ### Problemas solucionados pelo padrão
 
@@ -299,8 +301,10 @@ O padrão de estratégia é um padrão comportamental que permite selecionar um 
 
 ### Benefícios
 
- 1. A
- 1. B
+ 1. Você pode trocar algoritmos usados dentro de um objeto em tempo de execução.
+ 1. Você pode isolar os detalhes de implementação de um algoritmo do código que o utiliza.
+ 1. Você pode substituir herança por composição.
+ 1. Princípio Aberto / Fechado. Você pode introduzir novas estratégias sem precisar alterar o contexto.
 
 ### Aplicável no Driblô?
 
@@ -319,11 +323,11 @@ O padrão de estratégia é um padrão comportamental que permite selecionar um 
 
 O template method é um dos padrões de design comportamental. O template method é um método em uma superclasse, geralmente uma superclasse abstrata, e define o esqueleto de uma operação em termos de várias etapas de alto nível. Essas etapas são implementadas por métodos auxiliares adicionais na mesma classe que o template method.
 
-(Imagem de exemplo)
+[![Diagrama](assets/exemplo_template_method.png)](assets/exemplo_template_method.png)
 
 ### Estrutura mínima
 
-(Imagem da estrutura mínima do padrão)
+[![Diagrama](assets/template_method.png)](assets/template_method.png)
 
 ### Problemas solucionados pelo padrão
 
@@ -332,8 +336,8 @@ O template method é um dos padrões de design comportamental. O template method
 
 ### Benefícios
 
- 1. A
- 1. B
+ 1. Você pode permitir que os clientes substituam apenas certas partes de um algoritmo grande, tornando-os menos afetados pelas alterações que acontecem com outras partes do algoritmo.
+ 1. Você pode colocar o código duplicado em uma superclasse.
 
 ### Aplicável no Driblô?
 
@@ -352,11 +356,11 @@ O template method é um dos padrões de design comportamental. O template method
 
 O padrão de design Visitor é uma maneira de separar um algoritmo de uma estrutura de objeto na qual ele opera. Um resultado prático dessa separação é a capacidade de adicionar novas operações às estruturas de objetos existentes sem modificar as estruturas.
 
-(Imagem de exemplo)
+[![Diagrama](assets/exemplo_visitor.png)](assets/exemplo_visitor.png)
 
 ### Estrutura mínima
 
-(Imagem da estrutura mínima do padrão)
+[![Diagrama](assets/visitor.png)](assets/visitor.png)
 
 ### Problemas solucionados pelo padrão
 
@@ -365,8 +369,9 @@ O padrão de design Visitor é uma maneira de separar um algoritmo de uma estrut
 
 ### Benefícios
 
- 1. A
- 1. B
+ 1. Princípio Aberto / Fechado. Você pode introduzir um novo comportamento que possa trabalhar com objetos de diferentes classes sem alterar essas classes.
+ 1. Princípio de responsabilidade única. Você pode mover várias versões do mesmo comportamento para a mesma classe.
+ 1. Um objeto visitante pode acumular algumas informações úteis ao trabalhar com vários objetos. Isso pode ser útil quando você deseja percorrer alguma estrutura complexa de objetos, como uma árvore de objetos, e aplicar o visitante a cada objeto dessa estrutura.
 
 ### Aplicável no Driblô?
 
@@ -407,13 +412,32 @@ O padrão de design Visitor é uma maneira de separar um algoritmo de uma estrut
 
 [Wikipédia - Mediator](https://pt.wikipedia.org/wiki/Mediator)
 
+[Refactoring Guru - Mediator](https://refactoring.guru/design-patterns/mediator)
+
 [Wikipédia - Memento (Informática)](https://pt.wikipedia.org/wiki/Memento_(inform%C3%A1tica))
+
+[Source Making - Memento Design Pattern](https://sourcemaking.com/design_patterns/memento)
+
+[Refactoring Guru - Memento](https://refactoring.guru/design-patterns/memento)
 
 [Wikipédia - Observer](https://pt.wikipedia.org/wiki/Observer)
 
+[Refactoring Guru - Observer](https://refactoring.guru/design-patterns/observer)
+
 [Wikipédia - State](https://pt.wikipedia.org/wiki/State)
 
-[Wikipédia - Strategy_pattern](https://en.wikipedia.org/wiki/Strategy_pattern)
+[Source Making - State Design Pattern](https://sourcemaking.com/design_patterns/state)
+
+[Refactoring Guru - State](https://refactoring.guru/design-patterns/state)
+
+[Wikipédia - Strategy pattern](https://en.wikipedia.org/wiki/Strategy_pattern)
+
+[Refactoring Guru - Strategy](https://refactoring.guru/design-patterns/strategy)
 
 [Wikipédia - Template method pattern](https://en.wikipedia.org/wiki/Template_method_pattern)
 
+[Refactoring Guru - Template Method](https://refactoring.guru/design-patterns/template-method)
+
+[Wikipédia - Visitor pattern](https://en.wikipedia.org/wiki/Visitor_pattern)
+
+[Refactoring Guru - Visitor](https://refactoring.guru/design-patterns/visitor)
