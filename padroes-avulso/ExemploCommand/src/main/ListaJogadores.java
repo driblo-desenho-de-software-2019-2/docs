@@ -8,8 +8,8 @@ public class ListaJogadores {
 	    Scanner ler = new Scanner(System.in);
         
 	    PresencaReceiver presenca = new PresencaReceiver();
-	    Command marcarPresenca = new MarcarPresencaCommand(presenca);
-	    Command desmarcarPresenca = new DesmarcarPresencaCommand(presenca);
+	    Command marcaPresenca = new MarcaPresencaCommand(presenca);
+	    Command desmarcaPresenca = new DesmarcaPresencaCommand(presenca);
 	    ControlePresencaInvoker presencaJogador = new ControlePresencaInvoker();
 	    
 	    menu(opcao);
@@ -18,10 +18,10 @@ public class ListaJogadores {
 	    	opcao = ler.nextInt();
 	    	switch(opcao) {
 	    		case 1:
-	    			presencaJogador.setCommand(marcarPresenca);
+	    			presencaJogador.setCommand(marcaPresenca);
 	    			break;
 	    		case 2:
-	    			presencaJogador.setCommand(desmarcarPresenca);
+	    			presencaJogador.setCommand(desmarcaPresenca);
 	    			break;
 	    		default:
 	                System.out.println("ATÉ A PRÓXIMA.");	
