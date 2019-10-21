@@ -1,0 +1,361 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>gofs_comportamentais · Driblô</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="# GOF&#x27;s Comportamentais"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="gofs_comportamentais · Driblô"/><meta property="og:type" content="website"/><meta property="og:url" content="https://driblo-desenho-de-software-2019-2.github.io/docs/"/><meta property="og:description" content="# GOF&#x27;s Comportamentais"/><meta property="og:image" content="https://driblo-desenho-de-software-2019-2.github.io/docs/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://driblo-desenho-de-software-2019-2.github.io/docs/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/docs/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="js/vendor/jquery-2.2.4.min.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"></script><script type="text/javascript" src="js/easing.min.js"></script><script type="text/javascript" src="js/hoverIntent.js"></script><script type="text/javascript" src="js/superfish.min.js"></script><script type="text/javascript" src="js/vendor/bootstrap.min.js"></script><script type="text/javascript" src="js/jquery.ajaxchimp.min.js"></script><script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script><script type="text/javascript" src="js/owl.carousel.min.js"></script><script type="text/javascript" src="js/owl-carousel-thumb.min.js"></script><script type="text/javascript" src="js/jquery.sticky.js"></script><script type="text/javascript" src="js/jquery.nice-select.min.js"></script><script type="text/javascript" src="js/parallax.min.js"></script><script type="text/javascript" src="js/waypoints.min.js"></script><script type="text/javascript" src="js/wow.min.js"></script><script type="text/javascript" src="js/jquery.counterup.min.js"></script><script type="text/javascript" src="js/mail-script.js"></script><script type="text/javascript" src="js/main.js"></script><script src="/docs/js/scrollSpy.js"></script><link rel="stylesheet" href="/docs/css/main.css"/><script src="/docs/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/docs/"><img class="logo" src="/docs/img/favicon.ico" alt="Driblô"/><h2 class="headerTitleWithLogo">Driblô</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/docs/docs/richPicture" target="_self">Dinâmicas e Seminários</a></li><li class=""><a href="/docs/docs/sp1" target="_self">Sprints</a></li><li class=""><a href="/docs/docs/docVisao" target="_self">Iniciativas Extras</a></li><li class=""><a href="https://github.com/driblo-desenho-de-software-2019-2/docs" target="_blank">GitHub</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">gofs_comportamentais</h1></header><article><div><span><h1><a class="anchor" aria-hidden="true" id="gofs-comportamentais"></a><a href="#gofs-comportamentais" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GOF's Comportamentais</h1>
+<h3><a class="anchor" aria-hidden="true" id="historico-de-versão"></a><a href="#historico-de-versão" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Histórico de versão</h3>
+<table>
+<thead>
+<tr><th>Data</th><th>Versão</th><th>Descrição</th><th>Autor(es)</th></tr>
+</thead>
+<tbody>
+<tr><td>18/10/2019</td><td>0.1</td><td>Criação do documento</td><td>Henrique Martins</td></tr>
+<tr><td>20/10/2019</td><td>0.2</td><td>Adicionando imagens e benefícios para padrões</td><td>Henrique Martins</td></tr>
+</tbody>
+</table>
+<h2><a class="anchor" aria-hidden="true" id="introducão"></a><a href="#introducão" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Introdução</h2>
+<p>(Acrescentar)</p>
+<hr>
+<h2><a class="anchor" aria-hidden="true" id="chain-of-responsibility"></a><a href="#chain-of-responsibility" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Chain of Responsibility</h2>
+<h3><a class="anchor" aria-hidden="true" id="o-que-e"></a><a href="#o-que-e" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>O que é?</h3>
+<p>Chain of Responsibility é um padrão cuja principal função é evitar a dependência entre um objeto receptor e um objeto solicitante. Consiste em uma série de objetos receptores e de objetos de solicitação, onde cada objetos de solicitação possui uma lógica interna que separa quais são tipos de objetos receptores que podem ser manipulados. O restante é passado para o próximo objetos de solicitação da cadeia.</p>
+<p><a href="/docs/docs/assets/exemplo_chain_of_responsibility.png"><img src="/docs/docs/assets/exemplo_chain_of_responsibility.png" alt="Exemplo"></a></p>
+<h3><a class="anchor" aria-hidden="true" id="estrutura-minima"></a><a href="#estrutura-minima" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Estrutura mínima</h3>
+<p><a href="/docs/docs/assets/chain_of_responsibility.png"><img src="/docs/docs/assets/chain_of_responsibility.png" alt="Diagrama"></a></p>
+<h3><a class="anchor" aria-hidden="true" id="problemas-solucionados-pelo-padrão"></a><a href="#problemas-solucionados-pelo-padrão" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Problemas solucionados pelo padrão</h3>
+<ol>
+<li>A</li>
+<li>B</li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="beneficios"></a><a href="#beneficios" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Benefícios</h3>
+<ol>
+<li>Reduz o grau de acoplamento. A dissociação solicitará o remetente e o destinatário.</li>
+<li>Objeto simplificado. O objeto não precisa conhecer a estrutura da cadeia.</li>
+<li>Aprimora a flexibilidade das tarefas atribuídas a objetos. Alterando os membros da cadeia ou alterando sua ordem, permita adicionar ou excluir responsabilidades dinamicamente.</li>
+<li>Aumenta a solicitação de processamento de nova classe de muito conveniente.</li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="aplicavel-no-driblo"></a><a href="#aplicavel-no-driblo" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Aplicável no Driblô?</h3>
+<table>
+<thead>
+<tr><th>Problema</th><th style="text-align:center">Solução é útil ao Driblô?</th></tr>
+</thead>
+<tbody>
+<tr><td>Problema 1</td><td style="text-align:center"></td></tr>
+<tr><td>Problema 2</td><td style="text-align:center"></td></tr>
+</tbody>
+</table>
+<p>(Dizer porque soluções são úteis ou não)</p>
+<hr>
+<h2><a class="anchor" aria-hidden="true" id="command"></a><a href="#command" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Command</h2>
+<h3><a class="anchor" aria-hidden="true" id="o-que-e-1"></a><a href="#o-que-e-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>O que é?</h3>
+<p>Command é um padrão no qual um objeto é usado para encapsular toda informação necessária para executar uma ação ou acionar um evento em um momento posterior.</p>
+<p><a href="/docs/docs/assets/exemplo_command.png"><img src="/docs/docs/assets/exemplo_command.png" alt="Diagrama"></a></p>
+<h3><a class="anchor" aria-hidden="true" id="estrutura-minima-1"></a><a href="#estrutura-minima-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Estrutura mínima</h3>
+<p><a href="/docs/docs/assets/command.png"><img src="/docs/docs/assets/command.png" alt="Diagrama"></a></p>
+<h3><a class="anchor" aria-hidden="true" id="problemas-solucionados-pelo-padrão-1"></a><a href="#problemas-solucionados-pelo-padrão-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Problemas solucionados pelo padrão</h3>
+<ol>
+<li>A</li>
+<li>B</li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="beneficios-1"></a><a href="#beneficios-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Benefícios</h3>
+<ol>
+<li>Torna o código extensível, pois é possível adicionar novos comandos sem alterar o código existente.</li>
+<li>Reduz o acoplamento do invocador e receptor de um comando.</li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="aplicavel-no-driblo-1"></a><a href="#aplicavel-no-driblo-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Aplicável no Driblô?</h3>
+<table>
+<thead>
+<tr><th>Problema</th><th style="text-align:center">Solução é útil ao Driblô?</th></tr>
+</thead>
+<tbody>
+<tr><td>Problema 1</td><td style="text-align:center"></td></tr>
+<tr><td>Problema 2</td><td style="text-align:center"></td></tr>
+</tbody>
+</table>
+<p>(Dizer porque soluções são úteis ou não)</p>
+<hr>
+<h2><a class="anchor" aria-hidden="true" id="interpreter"></a><a href="#interpreter" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Interpreter</h2>
+<h3><a class="anchor" aria-hidden="true" id="o-que-e-2"></a><a href="#o-que-e-2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>O que é?</h3>
+<p>Interpreter é um dos padrões de projeto de software, famosos como &quot;Design Patterns&quot;, muito utilizado para a resolução de problemas quando a modelagem de sistemas ou softwares. Esse padrão esta incluso na categoria de Padrão Comportamental, ou seja, ele busca solucionar problemas de modelagem que tratam o comportamento de classes.</p>
+<p>(Imagem de exemplo)</p>
+<h3><a class="anchor" aria-hidden="true" id="estrutura-minima-2"></a><a href="#estrutura-minima-2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Estrutura mínima</h3>
+<p><a href="/docs/docs/assets/interpreter.png"><img src="/docs/docs/assets/interpreter.png" alt="Diagrama"></a></p>
+<h3><a class="anchor" aria-hidden="true" id="problemas-solucionados-pelo-padrão-2"></a><a href="#problemas-solucionados-pelo-padrão-2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Problemas solucionados pelo padrão</h3>
+<ol>
+<li>A</li>
+<li>B</li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="beneficios-2"></a><a href="#beneficios-2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Benefícios</h3>
+<ol>
+<li>É fácil alterar e estender a gramática. Como o padrão usa classes para representar regras gramaticais, você pode usar a herança para alterar ou estender a gramática. As expressões existentes podem ser modificadas incrementalmente, e novas expressões podem ser definidas como variações das antigas.</li>
+<li>A implementação da gramática também é fácil. As classes que definem nós na árvore de sintaxe abstrata têm implementações semelhantes. Essas classes são fáceis de escrever e geralmente sua geração pode ser automatizada com um compilador ou gerador de analisador.</li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="aplicavel-no-driblo-2"></a><a href="#aplicavel-no-driblo-2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Aplicável no Driblô?</h3>
+<table>
+<thead>
+<tr><th>Problema</th><th style="text-align:center">Solução é útil ao Driblô?</th></tr>
+</thead>
+<tbody>
+<tr><td>Problema 1</td><td style="text-align:center"></td></tr>
+<tr><td>Problema 2</td><td style="text-align:center"></td></tr>
+</tbody>
+</table>
+<p>(Dizer porque soluções são úteis ou não)</p>
+<hr>
+<h2><a class="anchor" aria-hidden="true" id="iterator"></a><a href="#iterator" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Iterator</h2>
+<h3><a class="anchor" aria-hidden="true" id="o-que-e-3"></a><a href="#o-que-e-3" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>O que é?</h3>
+<p>No Iterator um iterador é usado para percorrer um container e acessar seus elementos. O padrão Iterator desacopla os algoritmos dos recipientes, porém em alguns casos, os algoritmos são necessariamente específicos dos containers e, portanto, não podem ser desacoplados.</p>
+<p><a href="/docs/docs/assets/exemplo_iterator.png"><img src="/docs/docs/assets/exemplo_iterator.png" alt="Diagrama"></a></p>
+<h3><a class="anchor" aria-hidden="true" id="estrutura-minima-3"></a><a href="#estrutura-minima-3" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Estrutura mínima</h3>
+<p><a href="/docs/docs/assets/iterator.png"><img src="/docs/docs/assets/iterator.png" alt="Diagrama"></a></p>
+<h3><a class="anchor" aria-hidden="true" id="problemas-solucionados-pelo-padrão-3"></a><a href="#problemas-solucionados-pelo-padrão-3" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Problemas solucionados pelo padrão</h3>
+<ol>
+<li>A</li>
+<li>B</li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="beneficios-3"></a><a href="#beneficios-3" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Benefícios</h3>
+<ol>
+<li>Princípio de responsabilidade única. Você pode limpar o código do cliente e as coleções extraindo algoritmos volumosos volumosos em classes separadas.</li>
+<li>Princípio Aberto / Fechado. Você pode implementar novos tipos de coleções e iteradores e passá-los para o código existente sem quebrar nada.</li>
+<li>Você pode iterar sobre a mesma coleção em paralelo porque cada objeto iterador contém seu próprio estado de iteração.</li>
+<li>Pelo mesmo motivo, você pode atrasar uma iteração e continuar quando necessário.</li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="aplicavel-no-driblo-3"></a><a href="#aplicavel-no-driblo-3" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Aplicável no Driblô?</h3>
+<table>
+<thead>
+<tr><th>Problema</th><th style="text-align:center">Solução é útil ao Driblô?</th></tr>
+</thead>
+<tbody>
+<tr><td>Problema 1</td><td style="text-align:center"></td></tr>
+<tr><td>Problema 2</td><td style="text-align:center"></td></tr>
+</tbody>
+</table>
+<p>(Dizer porque soluções são úteis ou não)</p>
+<hr>
+<h2><a class="anchor" aria-hidden="true" id="mediator"></a><a href="#mediator" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Mediator</h2>
+<h3><a class="anchor" aria-hidden="true" id="o-que-e-4"></a><a href="#o-que-e-4" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>O que é?</h3>
+<p>Mediador é um padrão de projeto usado frequentemente quando deseja-se encapsular como os objetos interagem, ou seja, a comunicação entre os objetos é estabelecida através do Mediator. Este padrão é considerado um padrão comportamental, pois o padrão pode alterar o comportamento da aplicação (programa).O Mediator promove o fraco acoplamento ao evitar que objetos se referiram uns aos outros explicitamente.</p>
+<p><a href="/docs/docs/assets/exemplo_mediator.png"><img src="/docs/docs/assets/exemplo_mediator.png" alt="Diagrama"></a></p>
+<h3><a class="anchor" aria-hidden="true" id="estrutura-minima-4"></a><a href="#estrutura-minima-4" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Estrutura mínima</h3>
+<p>(Imagem da estrutura mínima do padrão)</p>
+<h3><a class="anchor" aria-hidden="true" id="problemas-solucionados-pelo-padrão-4"></a><a href="#problemas-solucionados-pelo-padrão-4" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Problemas solucionados pelo padrão</h3>
+<ol>
+<li>A</li>
+<li>B</li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="beneficios-4"></a><a href="#beneficios-4" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Benefícios</h3>
+<ol>
+<li>Diminuí consideravelmente o acoplamento (entre os Colegas) e consequentemente aumenta o reuso.</li>
+<li>Ocorre a eliminação de relacionamentos muitos para muitos (N para N)</li>
+<li>A política de comunicações fica centralizada no Mediator, logo, podemos alterar essa política sem precisar alterar os Colegas.</li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="aplicavel-no-driblo-4"></a><a href="#aplicavel-no-driblo-4" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Aplicável no Driblô?</h3>
+<table>
+<thead>
+<tr><th>Problema</th><th style="text-align:center">Solução é útil ao Driblô?</th></tr>
+</thead>
+<tbody>
+<tr><td>Problema 1</td><td style="text-align:center"></td></tr>
+<tr><td>Problema 2</td><td style="text-align:center"></td></tr>
+</tbody>
+</table>
+<p>(Dizer porque soluções são úteis ou não)</p>
+<hr>
+<h2><a class="anchor" aria-hidden="true" id="memento"></a><a href="#memento" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Memento</h2>
+<h3><a class="anchor" aria-hidden="true" id="o-que-e-5"></a><a href="#o-que-e-5" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>O que é?</h3>
+<p>Memento é um padrão de projeto de software documentado no Catálogo Gang of Four, sendo considerado como um padrão comportamental. Ele permite armazenar o estado interno de um objeto em um determinando momento, para que seja possível retorná-lo a este estado, sem que isso cause problemas com o encapsulamento.</p>
+<p><a href="/docs/docs/assets/exemplo_memento.png"><img src="/docs/docs/assets/exemplo_memento.png" alt="Diagrama"></a></p>
+<h3><a class="anchor" aria-hidden="true" id="estrutura-minima-5"></a><a href="#estrutura-minima-5" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Estrutura mínima</h3>
+<p><a href="/docs/docs/assets/memento.png"><img src="/docs/docs/assets/memento.png" alt="Diagrama"></a></p>
+<h3><a class="anchor" aria-hidden="true" id="problemas-solucionados-pelo-padrão-5"></a><a href="#problemas-solucionados-pelo-padrão-5" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Problemas solucionados pelo padrão</h3>
+<ol>
+<li>A</li>
+<li>B</li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="beneficios-5"></a><a href="#beneficios-5" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Benefícios</h3>
+<ol>
+<li>Você pode produzir snapshots do estado do objeto sem violar seu encapsulamento.</li>
+<li>Você pode simplificar o código do autor, deixando o responsável manter o histórico do estado do autor.</li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="aplicavel-no-driblo-5"></a><a href="#aplicavel-no-driblo-5" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Aplicável no Driblô?</h3>
+<table>
+<thead>
+<tr><th>Problema</th><th style="text-align:center">Solução é útil ao Driblô?</th></tr>
+</thead>
+<tbody>
+<tr><td>Problema 1</td><td style="text-align:center"></td></tr>
+<tr><td>Problema 2</td><td style="text-align:center"></td></tr>
+</tbody>
+</table>
+<p>(Dizer porque soluções são úteis ou não)</p>
+<hr>
+<h2><a class="anchor" aria-hidden="true" id="observer"></a><a href="#observer" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Observer</h2>
+<h3><a class="anchor" aria-hidden="true" id="o-que-e-6"></a><a href="#o-que-e-6" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>O que é?</h3>
+<p>O Observer é um padrão de projeto de software que define uma dependência um-para-muitos entre objetos de modo que quando um objeto muda o estado, todos seus dependentes são notificados e atualizados automaticamente. Permite que objetos interessados sejam avisados da mudança de estado ou outros eventos ocorrendo num outro objeto.</p>
+<p><a href="/docs/docs/assets/exemplo_observer.png"><img src="/docs/docs/assets/exemplo_observer.png" alt="Diagrama"></a></p>
+<h3><a class="anchor" aria-hidden="true" id="estrutura-minima-6"></a><a href="#estrutura-minima-6" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Estrutura mínima</h3>
+<p><a href="/docs/docs/assets/observer.png"><img src="/docs/docs/assets/observer.png" alt="Diagrama"></a></p>
+<h3><a class="anchor" aria-hidden="true" id="problemas-solucionados-pelo-padrão-6"></a><a href="#problemas-solucionados-pelo-padrão-6" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Problemas solucionados pelo padrão</h3>
+<ol>
+<li>A</li>
+<li>B</li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="beneficios-6"></a><a href="#beneficios-6" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Benefícios</h3>
+<ol>
+<li>Princípio Aberto / Fechado.</li>
+<li>Você pode estabelecer relações entre objetos em tempo de execução.</li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="aplicavel-no-driblo-6"></a><a href="#aplicavel-no-driblo-6" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Aplicável no Driblô?</h3>
+<table>
+<thead>
+<tr><th>Problema</th><th style="text-align:center">Solução é útil ao Driblô?</th></tr>
+</thead>
+<tbody>
+<tr><td>Problema 1</td><td style="text-align:center"></td></tr>
+<tr><td>Problema 2</td><td style="text-align:center"></td></tr>
+</tbody>
+</table>
+<p>(Dizer porque soluções são úteis ou não)</p>
+<hr>
+<h2><a class="anchor" aria-hidden="true" id="state"></a><a href="#state" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>State</h2>
+<h3><a class="anchor" aria-hidden="true" id="o-que-e-7"></a><a href="#o-que-e-7" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>O que é?</h3>
+<p>State é um padrão de projeto de software usado quando o comportamento de um objeto muda, dependendo do seu estado.</p>
+<p><a href="/docs/docs/assets/exemplo_state.png"><img src="/docs/docs/assets/exemplo_state.png" alt="Diagrama"></a></p>
+<h3><a class="anchor" aria-hidden="true" id="estrutura-minima-7"></a><a href="#estrutura-minima-7" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Estrutura mínima</h3>
+<p><a href="/docs/docs/assets/observer.png"><img src="/docs/docs/assets/state.png" alt="Diagrama"></a></p>
+<h3><a class="anchor" aria-hidden="true" id="problemas-solucionados-pelo-padrão-7"></a><a href="#problemas-solucionados-pelo-padrão-7" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Problemas solucionados pelo padrão</h3>
+<ol>
+<li>A</li>
+<li>B</li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="beneficios-7"></a><a href="#beneficios-7" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Benefícios</h3>
+<ol>
+<li>Princípio de responsabilidade única. Organize o código relacionado a estados específicos em classes separadas.</li>
+<li>Princípio Aberto / Fechado. Introduzir novos estados sem alterar as classes de estado existentes ou o contexto.</li>
+<li>Simplifique o código do contexto, eliminando condicionais volumosos da máquina de estado.</li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="aplicavel-no-driblo-7"></a><a href="#aplicavel-no-driblo-7" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Aplicável no Driblô?</h3>
+<table>
+<thead>
+<tr><th>Problema</th><th style="text-align:center">Solução é útil ao Driblô?</th></tr>
+</thead>
+<tbody>
+<tr><td>Problema 1</td><td style="text-align:center"></td></tr>
+<tr><td>Problema 2</td><td style="text-align:center"></td></tr>
+</tbody>
+</table>
+<p>(Dizer porque soluções são úteis ou não)</p>
+<hr>
+<h2><a class="anchor" aria-hidden="true" id="strategy"></a><a href="#strategy" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Strategy</h2>
+<h3><a class="anchor" aria-hidden="true" id="o-que-e-8"></a><a href="#o-que-e-8" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>O que é?</h3>
+<p>O padrão de estratégia é um padrão comportamental que permite selecionar um algoritmo em tempo de execução. Em vez de implementar um único algoritmo diretamente, o código recebe instruções em tempo de execução sobre as quais em uma família de algoritmos usar.</p>
+<p><a href="/docs/docs/assets/exemplo_strategy.png"><img src="/docs/docs/assets/exemplo_strategy.png" alt="Diagrama"></a></p>
+<h3><a class="anchor" aria-hidden="true" id="estrutura-minima-8"></a><a href="#estrutura-minima-8" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Estrutura mínima</h3>
+<p><a href="/docs/docs/assets/strategy.png"><img src="/docs/docs/assets/strategy.png" alt="Diagrama"></a></p>
+<h3><a class="anchor" aria-hidden="true" id="problemas-solucionados-pelo-padrão-8"></a><a href="#problemas-solucionados-pelo-padrão-8" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Problemas solucionados pelo padrão</h3>
+<ol>
+<li>A</li>
+<li>B</li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="beneficios-8"></a><a href="#beneficios-8" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Benefícios</h3>
+<ol>
+<li>Você pode trocar algoritmos usados dentro de um objeto em tempo de execução.</li>
+<li>Você pode isolar os detalhes de implementação de um algoritmo do código que o utiliza.</li>
+<li>Você pode substituir herança por composição.</li>
+<li>Princípio Aberto / Fechado. Você pode introduzir novas estratégias sem precisar alterar o contexto.</li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="aplicavel-no-driblo-8"></a><a href="#aplicavel-no-driblo-8" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Aplicável no Driblô?</h3>
+<table>
+<thead>
+<tr><th>Problema</th><th style="text-align:center">Solução é útil ao Driblô?</th></tr>
+</thead>
+<tbody>
+<tr><td>Problema 1</td><td style="text-align:center"></td></tr>
+<tr><td>Problema 2</td><td style="text-align:center"></td></tr>
+</tbody>
+</table>
+<p>(Dizer porque soluções são úteis ou não)</p>
+<hr>
+<h2><a class="anchor" aria-hidden="true" id="template-method"></a><a href="#template-method" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Template Method</h2>
+<h3><a class="anchor" aria-hidden="true" id="o-que-e-9"></a><a href="#o-que-e-9" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>O que é?</h3>
+<p>O template method é um dos padrões de design comportamental. O template method é um método em uma superclasse, geralmente uma superclasse abstrata, e define o esqueleto de uma operação em termos de várias etapas de alto nível. Essas etapas são implementadas por métodos auxiliares adicionais na mesma classe que o template method.</p>
+<p><a href="/docs/docs/assets/exemplo_template_method.png"><img src="/docs/docs/assets/exemplo_template_method.png" alt="Diagrama"></a></p>
+<h3><a class="anchor" aria-hidden="true" id="estrutura-minima-9"></a><a href="#estrutura-minima-9" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Estrutura mínima</h3>
+<p><a href="/docs/docs/assets/template_method.png"><img src="/docs/docs/assets/template_method.png" alt="Diagrama"></a></p>
+<h3><a class="anchor" aria-hidden="true" id="problemas-solucionados-pelo-padrão-9"></a><a href="#problemas-solucionados-pelo-padrão-9" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Problemas solucionados pelo padrão</h3>
+<ol>
+<li>A</li>
+<li>B</li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="beneficios-9"></a><a href="#beneficios-9" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Benefícios</h3>
+<ol>
+<li>Você pode permitir que os clientes substituam apenas certas partes de um algoritmo grande, tornando-os menos afetados pelas alterações que acontecem com outras partes do algoritmo.</li>
+<li>Você pode colocar o código duplicado em uma superclasse.</li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="aplicavel-no-driblo-9"></a><a href="#aplicavel-no-driblo-9" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Aplicável no Driblô?</h3>
+<table>
+<thead>
+<tr><th>Problema</th><th style="text-align:center">Solução é útil ao Driblô?</th></tr>
+</thead>
+<tbody>
+<tr><td>Problema 1</td><td style="text-align:center"></td></tr>
+<tr><td>Problema 2</td><td style="text-align:center"></td></tr>
+</tbody>
+</table>
+<p>(Dizer porque soluções são úteis ou não)</p>
+<hr>
+<h2><a class="anchor" aria-hidden="true" id="visitor"></a><a href="#visitor" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Visitor</h2>
+<h3><a class="anchor" aria-hidden="true" id="o-que-e-10"></a><a href="#o-que-e-10" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>O que é?</h3>
+<p>O padrão de design Visitor é uma maneira de separar um algoritmo de uma estrutura de objeto na qual ele opera. Um resultado prático dessa separação é a capacidade de adicionar novas operações às estruturas de objetos existentes sem modificar as estruturas.</p>
+<p><a href="/docs/docs/assets/exemplo_visitor.png"><img src="/docs/docs/assets/exemplo_visitor.png" alt="Diagrama"></a></p>
+<h3><a class="anchor" aria-hidden="true" id="estrutura-minima-10"></a><a href="#estrutura-minima-10" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Estrutura mínima</h3>
+<p><a href="/docs/docs/assets/visitor.png"><img src="/docs/docs/assets/visitor.png" alt="Diagrama"></a></p>
+<h3><a class="anchor" aria-hidden="true" id="problemas-solucionados-pelo-padrão-10"></a><a href="#problemas-solucionados-pelo-padrão-10" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Problemas solucionados pelo padrão</h3>
+<ol>
+<li>A</li>
+<li>B</li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="beneficios-10"></a><a href="#beneficios-10" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Benefícios</h3>
+<ol>
+<li>Princípio Aberto / Fechado. Você pode introduzir um novo comportamento que possa trabalhar com objetos de diferentes classes sem alterar essas classes.</li>
+<li>Princípio de responsabilidade única. Você pode mover várias versões do mesmo comportamento para a mesma classe.</li>
+<li>Um objeto visitante pode acumular algumas informações úteis ao trabalhar com vários objetos. Isso pode ser útil quando você deseja percorrer alguma estrutura complexa de objetos, como uma árvore de objetos, e aplicar o visitante a cada objeto dessa estrutura.</li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="aplicavel-no-driblo-10"></a><a href="#aplicavel-no-driblo-10" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Aplicável no Driblô?</h3>
+<table>
+<thead>
+<tr><th>Problema</th><th style="text-align:center">Solução é útil ao Driblô?</th></tr>
+</thead>
+<tbody>
+<tr><td>Problema 1</td><td style="text-align:center"></td></tr>
+<tr><td>Problema 2</td><td style="text-align:center"></td></tr>
+</tbody>
+</table>
+<p>(Dizer porque soluções são úteis ou não)</p>
+<hr>
+<h3><a class="anchor" aria-hidden="true" id="referencias"></a><a href="#referencias" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Referências</h3>
+<p><a href="https://pt.wikipedia.org/wiki/Chain_of_Responsibility">Wikipédia - Chain of Responsibility</a></p>
+<p><a href="https://www.geeksforgeeks.org/chain-responsibility-design-pattern/">GeeksforGeeks - Chain of Responsibility</a></p>
+<p><a href="https://refactoring.guru/design-patterns/chain-of-responsibility">Refactoring Guru - Chain of Responsibility</a></p>
+<p><a href="https://pt.wikipedia.org/wiki/Command">Wikipédia - Command</a></p>
+<p><a href="https://sourcemaking.com/design_patterns/command">Source Making - Command Design Pattern</a></p>
+<p><a href="https://refactoring.guru/design-patterns/command">Refactoring Guru - Command</a></p>
+<p><a href="https://pt.wikipedia.org/wiki/Interpreter">Wikipédia - Interpreter</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Interpreter_pattern">Wikipédia - Interpreter pattern</a></p>
+<p><a href="https://www.geeksforgeeks.org/interpreter-design-pattern/">GeeksforGeeks - Interpreter Design Pattern</a></p>
+<p><a href="https://pt.wikipedia.org/wiki/Iterador">Wikipédia - Iterador</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Iterator_pattern">Wikipédia - Iterator pattern</a></p>
+<p><a href="https://refactoring.guru/design-patterns/iterator">Refactoring Guru - Iterator</a></p>
+<p><a href="https://pt.wikipedia.org/wiki/Mediator">Wikipédia - Mediator</a></p>
+<p><a href="https://refactoring.guru/design-patterns/mediator">Refactoring Guru - Mediator</a></p>
+<p><a href="https://pt.wikipedia.org/wiki/Memento_(inform%C3%A1tica)">Wikipédia - Memento (Informática)</a></p>
+<p><a href="https://sourcemaking.com/design_patterns/memento">Source Making - Memento Design Pattern</a></p>
+<p><a href="https://refactoring.guru/design-patterns/memento">Refactoring Guru - Memento</a></p>
+<p><a href="https://pt.wikipedia.org/wiki/Observer">Wikipédia - Observer</a></p>
+<p><a href="https://refactoring.guru/design-patterns/observer">Refactoring Guru - Observer</a></p>
+<p><a href="https://pt.wikipedia.org/wiki/State">Wikipédia - State</a></p>
+<p><a href="https://sourcemaking.com/design_patterns/state">Source Making - State Design Pattern</a></p>
+<p><a href="https://refactoring.guru/design-patterns/state">Refactoring Guru - State</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Strategy_pattern">Wikipédia - Strategy pattern</a></p>
+<p><a href="https://refactoring.guru/design-patterns/strategy">Refactoring Guru - Strategy</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Template_method_pattern">Wikipédia - Template method pattern</a></p>
+<p><a href="https://refactoring.guru/design-patterns/template-method">Refactoring Guru - Template Method</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Visitor_pattern">Wikipédia - Visitor pattern</a></p>
+<p><a href="https://refactoring.guru/design-patterns/visitor">Refactoring Guru - Visitor</a></p>
+</span></div></article></div><div class="docs-prevnext"></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#introducão">Introdução</a></li><li><a href="#chain-of-responsibility">Chain of Responsibility</a><ul class="toc-headings"><li><a href="#o-que-e">O que é?</a></li><li><a href="#estrutura-minima">Estrutura mínima</a></li><li><a href="#problemas-solucionados-pelo-padrão">Problemas solucionados pelo padrão</a></li><li><a href="#beneficios">Benefícios</a></li><li><a href="#aplicavel-no-driblo">Aplicável no Driblô?</a></li></ul></li><li><a href="#command">Command</a><ul class="toc-headings"><li><a href="#o-que-e-1">O que é?</a></li><li><a href="#estrutura-minima-1">Estrutura mínima</a></li><li><a href="#problemas-solucionados-pelo-padrão-1">Problemas solucionados pelo padrão</a></li><li><a href="#beneficios-1">Benefícios</a></li><li><a href="#aplicavel-no-driblo-1">Aplicável no Driblô?</a></li></ul></li><li><a href="#interpreter">Interpreter</a><ul class="toc-headings"><li><a href="#o-que-e-2">O que é?</a></li><li><a href="#estrutura-minima-2">Estrutura mínima</a></li><li><a href="#problemas-solucionados-pelo-padrão-2">Problemas solucionados pelo padrão</a></li><li><a href="#beneficios-2">Benefícios</a></li><li><a href="#aplicavel-no-driblo-2">Aplicável no Driblô?</a></li></ul></li><li><a href="#iterator">Iterator</a><ul class="toc-headings"><li><a href="#o-que-e-3">O que é?</a></li><li><a href="#estrutura-minima-3">Estrutura mínima</a></li><li><a href="#problemas-solucionados-pelo-padrão-3">Problemas solucionados pelo padrão</a></li><li><a href="#beneficios-3">Benefícios</a></li><li><a href="#aplicavel-no-driblo-3">Aplicável no Driblô?</a></li></ul></li><li><a href="#mediator">Mediator</a><ul class="toc-headings"><li><a href="#o-que-e-4">O que é?</a></li><li><a href="#estrutura-minima-4">Estrutura mínima</a></li><li><a href="#problemas-solucionados-pelo-padrão-4">Problemas solucionados pelo padrão</a></li><li><a href="#beneficios-4">Benefícios</a></li><li><a href="#aplicavel-no-driblo-4">Aplicável no Driblô?</a></li></ul></li><li><a href="#memento">Memento</a><ul class="toc-headings"><li><a href="#o-que-e-5">O que é?</a></li><li><a href="#estrutura-minima-5">Estrutura mínima</a></li><li><a href="#problemas-solucionados-pelo-padrão-5">Problemas solucionados pelo padrão</a></li><li><a href="#beneficios-5">Benefícios</a></li><li><a href="#aplicavel-no-driblo-5">Aplicável no Driblô?</a></li></ul></li><li><a href="#observer">Observer</a><ul class="toc-headings"><li><a href="#o-que-e-6">O que é?</a></li><li><a href="#estrutura-minima-6">Estrutura mínima</a></li><li><a href="#problemas-solucionados-pelo-padrão-6">Problemas solucionados pelo padrão</a></li><li><a href="#beneficios-6">Benefícios</a></li><li><a href="#aplicavel-no-driblo-6">Aplicável no Driblô?</a></li></ul></li><li><a href="#state">State</a><ul class="toc-headings"><li><a href="#o-que-e-7">O que é?</a></li><li><a href="#estrutura-minima-7">Estrutura mínima</a></li><li><a href="#problemas-solucionados-pelo-padrão-7">Problemas solucionados pelo padrão</a></li><li><a href="#beneficios-7">Benefícios</a></li><li><a href="#aplicavel-no-driblo-7">Aplicável no Driblô?</a></li></ul></li><li><a href="#strategy">Strategy</a><ul class="toc-headings"><li><a href="#o-que-e-8">O que é?</a></li><li><a href="#estrutura-minima-8">Estrutura mínima</a></li><li><a href="#problemas-solucionados-pelo-padrão-8">Problemas solucionados pelo padrão</a></li><li><a href="#beneficios-8">Benefícios</a></li><li><a href="#aplicavel-no-driblo-8">Aplicável no Driblô?</a></li></ul></li><li><a href="#template-method">Template Method</a><ul class="toc-headings"><li><a href="#o-que-e-9">O que é?</a></li><li><a href="#estrutura-minima-9">Estrutura mínima</a></li><li><a href="#problemas-solucionados-pelo-padrão-9">Problemas solucionados pelo padrão</a></li><li><a href="#beneficios-9">Benefícios</a></li><li><a href="#aplicavel-no-driblo-9">Aplicável no Driblô?</a></li></ul></li><li><a href="#visitor">Visitor</a><ul class="toc-headings"><li><a href="#o-que-e-10">O que é?</a></li><li><a href="#estrutura-minima-10">Estrutura mínima</a></li><li><a href="#problemas-solucionados-pelo-padrão-10">Problemas solucionados pelo padrão</a></li><li><a href="#beneficios-10">Benefícios</a></li><li><a href="#aplicavel-no-driblo-10">Aplicável no Driblô?</a></li><li><a href="#referencias">Referências</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="copyright">Copyright © 2019 Driblô</section></footer></div></body></html>
