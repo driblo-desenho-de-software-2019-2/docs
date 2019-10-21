@@ -14,7 +14,7 @@ sidebar_label: GOFs: Command e Mediator
 |20/10/2019| 0.4 | Tópico 1 - Mediator | Byron Kamal, João Pedro Mota, Caio Oliveira, Rafael Teodosio|
 |20/10/2019| 0.5 | Tópico 2 - Mediator | Byron Kamal, João Pedro Mota, Caio Oliveira, Rafael Teodosio|
 |20/10/2019| 0.6 | Exemplo de uso command, Diagrama de classe e diagrama de sequencia | Matheus Rodrigues|
-
+|20/10/2019| 0.7 | Adicionando Diagrama UML Mediator |  Byron Kamal, João Pedro Mota, Caio Oliveira, Rafael Teodosio|
 
 
 ## 1.Command
@@ -32,7 +32,7 @@ Dessa forma o padrão Command encapsula uma solicitação vinculando um conjunto
 ### 1.3 Problemas solucionados pelo padrão
 
  1. Como desacoplar o invocador de uma solicitação da solicitação em si? 
- 1. Como emitir solicitações para objetos nada sabendo sobre a operação que está sendo solicitada ou sobre o receptor da mesma?
+ 2. Como emitir solicitações para objetos nada sabendo sobre a operação que está sendo solicitada ou sobre o receptor da mesma?
 
 ### 1.4 Benefícios
 
@@ -91,6 +91,9 @@ O padrão Mediator consiste de duas figuras principais: o Mediator e o Colleague
 - Quando temos comportamentos distribuídos e esse comportamento deveria ser customizável.
 
 ### 2.3 Estrutura Minima
+Diagrama UML referente ao código: 
+
+[![UML](assets/mediator_UML.png)](assets/mediator_UML.png)
 
 ### 2.4 Exemplo em Java
 O exemplo a seguir simula a conversa de usuários no grupo do facebook, onde o grupo é o mediator e o usuário o colleague. <br>
