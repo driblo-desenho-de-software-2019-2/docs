@@ -1,4 +1,9 @@
-# GOFs: Command e Mediator
+---
+id: MediatorCommand
+title: GOFs: Command e Mediator
+sidebar_label: GOFs: Command e Mediator
+---
+
 
 ### Histórico de versão
 | Data | Versão | Descrição | Autor(es) |
