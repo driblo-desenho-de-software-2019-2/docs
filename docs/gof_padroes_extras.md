@@ -8,6 +8,8 @@
 | 20/10/2019 | 0.3 | Pertinência em relação ao Driblô | Samuel Borges |
 |20/10/2019| 0.4 | Tópico 1 - Mediator | Byron Kamal, João Pedro Mota, Caio Oliveira, Rafael Teodosio|
 |20/10/2019| 0.5 | Tópico 2 - Mediator | Byron Kamal, João Pedro Mota, Caio Oliveira, Rafael Teodosio|
+|20/10/2019| 0.6 | Exemplo de uso command, Diagrama de classe e diagrama de sequencia | Matheus Rodrigues|
+
 
 
 ## 1.Command
@@ -34,6 +36,21 @@ Dessa forma o padrão Command encapsula uma solicitação vinculando um conjunto
  1. Facilita a adição de comandos novos, porque mudar as classes exitentes se torna desnecessário.
  1. Facilita o desfazimento (Undo) dos métodos chamados anteriormente. 
  1. Facilita a implementação de registros de ações executadas (logging) e sistemas transacionais.
+
+
+### 1.5 Exemplo de aplicação no conceito do Driblô
+
+O cenário a ser aplicado o padrão Command é relacionado a opção do jogador de marcar ou desmacar presença na pelada. Link do código
+
+#### Diagrama de classe - versão 1.0
+
+[![Diagrama de classe](assets/Diagrama-classe-command.png)](assets/Diagrama-classe-command.png)
+#### Autor: Matheus Rodrigues
+
+#### Diagrama de sequencia - versão 1.0
+
+[![Diagrama de sequencia](assets/Diagrama-sequencia-command.png)](assets/Diagrama-sequencia-command.png)
+#### Autor: Matheus Rodrigues
 
 ### 1.5 Aplicável no Driblô?
 
