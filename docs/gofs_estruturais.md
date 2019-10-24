@@ -6,6 +6,7 @@
 | 18/10/2019 | 0.1 | Criação do documento | Henrique Martins |
 | 23/10/2019 | 0.2 | Adicionando imagens e benefícios para padrões | Henrique Martins |
 | 23/10/2019 | 0.3 | Adição da introdução | Henrique Martins |
+| 24/10/2019 | 0.4 | Adição dos problemas solucionados pelos padrões | Henrique Martins |
 
 ## Introdução
 
@@ -62,8 +63,8 @@ O Bridge é um padrão de design destinado a "desacoplar uma abstração de sua 
 
 ### Problemas solucionados pelo padrão
 
- 1. A
- 1. B
+ 1. Como uma abstração e sua implementação podem variar independentemente?
+ 1. Como uma implementação pode ser selecionada e trocada em tempo de execução?
 
 ### Benefícios
 
@@ -97,8 +98,7 @@ Composite é um padrão de projeto de software utilizado para representar um obj
 
 ### Problemas solucionados pelo padrão
 
- 1. A
- 1. B
+ 1. Como uma hierarquia parte-todo pode ser representada para que os clientes possam tratar objetos individuais e composições de objetos de maneira uniforme?
 
 ### Benefícios
 
@@ -110,7 +110,6 @@ Composite é um padrão de projeto de software utilizado para representar um obj
 | Problema | Solução é útil ao Driblô? |
 | ------- | :-----: |
 | Problema 1 |  | 
-| Problema 2 |  |
 
 (Dizer porque soluções são úteis ou não)
 
@@ -130,8 +129,8 @@ Decorator é um padrão de projeto que permite adicionar um comportamento a um o
 
 ### Problemas solucionados pelo padrão
 
- 1. A
- 1. B
+ 1. Como as responsabilidades podem ser adicionadas dinamicamente a um objeto?
+ 1. Como a funcionalidade de um objeto pode ser estendida em tempo de execução?
 
 ### Benefícios
 
@@ -165,8 +164,8 @@ O Padrão Façade é do tipo estrutural. É usado quando um sistema é muito com
 
 ### Problemas solucionados pelo padrão
 
- 1. A
- 1. B
+ 1. Como uma interface simples pode ser fornecida para um subsistema complexo?
+ 1. Como evitar o acoplamento rígido entre clientes e objetos em um subsistema?
 
 ### Benefícios
 
@@ -197,8 +196,7 @@ Flyweight é apropriado quando vários objetos devem ser manipulados em memória
 
 ### Problemas solucionados pelo padrão
 
- 1. A
- 1. B
+ 1. Como um grande número de objetos refinados pode ser suportado com eficiência?
 
 ### Benefícios
 
@@ -209,7 +207,6 @@ Flyweight é apropriado quando vários objetos devem ser manipulados em memória
 | Problema | Solução é útil ao Driblô? |
 | ------- | :-----: |
 | Problema 1 |  | 
-| Problema 2 |  |
 
 (Dizer porque soluções são úteis ou não)
 
@@ -229,8 +226,8 @@ Proxy é um padrão estrutural que permite fornecer um substituto ou espaço res
 
 ### Problemas solucionados pelo padrão
 
- 1. A
- 1. B
+ 1. Como o acesso a um objeto pode ser controlado?
+ 1. Como funcionalidade adicional pode ser fornecida ao acessar um objeto?
 
 ### Benefícios
 
@@ -287,3 +284,5 @@ Proxy é um padrão estrutural que permite fornecer um substituto ou espaço res
 [Wikipédia - Proxy pattern](https://en.wikipedia.org/wiki/Proxy_pattern)
 
 [Refactoring Guru - Proxy](https://refactoring.guru/design-patterns/proxy)
+
+[w3sDesign](http://w3sdesign.com/?gr=s02&ugr=proble#gf)
