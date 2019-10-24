@@ -6,29 +6,27 @@
 | 18/10/2019 | 0.1 | Criação do documento | Henrique Martins |
 | 20/10/2019 | 0.2 | Adicionando imagens e benefícios para padrões | Henrique Martins |
 | 23/10/2019 | 0.3 | Adição da introdução | Henrique Martins |
+| 24/10/2019 | 0.4 | Adição Tópico Chain of Responsibility | Byron Kamal|
 
 ## Introdução
-
+<p align="justify">
 Os padrões comportamentais se concentram nos algoritmos e atribuições de responsabilidades entre os objetos. Eles não descrevem apenas padrões de classes ou de objetos, mas também os padrões de comunicação entre os objetos. Ao fazer isso, esses padrões aumentam a flexibilidade na realização dessa comunicação. Os padrões comportamentais de classes utilizam a herança para distribuir o comportamento entre classes, e os padrões de comportamento de objeto utilizam a composição de objetos em contrapartida a herança. Alguns descrevem como grupos de objetos cooperam para a execução de uma tarefa que não poderia ser executada por um objeto sozinho. Abaixo estão os padrões comportamentais.
+</p>
 
 ---
 
 ## Chain of Responsibility
 
 ### O que é?
-
+<p align="justify">
 Chain of Responsibility é um padrão cuja principal função é evitar a dependência entre um objeto receptor e um objeto solicitante. Consiste em uma série de objetos receptores e de objetos de solicitação, onde cada objetos de solicitação possui uma lógica interna que separa quais são tipos de objetos receptores que podem ser manipulados. O restante é passado para o próximo objetos de solicitação da cadeia.
+</p>
 
 [![Exemplo](assets/exemplo_chain_of_responsibility.png)](assets/exemplo_chain_of_responsibility.png)
 
 ### Estrutura mínima
 
 [![Diagrama](assets/chain_of_responsibility.png)](assets/chain_of_responsibility.png)
-
-### Problemas solucionados pelo padrão
-
- 1. A
- 1. B
 
 ### Benefícios
 
@@ -38,15 +36,24 @@ Chain of Responsibility é um padrão cuja principal função é evitar a depend
  1. Aumenta a solicitação de processamento de nova classe de muito conveniente.
 
 ### Aplicável no Driblô?
+<p align="justify">
+ Está solução é aplicavél ao Driblô. 
+ O caso de uso desse padrão no ecossistema do <strong>NodeJS</strong> é o <strong>middleware</strong> do <strong>ExpressJS</strong> Com esse padrão, é configurado uma cadeia de funções (middlewares) que avaliam o objeto de solicitação e decidem agir ou ignorá-lo.
+ </p>
 
-| Problema | Solução é útil ao Driblô? |
-| ------- | :-----: |
-| Problema 1 |  |
-| Problema 2 |  |
+ <p align="justify">
+ Middlewares são uma implementação específica desse padrão, pois, em vez de apenas um membro da cadeia atender à solicitação, pode-se argumentar que todos eles poderiam fazê-lo. Esse padrão trabalha assíncrona, onde, em vez de verificar se a função retorna um valor ou não, é verificado quais valores são passados ​​para o próximo callback que eles chamam. <br />
+A seguir temos um trecho de código onde o <strong>middlaware</strong> é aplicado:
+ </p>
+<br />
 
-(Dizer porque soluções são úteis ou não)
+[![Chain of Responsibility](assets/padroes_gof/exemplo_A_chain.png)](assets/padroes_gof/exemplo_A_chain.png)
 
----
+<br/>
+
+[![Chain of Responsibility](assets/padroes_gof/exemplo_B_chain.png)](assets/padroes_gof/exemplo_B_chain.png)
+
+--------
 
 ## Command
 
