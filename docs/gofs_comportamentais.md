@@ -69,8 +69,8 @@ Command é um padrão no qual um objeto é usado para encapsular toda informaç�
 
 ### Problemas solucionados pelo padrão
 
- 1. A
- 1. B
+ 1. Como o acoplamento de um pedido a um pedido pode ser evitado?
+ 1. Como um objeto pode ser configurado com uma solicitação?
 
 ### Benefícios
 
@@ -102,8 +102,7 @@ Interpreter é um dos padrões de projeto de software, famosos como "Design Patt
 
 ### Problemas solucionados pelo padrão
 
- 1. A
- 1. B
+ 1. Como pode ser definida uma gramática para um idioma simples para que as frases no idioma possam ser interpretadas?
 
 ### Benefícios
 
@@ -115,7 +114,6 @@ Interpreter é um dos padrões de projeto de software, famosos como "Design Patt
 | Problema | Solução é útil ao Driblô? |
 | ------- | :-----: |
 | Problema 1 |  |
-| Problema 2 |  |
 
 (Dizer porque soluções são úteis ou não)
 
@@ -135,8 +133,7 @@ No Iterator um iterador é usado para percorrer um container e acessar seus elem
 
 ### Problemas solucionados pelo padrão
 
- 1. A
- 1. B
+ 1. Como os elementos de um objeto agregado podem ser acessados e percorridos sem expor sua representação subjacente?
 
 ### Benefícios
 
@@ -170,8 +167,8 @@ Mediador é um padrão de projeto usado frequentemente quando deseja-se encapsul
 
 ### Problemas solucionados pelo padrão
 
- 1. A
- 1. B
+ 1. Como evitar o acoplamento rígido entre um conjunto de objetos em interação?
+ 1. Como a interação entre um conjunto de objetos pode ser alterada independentemente?
 
 ### Benefícios
 
@@ -204,8 +201,7 @@ Memento é um padrão de projeto de software documentado no Catálogo Gang of Fo
 
 ### Problemas solucionados pelo padrão
 
- 1. A
- 1. B
+ 1. Sem violar o encapsulamento, como o estado interno de um objeto pode ser capturado e externalizado para que o objeto possa ser restaurado para esse estado posteriormente?
 
 ### Benefícios
 
@@ -217,7 +213,6 @@ Memento é um padrão de projeto de software documentado no Catálogo Gang of Fo
 | Problema | Solução é útil ao Driblô? |
 | ------- | :-----: |
 | Problema 1 |  |
-| Problema 2 |  |
 
 (Dizer porque soluções são úteis ou não)
 
@@ -237,8 +232,8 @@ O Observer é um padrão de projeto de software que define uma dependência um-p
 
 ### Problemas solucionados pelo padrão
 
- 1. A
- 1. B
+ 1. Como uma dependência de um para muitos entre objetos pode ser definida sem tornar os objetos fortemente acoplados?
+ 1. Como um objeto pode notificar um número ilimitado de outros objetos?
 
 ### Benefícios
 
@@ -270,8 +265,8 @@ State é um padrão de projeto de software usado quando o comportamento de um ob
 
 ### Problemas solucionados pelo padrão
 
- 1. A
- 1. B
+ 1. Como um objeto pode alterar seu comportamento quando seu estado interno muda?
+ 1. Como o comportamento específico do estado pode ser definido para que novos estados possam ser adicionados e o comportamento dos estados existentes possa ser alterado independentemente?
 
 ### Benefícios
 
@@ -304,8 +299,8 @@ O padrão de estratégia é um padrão comportamental que permite selecionar um 
 
 ### Problemas solucionados pelo padrão
 
- 1. A
- 1. B
+ 1. Como uma classe pode ser configurada com um algoritmo em tempo de execução, em vez de implementar um algoritmo diretamente?
+ 1. Como um algoritmo pode ser selecionado e trocado em tempo de execução?
 
 ### Benefícios
 
@@ -339,8 +334,8 @@ O template method é um dos padrões de design comportamental. O template method
 
 ### Problemas solucionados pelo padrão
 
- 1. A
- 1. B
+ 1. Como as partes invariantes de um comportamento podem ser implementadas uma vez para que as subclasses possam implementar as partes variantes?
+ 1. Como as subclasses podem redefinir certas partes de um comportamento sem alterar a estrutura do comportamento?
 
 ### Benefícios
 
@@ -372,8 +367,7 @@ O padrão de design Visitor é uma maneira de separar um algoritmo de uma estrut
 
 ### Problemas solucionados pelo padrão
 
- 1. A
- 1. B
+ 1. Como novas operações podem ser definidas para as classes de uma estrutura de objetos sem alterar as classes?
 
 ### Benefícios
 
@@ -386,7 +380,6 @@ O padrão de design Visitor é uma maneira de separar um algoritmo de uma estrut
 | Problema | Solução é útil ao Driblô? |
 | ------- | :-----: |
 | Problema 1 |  |
-| Problema 2 |  |
 
 (Dizer porque soluções são úteis ou não)
 
@@ -453,3 +446,5 @@ O padrão de design Visitor é uma maneira de separar um algoritmo de uma estrut
 [Wikipédia - Visitor pattern](https://en.wikipedia.org/wiki/Visitor_pattern)
 
 [Refactoring Guru - Visitor](https://refactoring.guru/design-patterns/visitor)
+
+[w3sDesign](http://w3sdesign.com/?gr=s02&ugr=proble#gf)

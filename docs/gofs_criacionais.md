@@ -6,6 +6,7 @@
 | 18/10/2019 | 0.1 | Criação do documento | Henrique Martins |
 | 23/10/2019 | 0.2 | Adicionando imagens e benefícios para padrões | Henrique Martins |
 | 23/10/2019 | 0.3 | Adição da introdução | Henrique Martins |
+| 24/10/2019 | 0.4 | Adição dos problemas solucionados pelos padrões | Henrique Martins |
 
 ## Introdução
 
@@ -97,8 +98,8 @@ Factory Method é um padrão de projeto de software que permite às classes dele
 
 ### Problemas solucionados pelo padrão
 
- 1. Problema 1
- 1. Problema 2
+ 1. Como um objeto pode ser criado para que as subclasses possam redefinir qual classe instanciar?
+ 1. Como uma classe adia a instanciação para subclasses?
 
 ### Benefícios
 
@@ -106,40 +107,6 @@ Factory Method é um padrão de projeto de software que permite às classes dele
  1. Permite a construção de subclasses para um pai cujo tipo de componente não foi predeterminado, mas definido apenas em uma interface ou definido como um tipo dinâmico.
  1. Permite um código mais legível nos casos em que existem vários construtores, cada um por um motivo diferente.
  1. Permite que uma classe adie a instanciação para subclasses e evite a instanciação direta de um objeto do tipo de classe pai.
-
-### Aplicável no Driblô?
-
-| Problema | Solução é útil ao Driblô? |
-| ------- | :-----: |
-| Problema 1 |  | 
-| Problema 2 |  |
-
-(Dizer porque soluções são úteis ou não)
-
----
-
-## Object pool
-
-### O que é?
-
-O Object pool é um padrão de design criacional de software que usa um conjunto de objetos inicializados, prontos para uso - uma "pool" - em vez de alocá-los e destruí-los sob demanda. Um cliente da pool solicitará um objeto da pool e executará operações no objeto retornado. Quando o cliente termina, ele retorna o objeto para a pool em vez de destruí-lo (isso pode ser feito manualmente ou automaticamente).
-
-[![Exemplo](assets/exemplo_object_pool.png)](assets/exemplo_object_pool.png)
-
-### Estrutura mínima
-
-[![Diagrama](assets/object_pool.png)](assets/object_pool.png)
-
-### Problemas solucionados pelo padrão
-
- 1. Problema 1
- 1. Problema 2
-
-### Benefícios
-
- 1. Oferece um aumento significativo no desempenho.
- 1. Ele gerencia as conexões e fornece uma maneira de reutilizá-las e compartilhá-las.
- 1. Object pool é usado quando a taxa de inicialização de uma instância da classe é alta.
 
 ### Aplicável no Driblô?
 
@@ -253,10 +220,6 @@ Singleton é um padrão de projeto de software que garante a existência de apen
 
 [Refactoring Guru - Factory Method](https://refactoring.guru/design-patterns/factory-method)
 
-[GeeksforGeeks - Object Pool Design Pattern](https://www.geeksforgeeks.org/object-pool-design-pattern/)
-
-[Wikipédia - Object pool pattern](https://en.wikipedia.org/wiki/Object_pool_pattern)
-
 [Wikipédia - Prototype](https://pt.wikipedia.org/wiki/Prototype)
 
 [Wikipédia - Prototype pattern](https://en.wikipedia.org/wiki/Prototype_pattern)
@@ -268,3 +231,5 @@ Singleton é um padrão de projeto de software que garante a existência de apen
 [Wikipédia - Singleton pattern](https://en.wikipedia.org/wiki/Singleton_pattern)
 
 [Refactoring Guru - Singleton](https://refactoring.guru/design-patterns/singleton)
+
+[w3sDesign](http://w3sdesign.com/?gr=s02&ugr=proble#gf)
