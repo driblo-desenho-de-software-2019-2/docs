@@ -5,10 +5,11 @@
 | ---- | ------ | --------- | --------- |
 | 18/10/2019 | 0.1 | Criação do documento | Henrique Martins |
 | 20/10/2019 | 0.2 | Adicionando imagens e benefícios para padrões | Henrique Martins |
+| 23/10/2019 | 0.3 | Adição da introdução | Henrique Martins |
 
 ## Introdução
 
-(Acrescentar)
+Os padrões comportamentais se concentram nos algoritmos e atribuições de responsabilidades entre os objetos. Eles não descrevem apenas padrões de classes ou de objetos, mas também os padrões de comunicação entre os objetos. Ao fazer isso, esses padrões aumentam a flexibilidade na realização dessa comunicação. Os padrões comportamentais de classes utilizam a herança para distribuir o comportamento entre classes, e os padrões de comportamento de objeto utilizam a composição de objetos em contrapartida a herança. Alguns descrevem como grupos de objetos cooperam para a execução de uma tarefa que não poderia ser executada por um objeto sozinho. Abaixo estão os padrões comportamentais.
 
 ---
 
@@ -53,7 +54,7 @@ Chain of Responsibility é um padrão cuja principal função é evitar a depend
 
 Command é um padrão no qual um objeto é usado para encapsular toda informação necessária para executar uma ação ou acionar um evento em um momento posterior.
 
-[![Diagrama](assets/exemplo_command.png)](assets/exemplo_command.png)
+[![Exemplo](assets/exemplo_command.png)](assets/exemplo_command.png)
 
 ### Estrutura mínima
 
@@ -119,7 +120,7 @@ Interpreter é um dos padrões de projeto de software, famosos como "Design Patt
 
 No Iterator um iterador é usado para percorrer um container e acessar seus elementos. O padrão Iterator desacopla os algoritmos dos recipientes, porém em alguns casos, os algoritmos são necessariamente específicos dos containers e, portanto, não podem ser desacoplados.
 
-[![Diagrama](assets/exemplo_iterator.png)](assets/exemplo_iterator.png)
+[![Exemplo](assets/exemplo_iterator.png)](assets/exemplo_iterator.png)
 
 ### Estrutura mínima
 
@@ -154,7 +155,7 @@ No Iterator um iterador é usado para percorrer um container e acessar seus elem
 
 Mediador é um padrão de projeto usado frequentemente quando deseja-se encapsular como os objetos interagem, ou seja, a comunicação entre os objetos é estabelecida através do Mediator. Este padrão é considerado um padrão comportamental, pois o padrão pode alterar o comportamento da aplicação (programa).O Mediator promove o fraco acoplamento ao evitar que objetos se referiram uns aos outros explicitamente.
 
-[![Diagrama](assets/exemplo_mediator.png)](assets/exemplo_mediator.png)
+[![Exemplo](assets/exemplo_mediator.png)](assets/exemplo_mediator.png)
 
 ### Estrutura mínima
 
@@ -188,7 +189,7 @@ Mediador é um padrão de projeto usado frequentemente quando deseja-se encapsul
 
 Memento é um padrão de projeto de software documentado no Catálogo Gang of Four, sendo considerado como um padrão comportamental. Ele permite armazenar o estado interno de um objeto em um determinando momento, para que seja possível retorná-lo a este estado, sem que isso cause problemas com o encapsulamento.
 
-[![Diagrama](assets/exemplo_memento.png)](assets/exemplo_memento.png)
+[![Exemplo](assets/exemplo_memento.png)](assets/exemplo_memento.png)
 
 ### Estrutura mínima
 
@@ -221,7 +222,7 @@ Memento é um padrão de projeto de software documentado no Catálogo Gang of Fo
 
 O Observer é um padrão de projeto de software que define uma dependência um-para-muitos entre objetos de modo que quando um objeto muda o estado, todos seus dependentes são notificados e atualizados automaticamente. Permite que objetos interessados sejam avisados da mudança de estado ou outros eventos ocorrendo num outro objeto.
 
-[![Diagrama](assets/exemplo_observer.png)](assets/exemplo_observer.png)
+[![Exemplo](assets/exemplo_observer.png)](assets/exemplo_observer.png)
 
 ### Estrutura mínima
 
@@ -254,7 +255,7 @@ O Observer é um padrão de projeto de software que define uma dependência um-p
 
 State é um padrão de projeto de software usado quando o comportamento de um objeto muda, dependendo do seu estado.
 
-[![Diagrama](assets/exemplo_state.png)](assets/exemplo_state.png)
+[![Exemplo](assets/exemplo_state.png)](assets/exemplo_state.png)
 
 ### Estrutura mínima
 
@@ -288,7 +289,7 @@ State é um padrão de projeto de software usado quando o comportamento de um ob
 
 O padrão de estratégia é um padrão comportamental que permite selecionar um algoritmo em tempo de execução. Em vez de implementar um único algoritmo diretamente, o código recebe instruções em tempo de execução sobre as quais em uma família de algoritmos usar.
 
-[![Diagrama](assets/exemplo_strategy.png)](assets/exemplo_strategy.png)
+[![Exemplo](assets/exemplo_strategy.png)](assets/exemplo_strategy.png)
 
 ### Estrutura mínima
 
@@ -323,7 +324,7 @@ O padrão de estratégia é um padrão comportamental que permite selecionar um 
 
 O template method é um dos padrões de design comportamental. O template method é um método em uma superclasse, geralmente uma superclasse abstrata, e define o esqueleto de uma operação em termos de várias etapas de alto nível. Essas etapas são implementadas por métodos auxiliares adicionais na mesma classe que o template method.
 
-[![Diagrama](assets/exemplo_template_method.png)](assets/exemplo_template_method.png)
+[![Exemplo](assets/exemplo_template_method.png)](assets/exemplo_template_method.png)
 
 ### Estrutura mínima
 
@@ -356,7 +357,7 @@ O template method é um dos padrões de design comportamental. O template method
 
 O padrão de design Visitor é uma maneira de separar um algoritmo de uma estrutura de objeto na qual ele opera. Um resultado prático dessa separação é a capacidade de adicionar novas operações às estruturas de objetos existentes sem modificar as estruturas.
 
-[![Diagrama](assets/exemplo_visitor.png)](assets/exemplo_visitor.png)
+[![Exemplo](assets/exemplo_visitor.png)](assets/exemplo_visitor.png)
 
 ### Estrutura mínima
 
@@ -385,6 +386,10 @@ O padrão de design Visitor é uma maneira de separar um algoritmo de uma estrut
 ---
 
 ### Referências
+
+[Wikipédia - Padrão de projeto de software](https://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software)
+
+[Source Making - Behavioral patterns](https://sourcemaking.com/design_patterns/behavioral_patterns)
 
 [Wikipédia - Chain of Responsibility](https://pt.wikipedia.org/wiki/Chain_of_Responsibility)
 

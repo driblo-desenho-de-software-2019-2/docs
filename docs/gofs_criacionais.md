@@ -5,10 +5,11 @@
 | ---- | ------ | --------- | --------- |
 | 18/10/2019 | 0.1 | Criação do documento | Henrique Martins |
 | 23/10/2019 | 0.2 | Adicionando imagens e benefícios para padrões | Henrique Martins |
+| 23/10/2019 | 0.3 | Adição da introdução | Henrique Martins |
 
 ## Introdução
 
-(Acrescentar)
+Os padrões de criacionais são padrões de que lidam com mecanismos de criação de objetos, tentando criar objetos de maneira adequada à situação. Eles ajudam a tornar um sistema independente de como seus objetos são criados, compostos e representados. Um padrão de criação de classe usa a herança para variar a classe que é instanciada, enquanto que um padrão de criação de objeto delegará a instanciação para outro objeto. Os padrões criacionais tornam-se importantes à medida que os sistemas evoluem no sentido de dependerem mais da composição de objetos do que a herança de classes.
 
 ---
 
@@ -225,6 +226,10 @@ Singleton é um padrão de projeto de software que garante a existência de apen
 ---
 
 ### Referências
+
+[Wikipédia - Padrão de projeto de software](https://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software)
+
+[Source Making - Creational patterns](https://sourcemaking.com/design_patterns/creational_patterns)
 
 [Wikipédia - Abstract Factory](https://pt.wikipedia.org/wiki/Abstract_Factory)
 

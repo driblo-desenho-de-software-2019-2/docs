@@ -5,10 +5,11 @@
 | ---- | ------ | --------- | --------- |
 | 18/10/2019 | 0.1 | Criação do documento | Henrique Martins |
 | 23/10/2019 | 0.2 | Adicionando imagens e benefícios para padrões | Henrique Martins |
+| 23/10/2019 | 0.3 | Adição da introdução | Henrique Martins |
 
 ## Introdução
 
-(Acrescentar)
+Os padrões estruturais se preocupam com a forma como classes e objetos são compostos para formar estruturas maiores. Os de classes utilizam a herança para compor interfaces ou implementações, e  os de objeto descrevem maneiras de compor objetos para obter novas funcionalidades. A flexibilidade obtida pela composição de objetos provém da capacidade de mudar a composição em tempo de execução o que não é possível com a composição estática (herança de classes).
 
 ---
 
@@ -250,6 +251,8 @@ Proxy é um padrão estrutural que permite fornecer um substituto ou espaço res
 ---
 
 ### Referências
+
+[Wikipédia - Padrão de projeto de software](https://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software)
 
 [Wikipédia - Adapter](https://pt.wikipedia.org/wiki/Adapter)
 
