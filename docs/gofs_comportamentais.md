@@ -11,6 +11,7 @@
 | 24/10/2019 | 0.6 | Adição da Viabilidade do Iterator| Samuel Borges e Rafael Teodosio |
 | 25/10/2019 | 0.7 | Adição da Viabilidade do Strategy| João Pedro Mota e Luís Cláudio T. Lima |
 | 25/10/2019 | 0.8 | Adição da Viabilidade do Template Method| João Pedro Mota e Luís Cláudio T. Lima |
+| 25/10/2019 | 0.9 | Adição da Viabilidade do Memento| João Pedro Mota e Luís Cláudio T. Lima |
 
 ## Introdução
 <p align="justify">
@@ -213,9 +214,9 @@ Memento é um padrão de projeto de software documentado no Catálogo Gang of Fo
 
 | Problema | Solução é útil ao Driblô? |
 | ------- | :-----: |
-| Problema 1 |  |
+| Problema 1 | Em vez de simplesmente retornar ao estado anterior, no Driblô o usaremos para realizar a criação de uma nova pelada, baseada nos dados de uma anterior do mesmo usuário. |
 
-(Dizer porque soluções são úteis ou não)
+Com o uso do Memento, torna-se possível o acesso a estados anteriores do objeto, no caso, a pelada, para que se possa criar uma nova com as mesmas preferências do usuário já definidas. 
 
 ---
 
