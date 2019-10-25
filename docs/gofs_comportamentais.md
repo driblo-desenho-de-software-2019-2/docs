@@ -7,6 +7,7 @@
 | 20/10/2019 | 0.2 | Adicionando imagens e benefícios para padrões | Henrique Martins |
 | 23/10/2019 | 0.3 | Adição da introdução | Henrique Martins |
 | 24/10/2019 | 0.4 | Adição Tópico Chain of Responsibility | Byron Kamal|
+| 24/10/2019 | 0.5 | Adicao da Viabilidade do Command Pattern| Samuel Borges e Rafael Teodosio |
 
 ## Introdução
 <p align="justify">
@@ -79,12 +80,13 @@ Command é um padrão no qual um objeto é usado para encapsular toda informaç�
 
 ### Aplicável no Driblô?
 
+
 | Problema | Solução é útil ao Driblô? |
 | ------- | :-----: |
-| Problema 1 |  |
+| Problema 1 |  | 
+| Usuário pode mudar de ideia em relação às informações passadas anteriormente.| Sim, pois facilitar a implementação de um sistema de desfazimento de ações seria bastante pertinente ao projeto. | 
 | Problema 2 |  |
-
-(Dizer porque soluções são úteis ou não)
+| Projeto visa entregar o minimo produto viável e crescer conforme necessário. | Sim, pois facilitar a adição de comandos novos ajudaria no desenvolvimento. |
 
 ---
 
