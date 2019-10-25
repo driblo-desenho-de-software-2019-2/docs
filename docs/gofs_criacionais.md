@@ -1,8 +1,4 @@
----
-id: criacional
-title: GOF's Criacionais
-sidebar_label: GOF's Criacionais
----
+# GOF's Criacionais
 
 ### Histórico de versão
 | Data | Versão | Descrição | Autor(es) |
@@ -13,7 +9,7 @@ sidebar_label: GOF's Criacionais
 | 24/10/2019 | 0.4 | Adição dos problemas solucionados pelos padrões | Henrique Martins |
 | 24/10/2019 | 0.5 | Adição exemplo de padrão factory-method driblo| Luís Cláudio T. Lima |
 | 24/10/2019 | 0.6 | Adição da viabilidade ao projeto do modelo Abstract Factory| Rafael Teodosio, Samuel Borges |
-|24/10/2019| 0.7 | Adição padrão Singleton | Byron Kamal |
+| 24/10/2019 | 0.7 | Atualizando modelo factory-method| Luís Cláudio T. Lima|
 
 ## Introdução
 
@@ -103,8 +99,8 @@ Factory Method é um padrão de projeto de software que permite às classes dele
 
 ### Problemas solucionados pelo padrão
 
- 1. Como um objeto pode ser criado para que as subclasses possam redefinir qual classe instanciar?
- 1. Como uma classe adia a instanciação para subclasses?
+ 1. Como uma classe pode ser configurada com um algoritmo em tempo de execução, em vez de implementar um algoritmo diretamente?
+ 1. Como um algoritmo pode ser selecionado e trocado em tempo de execução?
 
 ### Benefícios
 
@@ -114,6 +110,13 @@ Factory Method é um padrão de projeto de software que permite às classes dele
  1. Permite que uma classe adie a instanciação para subclasses e evite a instanciação direta de um objeto do tipo de classe pai.
 
 ### Aplicável no Driblô?
+
+| Problema   | Solução é útil ao Driblô? |
+|------------|---------------------------|
+| Problema 1 | Sim                       |
+| Problema 2 | Sim                       |
+
+### Exemplo de aplicação no app Driblô
 
 [![fact](assets/factory_method_driblo.png)](assets/factory_method_driblo.png)
 
@@ -158,44 +161,41 @@ O padrão prototype é usando quando a necessidade de especificar o tipo de obje
 
 ## Singleton
 
-<br />
-
 ### O que é?
 
-<br />
 Singleton é um padrão de projeto de software que garante a existência de apenas uma instância de uma classe, mantendo um ponto global de acesso ao seu objeto.
+
+[![Exemplo](assets/exemplo_singleton.png)](assets/exemplo_singleton.png)
 
 ### Estrutura mínima
 
-<br />
+[![Diagrama](assets/singleton.png)](assets/singleton.png)
 
-[![Diagrama](assets/singleton.jpg)](assets/singleton.jpg)
+### Problemas solucionados pelo padrão
+
+ 1. Como é possível garantir que uma classe tenha apenas uma instância?
+ 1. Como a instância única de uma classe pode ser acessada facilmente?
+ 1. Como uma classe pode controlar sua instanciação?
+ 1. Como o número de instâncias de uma classe pode ser restrito?
 
 ### Benefícios
 
-<br />
-
-<ul>
- <li> Você pode ter certeza de que uma classe possui apenas uma única instância. </li>
- <li> Você ganha um ponto de acesso global para essa instância. </li>
- <li> O objeto singleton é inicializado somente quando solicitado pela primeira vez. </li>
-<ul>
-
-<br />
+ 1. Você pode ter certeza de que uma classe possui apenas uma única instância.
+ 1. Você ganha um ponto de acesso global para essa instância.
+ 1. O objeto singleton é inicializado somente quando solicitado pela primeira vez.
 
 ### Aplicável no Driblô?
 
-<br />
+| Problema | Solução é útil ao Driblô? |
+| ------- | :-----: |
+| Problema 1 |  | 
+| Problema 2 |  |
+| Problema 3 |  | 
+| Problema 4 |  |
 
-<p align="justify">
-Este padrão é utilizado no dentro do projeto por exemplo dentro da instância da classe **App**. Dentro do projeto esta classe é instaciada somente uma vez e pode ser chamada por outros componentes do código sem a necessidade de rodar o código novamente. A seguir temos na linha 23 (marcado com a Toggle vermelho) exemplo do Singleton utilizado no projeto:
-</p>
-
-[![Código Singleton](assets/padroes_gof/singleton.png)](assets/padroes_gof/singleton.png)
+(Dizer porque soluções são úteis ou não)
 
 ---
-
-<br />
 
 ### Referências
 
