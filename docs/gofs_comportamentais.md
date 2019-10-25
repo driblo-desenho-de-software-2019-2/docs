@@ -8,6 +8,7 @@
 | 23/10/2019 | 0.3 | Adição da introdução | Henrique Martins |
 | 24/10/2019 | 0.4 | Adição Tópico Chain of Responsibility | Byron Kamal|
 | 24/10/2019 | 0.5 | Adicao da Viabilidade do Command Pattern| Samuel Borges e Rafael Teodosio |
+| 24/10/2019 | 0.6 | Adicao da Viabilidade do Iterator| Samuel Borges e Rafael Teodosio |
 
 ## Introdução
 <p align="justify">
@@ -113,11 +114,7 @@ Interpreter é um dos padrões de projeto de software, famosos como "Design Patt
 
 ### Aplicável no Driblô?
 
-| Problema | Solução é útil ao Driblô? |
-| ------- | :-----: |
-| Problema 1 |  |
-
-(Dizer porque soluções são úteis ou não)
+As intenções e os problemas resolvidos pelo Interpreter não possuem nenhum benefício ao Driblô, portanto não será aplicado.
 
 ---
 
@@ -148,10 +145,7 @@ No Iterator um iterador é usado para percorrer um container e acessar seus elem
 
 | Problema | Solução é útil ao Driblô? |
 | ------- | :-----: |
-| Problema 1 |  |
-| Problema 2 |  |
-
-(Dizer porque soluções são úteis ou não)
+| Acessar e percorrer os elementos de um objeto sem expor sua representação subjacente.| Não é aplicável ao projeto pois a tecnologia utilizada para desenvolvimento já disponibiliza métodos que resolvem os problemas de natureza semelhante existentes. |
 
 ---
 

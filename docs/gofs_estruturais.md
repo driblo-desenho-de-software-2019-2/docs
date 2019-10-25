@@ -7,6 +7,8 @@
 | 23/10/2019 | 0.2 | Adicionando imagens e benefícios para padrões | Henrique Martins |
 | 23/10/2019 | 0.3 | Adição da introdução | Henrique Martins |
 | 24/10/2019 | 0.4 | Adição dos problemas solucionados pelos padrões | Henrique Martins |
+| 25/10/2019 | 0.5 | Adição da viabilidade do modelo Decorator ao projeto | Rafael Teodosio, Samuel Borges|
+| 25/10/2019 | 0.6 | Adição da viabilidade do modelo Proxy ao projeto | Luis Claudio T. Lima e João Pedro Mota|
 
 ## Introdução
 
@@ -29,8 +31,8 @@ O padrão do adaptador é um padrão de design de software que permite que a int
 ### Problemas solucionados pelo padrão
 
  1. Como uma classe pode ser reutilizada que não possui uma interface que um cliente exige?
- 1. Como as classes que possuem interfaces incompatíveis podem trabalhar juntas?
- 1. Como uma interface alternativa pode ser fornecida para uma classe?
+ 2. Como as classes que possuem interfaces incompatíveis podem trabalhar juntas?
+ 3. Como uma interface alternativa pode ser fornecida para uma classe?
 
 ### Benefícios
 
@@ -39,13 +41,7 @@ O padrão do adaptador é um padrão de design de software que permite que a int
 
 ### Aplicável no Driblô?
 
-| Problema | Solução é útil ao Driblô? |
-| ------- | :-----: |
-| Problema 1 |  | 
-| Problema 2 |  |
-| Problema 3 |  |
-
-(Dizer porque soluções são úteis ou não)
+Este padrão de projeto não será aplicado no Driblô, considerando seu período de desenvolvimento e uso (disciplina de Arquitetura e Desenho de Software) e a implementação das classes no projeto. Não há a necessidade de fazer a adaptação de classes de terceiros, não sendo necessário esse padrão para o projeto.
 
 ---
 
@@ -143,11 +139,8 @@ Decorator é um padrão de projeto que permite adicionar um comportamento a um o
 
 | Problema | Solução é útil ao Driblô? |
 | ------- | :-----: |
-| Problema 1 |  | 
-| Problema 2 |  |
-
-(Dizer porque soluções são úteis ou não)
-
+| Como as responsabilidades podem ser adicionadas dinamicamente a um objeto? | Sim, pois a adição dinâmica de responsabilidades é uma realidade no escopo do projeto | 
+| Como a funcionalidade de um objeto pode ser estendida em tempo de execução? | Sim, pois a extensão de funcionalidades durante o tempo de execução é pertinente ao projeto  |
 ---
 
 ## Facade
@@ -165,7 +158,7 @@ O Padrão Façade é do tipo estrutural. É usado quando um sistema é muito com
 ### Problemas solucionados pelo padrão
 
  1. Como uma interface simples pode ser fornecida para um subsistema complexo?
- 1. Como evitar o acoplamento rígido entre clientes e objetos em um subsistema?
+ 2. Como evitar o acoplamento rígido entre clientes e objetos em um subsistema?
 
 ### Benefícios
 
@@ -240,10 +233,15 @@ Proxy é um padrão estrutural que permite fornecer um substituto ou espaço res
 
 | Problema | Solução é útil ao Driblô? |
 | ------- | :-----: |
-| Problema 1 |  | 
-| Problema 2 |  |
+| Problema 1 | Elas interceptam os requests e os encaminham aos seus respectivos middlewares.| 
+| Problema 2 | O próprio middleware é capaz de realizar essas funcionalidades adicionais antes de encaminhar a rota.  |
 
-(Dizer porque soluções são úteis ou não)
+O acesso a rotas é muito importante em qualquer aplicação, tendo em vista a necessidade de se acessar partes distintas da mesma, executando qualquer tarefa utilizando como base solicitação/resposta.
+
+### Exemplo de aplicação no app Driblô
+
+[![proxy](assets/padroes_gof/proxy_exemplo_driblo.png)](assets/padroes_gof/proxy_exemplo_driblo.png)
+
 
 ---
 
