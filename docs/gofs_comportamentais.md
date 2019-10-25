@@ -1,4 +1,8 @@
-# GOF's Comportamentais
+---
+id: comportamental
+title: GOF's Comportamentais
+sidebar_label: GOF's Comportamentais
+---
 
 ### Histórico de versão
 | Data | Versão | Descrição | Autor(es) |
@@ -23,24 +27,40 @@ Os padrões comportamentais se concentram nos algoritmos e atribuições de resp
 ## Chain of Responsibility
 
 ### O que é?
+
+<br />
+
 <p align="justify">
 Chain of Responsibility é um padrão cuja principal função é evitar a dependência entre um objeto receptor e um objeto solicitante. Consiste em uma série de objetos receptores e de objetos de solicitação, onde cada objetos de solicitação possui uma lógica interna que separa quais são tipos de objetos receptores que podem ser manipulados. O restante é passado para o próximo objetos de solicitação da cadeia.
 </p>
 
 [![Exemplo](assets/exemplo_chain_of_responsibility.png)](assets/exemplo_chain_of_responsibility.png)
 
+<br />
+
 ### Estrutura mínima
+
+<br />
 
 [![Diagrama](assets/chain_of_responsibility.png)](assets/chain_of_responsibility.png)
 
+<br />
+
 ### Benefícios
+
+<br />
 
  1. Reduz o grau de acoplamento. A dissociação solicitará o remetente e o destinatário.
  1. Objeto simplificado. O objeto não precisa conhecer a estrutura da cadeia.
  1. Aprimora a flexibilidade das tarefas atribuídas a objetos. Alterando os membros da cadeia ou alterando sua ordem, permita adicionar ou excluir responsabilidades dinamicamente.
  1. Aumenta a solicitação de processamento de nova classe de muito conveniente.
 
+<br />
+
 ### Aplicável no Driblô?
+
+<br />
+
 <p align="justify">
  Está solução é aplicavél ao Driblô. 
  O caso de uso desse padrão no ecossistema do <strong>NodeJS</strong> é o <strong>middleware</strong> do <strong>ExpressJS</strong> Com esse padrão, é configurado uma cadeia de funções (middlewares) que avaliam o objeto de solicitação e decidem agir ou ignorá-lo.

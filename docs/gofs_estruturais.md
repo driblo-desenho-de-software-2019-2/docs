@@ -1,4 +1,8 @@
-# GOF's Estruturais
+---
+id: estrutural
+title: GOF's Estruturais
+sidebar_label: GOF's Estruturais
+---
 
 ### Histórico de versão
 | Data | Versão | Descrição | Autor(es) |
