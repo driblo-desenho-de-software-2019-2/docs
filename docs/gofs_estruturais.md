@@ -164,8 +164,8 @@ O Padrão Façade é do tipo estrutural. É usado quando um sistema é muito com
 
 ### Problemas solucionados pelo padrão
 
- 1. Como uma interface simples pode ser fornecida para um subsistema complexo?
- 1. Como evitar o acoplamento rígido entre clientes e objetos em um subsistema?
+ 1. Interface simples pode ser fornecida para um subsistema complexo.
+ 2. Evita acoplamento rígido entre clientes e objetos em um subsistema.
 
 ### Benefícios
 
@@ -176,9 +176,9 @@ O Padrão Façade é do tipo estrutural. É usado quando um sistema é muito com
 | Problema | Solução é útil ao Driblô? |
 | ------- | :-----: |
 | Problema 1 |  | 
-| Problema 2 |  |
+| Problema 2 | sim |
 
-(Dizer porque soluções são úteis ou não)
+O uso do facade é utilizado na API Gateway, onde os serviços são isolados e somente através dela é possível acessar os micros-serviços. Essa camada é responsável por validar e redirecionar as requisições entre o backend e o frontend evitando o acoplamento do sistema.
 
 ---
 
