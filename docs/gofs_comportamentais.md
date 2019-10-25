@@ -16,6 +16,8 @@ sidebar_label: GOF's Comportamentais
 | 25/10/2019 | 0.7 | Adição da Viabilidade do Strategy| João Pedro Mota e Luís Cláudio T. Lima |
 | 25/10/2019 | 0.8 | Adição da Viabilidade do Template Method| João Pedro Mota e Luís Cláudio T. Lima |
 | 25/10/2019 | 0.9 | Adição da Viabilidade do Memento| João Pedro Mota e Luís Cláudio T. Lima |
+| 25/10/2019 | 0.10 | Adição da Viabilidade do State| Marcelo Araújo |
+| 25/10/2019 | 0.11 | Adição da Viabilidade do Visitor| Marcelo Araújo |
 
 ## Introdução
 <p align="justify">
@@ -300,10 +302,10 @@ State é um padrão de projeto de software usado quando o comportamento de um ob
 
 | Problema | Solução é útil ao Driblô? |
 | ------- | :-----: |
-| Problema 1 |  |
-| Problema 2 |  |
+| Problema 1 | Sim |
+| Problema 2 | Sim |
 
-(Dizer porque soluções são úteis ou não)
+Solução útil pois o a aplicação trabalha com muitos estados, como por exemplo, a partida pode estar não inicializada, em andamento e finalizada, e o usuário estar logado ou não. O padrão state pode ser aplicado em muito deles para ter um controle melhor dos estados. 
 
 ---
 
@@ -401,9 +403,9 @@ O padrão de design Visitor é uma maneira de separar um algoritmo de uma estrut
 
 | Problema | Solução é útil ao Driblô? |
 | ------- | :-----: |
-| Problema 1 |  |
+| Problema 1 | Não |
 
-(Dizer porque soluções são úteis ou não)
+Não há necessidade de usar esse padrão de projeto pois a aplicação não é complexa o suficiente, e não vamos trabalhar com alguma estrutura complexa de objetos, segundo os requisitos levantados.
 
 ---
 
