@@ -10,6 +10,7 @@
 | 24/10/2019 | 0.5 | Adição da Viabilidade do Command Pattern| Samuel Borges e Rafael Teodosio |
 | 24/10/2019 | 0.6 | Adição da Viabilidade do Iterator| Samuel Borges e Rafael Teodosio |
 | 25/10/2019 | 0.7 | Adição da Viabilidade do Strategy| João Pedro Mota e Luís Cláudio T. Lima |
+| 25/10/2019 | 0.8 | Adição da Viabilidade do Template Method| João Pedro Mota e Luís Cláudio T. Lima |
 
 ## Introdução
 <p align="justify">
@@ -346,10 +347,10 @@ O template method é um dos padrões de design comportamental. O template method
 
 | Problema | Solução é útil ao Driblô? |
 | ------- | :-----: |
-| Problema 1 |  |
-| Problema 2 |  |
+| Problema 1 | Nas diversas criações no Driblô, como peladas ou jogadores, deve-se definir os campos que estão presentes nos formulários. |
+| Problema 2 | Cada formulário de criação é único para cada objeto|
 
-(Dizer porque soluções são úteis ou não)
+O Template method é útil na definição da ordem do preenchimento dos campos na criação. 
 
 ---
 
