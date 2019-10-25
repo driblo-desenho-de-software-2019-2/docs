@@ -114,11 +114,7 @@ Interpreter é um dos padrões de projeto de software, famosos como "Design Patt
 
 ### Aplicável no Driblô?
 
-| Problema | Solução é útil ao Driblô? |
-| ------- | :-----: |
-| Problema 1 |  |
-
-(Dizer porque soluções são úteis ou não)
+As intenções e os problemas resolvidos pelo Interpreter não possuem nenhum benefício ao Driblô, portanto não será aplicado.
 
 ---
 
