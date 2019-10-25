@@ -13,6 +13,7 @@ sidebar_label: GOF's Estruturais
 | 24/10/2019 | 0.4 | Adição dos problemas solucionados pelos padrões | Henrique Martins |
 | 25/10/2019 | 0.5 | Adição da viabilidade do modelo Decorator ao projeto | Rafael Teodosio, Samuel Borges|
 | 25/10/2019 | 0.6 | Adição da viabilidade do modelo Proxy ao projeto | Luis Claudio T. Lima e João Pedro Mota|
+| 25/10/2019 | 0.6.2 | Correção do template do modelo Proxy | Luis Claudio T. Lima e João Pedro Mota|
 
 ## Introdução
 
@@ -235,9 +236,10 @@ Proxy é um padrão estrutural que permite fornecer um substituto ou espaço res
 
 | Problema | Solução é útil ao Driblô? |
 | ------- | :-----: |
-| Problema 1 | Elas interceptam os requests e os encaminham aos seus respectivos middlewares.| 
-| Problema 2 | O próprio middleware é capaz de realizar essas funcionalidades adicionais antes de encaminhar a rota.  |
+| Problema 1 | Sim | 
+| Problema 2 | Sim |
 
+Elas interceptam os requests e os encaminham aos seus respectivos middlewares. O próprio middleware é capaz de realizar essas funcionalidades adicionais antes de encaminhar a rota.
 O acesso a rotas é muito importante em qualquer aplicação, tendo em vista a necessidade de se acessar partes distintas da mesma, executando qualquer tarefa utilizando como base solicitação/resposta.
 
 ### Exemplo de aplicação no app Driblô
