@@ -14,6 +14,7 @@ sidebar_label: GOF's Estruturais
 | 25/10/2019 | 0.5 | Adição da viabilidade do modelo Decorator ao projeto | Rafael Teodosio, Samuel Borges|
 | 25/10/2019 | 0.6 | Adição da viabilidade do modelo Proxy ao projeto | Luis Claudio T. Lima e João Pedro Mota|
 | 25/10/2019 | 0.6.2 | Correção do template do modelo Proxy | Luis Claudio T. Lima e João Pedro Mota|
+| 25/10/2019 | 0.7 | Adição viabilidade do modelo Composite ao projeto | Luís Cláudio T. Lima e João Pedro Mota|
 
 ## Introdução
 
@@ -116,9 +117,9 @@ Composite é um padrão de projeto de software utilizado para representar um obj
 
 | Problema | Solução é útil ao Driblô? |
 | ------- | :-----: |
-| Problema 1 |  | 
+| Problema 1 | Durante a partida, os times, formados por jogadores, serão afetados uniformemente pelo resultado da mesma. | 
 
-(Dizer porque soluções são úteis ou não)
+A partir do uso do Composite, espera-se que se torne mais simples a manipulação dos jogadores em relação as suas estatísticas de partidas (vitórias e derrotas).
 
 ---
 
@@ -152,6 +153,7 @@ Decorator é um padrão de projeto que permite adicionar um comportamento a um o
 | ------- | :-----: |
 | Como as responsabilidades podem ser adicionadas dinamicamente a um objeto? | Sim, pois a adição dinâmica de responsabilidades é uma realidade no escopo do projeto | 
 | Como a funcionalidade de um objeto pode ser estendida em tempo de execução? | Sim, pois a extensão de funcionalidades durante o tempo de execução é pertinente ao projeto  |
+
 ---
 
 ## Facade
@@ -294,3 +296,5 @@ O acesso a rotas é muito importante em qualquer aplicação, tendo em vista a n
 [Refactoring Guru - Proxy](https://refactoring.guru/design-patterns/proxy)
 
 [w3sDesign](http://w3sdesign.com/?gr=s02&ugr=proble#gf)
+
+[Wikipédia - Flyweight](https://pt.wikipedia.org/wiki/Flyweight)

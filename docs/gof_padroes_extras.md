@@ -23,19 +23,26 @@ sidebar_label: GOFs: Command e Mediator
 ### 1.1 Problema 
 
 
-
+<p align="justify">
 Em orientação a objetos utiliza-se classes para abstrair um conjunto de objetos com características semelhantes.
 Embora as lógicas são geralmente divididas entre as classes, normalmente ligações entre elas são necessárias e consequentemente uma classe começa a conhecer as regras da outra. Além do problema de realizar modificações, o pior caso é onde o um objeto possui conhecimento de todos os outros.
+</p>
+
+<p align="justify">
 Esse acoplamento torna um objeto refém de outros, fazendo com que ele não consiga funcionar sozinho e assim surge um domínio monolítico.
 O resultado é uma modelagem com comportamentos distribuídos entre as classes, mas dependente de outros objetos, encaminhando o desenvolvedor a criar formas mais complexas para realizar customização.
-<br>
+</p>
 
 
 ### 1.2 Solução
 
+<p align="justify">
 O Mediator atua como um mediador entre relacionamentos N para N, assim evita a referência explicita aos objetos. Outra vantagem do padrão, é que ele define a maneira que a interação entre os objetos ocorre.
+</p>
 
+<p align="justify">
 O padrão Mediator consiste de duas figuras principais: o Mediator e o Colleague. O Mediator recebe mensagens de um Colleague, define qual protocolo utilizar e então envia a mensagem. O Colleague define como receberá uma mensagem e envia uma mensagem para um Mediator, portanto é recomendado usar nas seguintes situações : 
+</p>
 
 <li> Objetos se comunicam de forma especifica e complexa </li>
 
@@ -54,8 +61,11 @@ Diagrama UML referente ao código:
 
 ### 1.4 Exemplo em Java
 
+<p align="justify">
+O exemplo a seguir simula a conversa de usuários no grupo do facebook, onde o grupo é o mediator e o usuário o colleague. 
+</p>
 
-O exemplo a seguir simula a conversa de usuários no grupo do facebook, onde o grupo é o mediator e o usuário o colleague. <br>
+<br>
 [Link do código](https://github.com/driblo-desenho-de-software-2019-2/docs/tree/feature/padroes-gof/padroes-avulso/ExemploCommand)
 
 <br>
@@ -68,9 +78,13 @@ O exemplo a seguir simula a conversa de usuários no grupo do facebook, onde o g
 ### 2.1 O que é?
 <br>
 
+<p align="justify">
 O command pattern é um Design Pattern comportamental no qual um objeto é usado para encapsular toda a informação necessária para realizar uma ação ou um evento em um momento posterior. Essas informações incluem o nome do Método, o Objeto a qual o método pertence, e os valores para os parâmetros do método.
+</p>
 
+<p align="justify">
 Dessa forma o padrão Command encapsula uma solicitação vinculando um conjunto de ações em um receptor especifico. Para fazer isto ele precisa empacotar as ações e o receptor em um objeto que expõe um único método normalmente chamado execute(). Quando execute() é chamado ele invoca as ações no receptor. Externamente nenhum outro objeto sabe o que realmente será invocado ou mesmo em qual receptor.
+</p>
 
 <br>
 
@@ -141,10 +155,11 @@ Qualquer classe pode funcionar como um Receiver. </li>
 [![Diagrama de sequencia](assets/Diagrama-sequencia-command.png)](assets/Diagrama-sequencia-command.png)
 #### Autor: Matheus Rodrigues
 
+<p align="justify">
 Primeiro o ListaJogadores cria um novo Command especificando seu Receptor, em seguida este Command é armazenado em um Invoker. O Invoker quando quer chamar a ação do Receptor, usa o método execute do Command que por sua vez chama a ação do Receptor. Deste modo o Invoker não conhece como funciona a ação e também não conhece o Receptor.
+</p>
 
-
-### 1.6 Exemplo em python de uso do padrão Command para um controle remoto
+### 2.6 Exemplo em python de uso do padrão Command para um controle remoto
 
 [Link do código](https://github.com/driblo-desenho-de-software-2019-2/docs/tree/feature/padroes-gof/padroes-avulso/CommandPatternExemplo)
 
@@ -160,4 +175,6 @@ Primeiro o ListaJogadores cria um novo Command especificando seu Receptor, em se
 [DevMedia - Padrões de Projetos: Introdução aos Padrões Front Controller e Command](https://www.devmedia.com.br/padroes-de-projetos-introducao-aos-padroes-front-controller-e-command/30644)
 
 [Source Making - Command Design Pattern](https://sourcemaking.com/design_patterns/command)
+
+[Mediator Design pattern - Implementation](https://ramj2ee.blogspot.com/2013/12/mediator-design-pattern-implementation.html)
 
