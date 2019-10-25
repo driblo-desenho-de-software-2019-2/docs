@@ -8,6 +8,7 @@
 | 23/10/2019 | 0.3 | Adição da introdução | Henrique Martins |
 | 24/10/2019 | 0.4 | Adição dos problemas solucionados pelos padrões | Henrique Martins |
 | 24/10/2019 | 0.5 | Adição exemplo de padrão factory-method driblo| Luís Cláudio T. Lima |
+| 24/10/2019 | 0.6 | Adição da viabilidade ao projeto do modelo Abstract Factory| Rafael Teodosio, Samuel Borges |
 
 ## Introdução
 
@@ -30,8 +31,8 @@ Este padrão permite a criação de famílias de objetos relacionados ou depende
 ### Problemas solucionados pelo padrão
 
  1. Como um aplicativo pode ser independente de como seus objetos são criados?
- 1. Como uma classe pode ser independente de como os objetos que ela exige são criados?
- 1. Como as famílias de objetos relacionados ou dependentes podem ser criadas?
+ 2. Como uma classe pode ser independente de como os objetos que ela exige são criados?
+ 3. Como as famílias de objetos relacionados ou dependentes podem ser criadas?
 
 ### Benefícios
 
@@ -43,11 +44,9 @@ Este padrão permite a criação de famílias de objetos relacionados ou depende
 
 | Problema | Solução é útil ao Driblô? |
 | ------- | :-----: |
-| Problema 1 |  | 
-| Problema 2 |  |
-| Problema 3 |  |
-
-(Dizer porque soluções são úteis ou não)
+| Como um aplicativo pode ser independente de como seus objetos são criados? | Não, pois no escopo do projeto nao há a necessidade da criação de aplicativos indendentes aos objetos  | 
+| Como uma classe pode ser independente de como os objetos que ela exige são criados? | Não, pois as tecnoligias utilizadas no projeto tanto no Back-End quanto no Front-End já fornecem a independencia dos objetos |
+| Como as famílias de objetos relacionados ou dependentes podem ser criadas? | De acordo com o escopo do projeto não há necessidade da implementação de um Design Pattern para a criação de famílias de objetos relacionados |
 
 ---
 
@@ -66,7 +65,7 @@ Builder é um padrão criacional que permite a separação da construção de um
 ### Problemas solucionados pelo padrão
 
  1. Como uma classe (o mesmo processo de construção) pode criar representações diferentes de um objeto complexo?
- 1. Como uma classe que inclui a criação de um objeto complexo pode ser simplificada?
+ 2. Como uma classe que inclui a criação de um objeto complexo pode ser simplificada?
 
 ### Benefícios
 
