@@ -4,6 +4,7 @@
 | Data | Versão | Descrição | Autor(es) |
 | ---- | ------ | --------- | --------- |
 | 18/10/2019 | 0.1 | Criação do documento | Henrique Martins |
+| 25/10/2019 | 0.2 | Adição viabilidade do modelo Composite ao projeto | Luís Cláudio T. Lima e João Pedro Mota|
 
 ## Introdução
 
@@ -93,22 +94,20 @@ Composite é um padrão de projeto de software utilizado para representar um obj
 
 ### Problemas solucionados pelo padrão
 
- 1. A
- 1. B
+ 1. Como uma hierarquia parte-todo pode ser representada para que os clientes possam tratar objetos individuais e composições de objetos de maneira uniforme?
 
 ### Benefícios
 
- 1. A
- 1. B
+ 1. Você pode trabalhar com estruturas de árvores complexas de maneira mais conveniente: use polimorfismo e recursão a seu favor.
+ 1. Princípio Aberto / Fechado. Você pode introduzir novos tipos de elementos no aplicativo sem quebrar o código existente, que agora funciona com a árvore de objetos.
 
 ### Aplicável no Driblô?
 
 | Problema | Solução é útil ao Driblô? |
 | ------- | :-----: |
-| Problema 1 |  | 
-| Problema 2 |  |
+| Problema 1 | Durante a partida, os times, formados por jogadores, serão afetados uniformemente pelo resultado da mesma. | 
 
-(Dizer porque soluções são úteis ou não)
+A partir do uso do Composite, espera-se que se torne mais simples a manipulação dos jogadores em relação as suas estatísticas de partidas (vitórias e derrotas).
 
 ---
 
