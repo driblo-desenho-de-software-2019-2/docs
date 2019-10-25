@@ -165,12 +165,13 @@ Mediador é um padrão de projeto usado frequentemente quando deseja-se encapsul
 
 ### Estrutura mínima
 
-(Imagem da estrutura mínima do padrão)
+[![Exemplo](assets/mediator.png)](assets/mediator.png)
+
 
 ### Problemas solucionados pelo padrão
 
  1. Como evitar o acoplamento rígido entre um conjunto de objetos em interação?
- 1. Como a interação entre um conjunto de objetos pode ser alterada independentemente?
+ 2. Como a interação entre um conjunto de objetos pode ser alterada independentemente?
 
 ### Benefícios
 
@@ -182,10 +183,12 @@ Mediador é um padrão de projeto usado frequentemente quando deseja-se encapsul
 
 | Problema | Solução é útil ao Driblô? |
 | ------- | :-----: |
-| Problema 1 |  |
-| Problema 2 |  |
+| Problema 1 | Sim |
+| Problema 2 | Sim |
 
 (Dizer porque soluções são úteis ou não)
+
+Na modelagem do banco de dados, é possível ver que a entidade de usuário está ligada a todas outras entidades do banco, além de possuir relacionamentos N para N, o que pode trazer um acoplamento forte dessa classe, assim o mediator se torna uma solução para esses problema, um exemplo seria quando o usuário participa da pelada deve existir um mediador entre usuário e a pelada.  
 
 ---
 

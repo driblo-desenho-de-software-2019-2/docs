@@ -138,10 +138,12 @@ Prototype é um padrão de projeto de software criacional que permite a criaçã
 
 | Problema | Solução é útil ao Driblô? |
 | ------- | :-----: |
-| Problema 1 |  | 
-| Problema 2 |  |
+| Problema 1 | Não | 
+| Problema 2 | Não |
 
 (Dizer porque soluções são úteis ou não)
+ 
+O padrão prototype é usando quando a necessidade de especificar o tipo de objeto instaciado em tempo de execução, o que não será necessário no Driblô.
 
 ---
 
