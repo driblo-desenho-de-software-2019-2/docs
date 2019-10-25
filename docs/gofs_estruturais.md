@@ -40,13 +40,7 @@ O padrão do adaptador é um padrão de design de software que permite que a int
 
 ### Aplicável no Driblô?
 
-| Problema | Solução é útil ao Driblô? |
-| ------- | :-----: |
-| Problema 1 |  | 
-| Problema 2 |  |
-| Problema 3 |  |
-
-(Dizer porque soluções são úteis ou não)
+Este padrão de projeto não será aplicado no Driblô, considerando seu período de desenvolvimento e uso (disciplina de Arquitetura e Desenho de Software) e a implementação das classes no projeto. Não há a necessidade de fazer a adaptação de classes de terceiros, não sendo necessário esse padrão para o projeto.
 
 ---
 
