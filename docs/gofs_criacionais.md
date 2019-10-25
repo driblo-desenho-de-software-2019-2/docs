@@ -101,6 +101,11 @@ Factory Method é um padrão de projeto de software que permite às classes dele
 
 [![Diagrama](assets/factory_method.png)](assets/factory_method.png)
 
+### Problemas solucionados pelo padrão
+
+ 1. Como um objeto pode ser criado para que as subclasses possam redefinir qual classe instanciar?
+ 1. Como uma classe adia a instanciação para subclasses?
+
 ### Benefícios
 
  1. Permite a construção de classes com um componente de um tipo que não foi predeterminado, mas definido apenas em uma "interface" ou definido como um tipo dinâmico.
