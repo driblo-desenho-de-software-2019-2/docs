@@ -1,3 +1,9 @@
+---
+id: criacional
+title: GOF's Criacionais
+sidebar_label: GOF's Criacionais
+---
+
 # GOF's Criacionais
 
 ### Histórico de versão
