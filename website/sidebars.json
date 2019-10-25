@@ -23,6 +23,9 @@
     ],
     "Dinâmica e Seminário IV - Parte A": [
       "MediatorCommand"
+    ],
+    "Dinâmica e Seminário IV - Parte B": [
+      "criacional", "comportamental", "estrutural", "repository"
     ]
   },
   "Iniciativas Extras": {
