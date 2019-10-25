@@ -7,8 +7,9 @@
 | 20/10/2019 | 0.2 | Adicionando imagens e benefícios para padrões | Henrique Martins |
 | 23/10/2019 | 0.3 | Adição da introdução | Henrique Martins |
 | 24/10/2019 | 0.4 | Adição Tópico Chain of Responsibility | Byron Kamal|
-| 24/10/2019 | 0.5 | Adicao da Viabilidade do Command Pattern| Samuel Borges e Rafael Teodosio |
-| 24/10/2019 | 0.6 | Adicao da Viabilidade do Iterator| Samuel Borges e Rafael Teodosio |
+| 24/10/2019 | 0.5 | Adição da Viabilidade do Command Pattern| Samuel Borges e Rafael Teodosio |
+| 24/10/2019 | 0.6 | Adição da Viabilidade do Iterator| Samuel Borges e Rafael Teodosio |
+| 25/10/2019 | 0.7 | Adição da Viabilidade do Strategy| João Pedro Mota e Luís Cláudio T. Lima |
 
 ## Introdução
 <p align="justify">
@@ -288,7 +289,7 @@ State é um padrão de projeto de software usado quando o comportamento de um ob
 
 ### O que é?
 
-O padrão de estratégia é um padrão comportamental que permite selecionar um algoritmo em tempo de execução. Em vez de implementar um único algoritmo diretamente, o código recebe instruções em tempo de execução sobre as quais em uma família de algoritmos usar.
+O padrão Strategy é um padrão comportamental que permite selecionar um algoritmo em tempo de execução. Em vez de implementar um único algoritmo diretamente, o código recebe instruções em tempo de execução sobre as quais em uma família de algoritmos usar.
 
 [![Exemplo](assets/exemplo_strategy.png)](assets/exemplo_strategy.png)
 
@@ -312,10 +313,10 @@ O padrão de estratégia é um padrão comportamental que permite selecionar um 
 
 | Problema | Solução é útil ao Driblô? |
 | ------- | :-----: |
-| Problema 1 |  |
-| Problema 2 |  |
+| Problema 1 | Durante a formação dos times, há formas diferentes de serem balanceados de acordo com a habilidade dos jogadores, quantidade de participantes e etc.  |
+| Problema 2 | É necessário que esta escolha seja feita em tempo de execução, pois não há como prever quem realmente estará presente no dia do jogo. |
 
-(Dizer porque soluções são úteis ou não)
+Com o padrão Strategy espera-se que o nosso app possua uma alta performance na geração e balanceamento dos times. 
 
 ---
 
