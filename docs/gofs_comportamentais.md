@@ -18,6 +18,7 @@ sidebar_label: GOF's Comportamentais
 | 25/10/2019 | 0.9 | Adição da Viabilidade do Memento| João Pedro Mota e Luís Cláudio T. Lima |
 | 25/10/2019 | 0.10 | Adição da Viabilidade do State| Marcelo Araújo |
 | 25/10/2019 | 0.11 | Adição da Viabilidade do Visitor| Marcelo Araújo |
+| 25/10/2019 | 0.11.2 | Correção do template do Memento, Strategy e Template Method| João Pedro Mota e Luís Cláudio T. Lima |
 
 ## Introdução
 <p align="justify">
@@ -91,6 +92,7 @@ Command é um padrão no qual um objeto é usado para encapsular toda informaç�
 [![Exemplo](assets/exemplo_command.png)](assets/exemplo_command.png)
 
 ### Estrutura mínima
+
 
 [![Diagrama](assets/command.png)](assets/command.png)
 
@@ -236,8 +238,9 @@ Memento é um padrão de projeto de software documentado no Catálogo Gang of Fo
 
 | Problema | Solução é útil ao Driblô? |
 | ------- | :-----: |
-| Problema 1 | Em vez de simplesmente retornar ao estado anterior, no Driblô o usaremos para realizar a criação de uma nova pelada, baseada nos dados de uma anterior do mesmo usuário. |
+| Problema 1 | Sim |
 
+Em vez de simplesmente retornar ao estado anterior, no Driblô o usaremos para realizar a criação de uma nova pelada, baseada nos dados de uma anterior do mesmo usuário.
 Com o uso do Memento, torna-se possível o acesso a estados anteriores do objeto, no caso, a pelada, para que se possa criar uma nova com as mesmas preferências do usuário já definidas. 
 
 ---
@@ -337,9 +340,9 @@ O padrão Strategy é um padrão comportamental que permite selecionar um algori
 
 | Problema | Solução é útil ao Driblô? |
 | ------- | :-----: |
-| Problema 1 | Durante a formação dos times, há formas diferentes de serem balanceados de acordo com a habilidade dos jogadores, quantidade de participantes e etc.  |
-| Problema 2 | É necessário que esta escolha seja feita em tempo de execução, pois não há como prever quem realmente estará presente no dia do jogo. |
-
+| Problema 1 | Sim  |
+| Problema 2 | Sim |
+Durante a formação dos times, há formas diferentes de serem balanceados de acordo com a habilidade dos jogadores, quantidade de participantes e etc. Além diso,é necessário que esta escolha seja feita em tempo de execução, pois não há como prever quem realmente estará presente no dia do jogo.
 Com o padrão Strategy espera-se que o nosso app possua uma alta performance na geração e balanceamento dos times. 
 
 ---
@@ -370,10 +373,11 @@ O template method é um dos padrões de design comportamental. O template method
 
 | Problema | Solução é útil ao Driblô? |
 | ------- | :-----: |
-| Problema 1 | Nas diversas criações no Driblô, como peladas ou jogadores, deve-se definir os campos que estão presentes nos formulários. |
-| Problema 2 | Cada formulário de criação é único para cada objeto|
+| Problema 1 | Sim |
+| Problema 2 | Sim |
 
-O Template method é útil na definição da ordem do preenchimento dos campos na criação. 
+Nas diversas criações no Driblô, como peladas ou jogadores, deve-se definir os campos que estão presentes nos formulários.Cada formulário de criação é único para cada objeto.
+O Template method será útil na definição da ordem do preenchimento dos campos na criação. 
 
 ---
 
