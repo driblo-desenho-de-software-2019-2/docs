@@ -7,6 +7,7 @@
 | 23/10/2019 | 0.2 | Adicionando imagens e benefícios para padrões | Henrique Martins |
 | 23/10/2019 | 0.3 | Adição da introdução | Henrique Martins |
 | 24/10/2019 | 0.4 | Adição dos problemas solucionados pelos padrões | Henrique Martins |
+| 25/10/2019 | 0.5 | Adição da viabilidade do modelo Decorator ao projeto | Rafael Teodosio, Samuel Borges|
 
 ## Introdução
 
@@ -29,8 +30,8 @@ O padrão do adaptador é um padrão de design de software que permite que a int
 ### Problemas solucionados pelo padrão
 
  1. Como uma classe pode ser reutilizada que não possui uma interface que um cliente exige?
- 1. Como as classes que possuem interfaces incompatíveis podem trabalhar juntas?
- 1. Como uma interface alternativa pode ser fornecida para uma classe?
+ 2. Como as classes que possuem interfaces incompatíveis podem trabalhar juntas?
+ 3. Como uma interface alternativa pode ser fornecida para uma classe?
 
 ### Benefícios
 
@@ -39,13 +40,7 @@ O padrão do adaptador é um padrão de design de software que permite que a int
 
 ### Aplicável no Driblô?
 
-| Problema | Solução é útil ao Driblô? |
-| ------- | :-----: |
-| Problema 1 |  | 
-| Problema 2 |  |
-| Problema 3 |  |
-
-(Dizer porque soluções são úteis ou não)
+Este padrão de projeto não será aplicado no Driblô, considerando seu período de desenvolvimento e uso (disciplina de Arquitetura e Desenho de Software) e a implementação das classes no projeto. Não há a necessidade de fazer a adaptação de classes de terceiros, não sendo necessário esse padrão para o projeto.
 
 ---
 
@@ -143,11 +138,8 @@ Decorator é um padrão de projeto que permite adicionar um comportamento a um o
 
 | Problema | Solução é útil ao Driblô? |
 | ------- | :-----: |
-| Problema 1 |  | 
-| Problema 2 |  |
-
-(Dizer porque soluções são úteis ou não)
-
+| Como as responsabilidades podem ser adicionadas dinamicamente a um objeto? | Sim, pois a adição dinâmica de responsabilidades é uma realidade no escopo do projeto | 
+| Como a funcionalidade de um objeto pode ser estendida em tempo de execução? | Sim, pois a extensão de funcionalidades durante o tempo de execução é pertinente ao projeto  |
 ---
 
 ## Facade
@@ -171,15 +163,13 @@ O Padrão Façade é do tipo estrutural. É usado quando um sistema é muito com
 
  1. Você pode isolar seu código da complexidade de um subsistema.
 
-### Aplicável no Driblô?
+ 2. Controle de acesso aos serviços.
 
-| Problema | Solução é útil ao Driblô? |
-| ------- | :-----: |
-| Problema 1 |  | 
-| Problema 2 | sim |
+### Aplicável no Driblô?
 
 O uso do facade é utilizado na API Gateway, onde os serviços são isolados e somente através dela é possível acessar os micros-serviços. Essa camada é responsável por validar e redirecionar as requisições entre o backend e o frontend evitando o acoplamento do sistema.
 
+[![Exemplo](assets/facade_gate.png)](assets/facade_gateway.png)
 ---
 
 ## Flyweight
