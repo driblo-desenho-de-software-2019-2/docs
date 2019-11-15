@@ -165,11 +165,11 @@ O padrão prototype é usando quando a necessidade de especificar o tipo de obje
 
 Singleton é um padrão de projeto de software que garante a existência de apenas uma instância de uma classe, mantendo um ponto global de acesso ao seu objeto.
 
-[![Exemplo](assets/exemplo_singleton.png)](assets/exemplo_singleton.jpg)
+[![Exemplo](assets/exemplo_singleton.jpg)](assets/exemplo_singleton.jpg)
 
 ### Estrutura mínima
 
-[![Diagrama](assets/singleton.png)](assets/singleton.jpg)
+[![Diagrama](assets/singleton.jpg)](assets/singleton.jpg)
 
 ### Benefícios
 
