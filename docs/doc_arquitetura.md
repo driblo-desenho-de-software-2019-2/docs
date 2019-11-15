@@ -11,6 +11,7 @@ sidebar_label: Documento Arquitetura
 | 08/11/2019 | 0.1 | Adição do template do Documento de Arquitetura | Byron Kamal |
 | 15/11/2019 | 0.2 | Adição tópico visão geral de introdução e tópico de qualidade | Luís Cláudio T. Lima |
 | 15/11/2019 |0.3| Adição MER e DER - Tópico Visão de Dados | Byron Kamal|
+| 15/11/2019 | 0.4 | Adição tópico Estilos e padrões arquiteturais| Byron Kamal|
 
 ## 1. Introdução
 [A introdução do Documento de Arquitetura de Software fornece uma visão geral do documento inteiro. Ela inclui a finalidade, o escopo, as definições, os acrônimos, as abreviações, as referências e a visão geral do Documento de Arquitetura de Software.]
@@ -84,10 +85,21 @@ Para cada classe significativa no pacote, inclua o respectivo nome, uma breve de
 #### Versao 2
 [![DER v2](assets/der_v2.png)](assets/der_v2.png)
 
-## 10. Tamanho e Desempenho 
+## 10. Estilos/padrões arquiteturais
+### 10.1 Arquitetura Monolítica vs Distribuída
+No projeto optou-se por uma arquitetura baseada em microserviços, que segue uma estrutura distribuída. Nesse modelo tem como base a organização do software em diversos sistemas independentes que se comunicam, no caso desse projeto via protocolo HTTP, e formam um sistema maior. Além de permitir uma alta coesão e um baixo acoplamento, uma arquitetura distribuída facilita questões de infraestrutura, como facilidade de gerenciamento de múltiplos servidores e tolerância a falhas.
+
+### 10.2 MVC
+O Node JS, utilizado no backend do projeto, se baseia em um modelo  MVC (Model-View-Controller). O projeto apresenta as tradicionais camadas Model e Controller, porém o papel da View, que tem o papel de decidir como e qual dado será exibido, é substituído pelo front-end, desenvolvido em React Native. A parte de abstração e comunicação com o Banco de Dados é feito através do ORM (Object-relational mapping) Sequelize.
+
+### Cliente-servidor
+Mesmo utilizando uma arquitetura baseada em microserviços, o projeto é dividido back-end e o front-end. Por mais que a aplicação seja um aplicativo mobile, a interface ainda se trata de um cliente e todo o sistema por trás que recebe as requisições de um servidor, funcionando como um modelo cliente-servidor clássico. Além disso, alguns serviços específicos no back-end, como o de autenticação, tem o papel apenas de registrar os usuários em um banco independente e renovar/criar tokens de acesso para os mesmos, servido basicamente como um servidor 
+
+
+## 11. Tamanho e Desempenho 
 [Uma descrição das principais características de dimensionamento do software que têm um impacto na arquitetura, bem como as restrições do desempenho desejado.]
 
-## 11. Qualidade 
+## 12. Qualidade 
 
 A arquitetura utilizada contribui para com o software em diversos aspectos. Os padrões arquiteturais das nossas principais frentes do sistema contribuem para a escalabilidade da aplicação, pois contribui altamente para a separação clara de responsabilidades e seus componentes podem ser facilmente substituídos por outros de sua própria implementação. Essa característica da clara separação de conceitos do MVC trás diversos outros benefícios para a aplicação em geral, como testabilidade e manutenabilidade.
 
