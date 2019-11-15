@@ -13,9 +13,10 @@ sidebar_label: Documento Arquitetura
 | 15/11/2019 |0.3| Adição MER e DER - Tópico Visão de Dados | Byron Kamal|
 | 15/11/2019 | 0.4 | Adição tópico Estilos e padrões arquiteturais| Byron Kamal|
 | 15/11/2019 | 0.5 | Adição tópico Metas e Restrições da Arquitetura| Rafael Teodosio|
+| 15/11/2019 | 0.6 | Adição tópico Introdução e Escopo| João Pedro Mota|
 
 ## 1. Introdução
-[A introdução do Documento de Arquitetura de Software fornece uma visão geral do documento inteiro. Ela inclui a finalidade, o escopo, as definições, os acrônimos, as abreviações, as referências e a visão geral do Documento de Arquitetura de Software.]
+Este documento visa apresentar a arquitetura de software a ser aplicada no sistema  Driblô, de forma que facilite a visualização dos requisitos e da estrutura para os envolvidos.
 
 ### 1.1 Finalidade
 Este documento oferece uma visão geral arquitetural abrangente do sistema, usando diversas visões arquiteturais para representar diferentes aspectos do sistema. O objetivo deste documento é capturar e comunicar as decisões arquiteturais significativas que foram tomadas em relação ao sistema.
@@ -23,7 +24,7 @@ Este documento oferece uma visão geral arquitetural abrangente do sistema, usan
 [Esta seção define o papel ou finalidade do Documento de Arquitetura de Software, na documentação do projeto como um todo, e descreve rapidamente a estrutura do documento. O público-alvo específico do documento é identificado, com uma indicação de como ele espera usar o documento.]
 
 ### 1.2 Escopo
- [Uma breve descrição da utilidade do Documento de Arquitetura de Software, do que é afetado por esse documento ou influenciado por ele.]
+O aplicativo Driblo visa facilitar a vida dos “peladeiros” que gostam de se organizar com amigos para marcarem uma pelada. Esta organização costuma tomar bastante tempo, e, como alguns costumam alugar campos para jogar, dinheiro. As principais funcionalidades do aplicativo são: a organização da pelada e a separação equilibrada dos times.
 
 ### 1.3 Definições, Acrônimos e Abreviações
 [Esta subseção contém as definições de todos os termos, acrônimos e abreviações necessários para interpretar corretamente o Documento de Arquitetura de Software.  Essas informações podem ser fornecidas fazendo referências ao Glossário do projeto.]
