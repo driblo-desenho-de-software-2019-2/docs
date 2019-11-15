@@ -12,6 +12,7 @@ sidebar_label: Documento Arquitetura
 | 15/11/2019 | 0.2 | Adição tópico visão geral de introdução e tópico de qualidade | Luís Cláudio T. Lima |
 | 15/11/2019 |0.3| Adição MER e DER - Tópico Visão de Dados | Byron Kamal|
 | 15/11/2019 | 0.4 | Adição tópico Estilos e padrões arquiteturais| Byron Kamal|
+| 15/11/2019 | 0.5 | Adição tópico Metas e Restrições da Arquitetura| Rafael Teodosio|
 
 ## 1. Introdução
 [A introdução do Documento de Arquitetura de Software fornece uma visão geral do documento inteiro. Ela inclui a finalidade, o escopo, as definições, os acrônimos, as abreviações, as referências e a visão geral do Documento de Arquitetura de Software.]
@@ -47,7 +48,16 @@ Este tópico visa detalhar as soluções arquiteturais desenvolvidas no sistema.
 [Esta seção descreve qual é a arquitetura de software do sistema atual e como ela é representada. Da Visão de Casos de Uso, Visão Lógica, Visão de Processos, Visão de Implantação e Visão de Implementação, enumera as visões necessárias e, para cada visão, explica quais tipos de elementos de modelo ela contém.]
 
 ## 3. Metas e Restrições da Arquitetura 
-[Esta seção descreve os requisitos e objetivos do software que têm algum impacto sobre a arquitetura; por exemplo, segurança, garantia, privacidade, uso de um produto desenvolvido internamente e pronto para ser usado, portabilidade, distribuição e reutilização. Ela também captura as restrições especiais que podem ser aplicáveis: estratégia de design e implementação, ferramentas de desenvolvimento, estrutura das equipes, cronograma, código-fonte legado e assim por diante.]
+- É necessária a conexão com internet para utilização do App.
+- A informação pessoal do usuário será armazenada no banco de dados.
+- A aplicação terá suporte somente para Android.
+- A IDE utilizada para o desenvolvimento do App é o Android Studio versão 3.4.1 ou o Gennymotion.
+- O Front-End e o Back-End será feito em JavaScript.
+- Serão usadas as plataformas React-Native para o Front-end e NodeJS para o Back-end.
+- Os dados extraídos do Front-End serão armazenados no banco de dados PostgreSQL.
+- Será feita uma arquitetura de microsserviços, para um melhor funcionamento e desempenho do sistema, não possuindo dependências entre si.
+- O sistema não terá uma grande quantidade de dados, mesmo assim deverá ser feita a persistência desses dados utilizando o banco relacional PostgreSQL.
+- A aplicação deve ser terminada até o final da disciplina de Desenho e Arquitetura de Software.
 
 ## 4. Visão de Casos de Uso 
 [Esta seção lista casos de uso ou cenários do modelo de casos de uso quando eles representam funcionalidade central e significativa do sistema final ou, quando têm uma grande cobertura arquitetural — eles experimentam muitos elementos arquiteturais ou quando enfatizam ou ilustram um ponto complexo e específico da arquitetura.]
