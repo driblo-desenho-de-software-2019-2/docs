@@ -16,14 +16,13 @@ sidebar_label: Documento Arquitetura
 | 15/11/2019 | 0.6 | Adição tópico Introdução e Escopo| João Pedro Mota|
 | 15/11/2019 | 0.7 | Adição das Definições, Acrônimos e Abreviações | Samuel Borges |
 | 15/11/2019 | 0.8 | Adição da Representação Arquitetural | Samuel Borges |
+| 15/11/2019 | 0.9 | Adição da finalidade na introdução | Marcelo Araújo |
 
 ## 1. Introdução
 Este documento visa apresentar a arquitetura de software a ser aplicada no sistema  Driblô, de forma que facilite a visualização dos requisitos e da estrutura para os envolvidos.
 
 ### 1.1 Finalidade
 Este documento oferece uma visão geral arquitetural abrangente do sistema, usando diversas visões arquiteturais para representar diferentes aspectos do sistema. O objetivo deste documento é capturar e comunicar as decisões arquiteturais significativas que foram tomadas em relação ao sistema.
-
-[Esta seção define o papel ou finalidade do Documento de Arquitetura de Software, na documentação do projeto como um todo, e descreve rapidamente a estrutura do documento. O público-alvo específico do documento é identificado, com uma indicação de como ele espera usar o documento.]
 
 ### 1.2 Escopo
 O aplicativo Driblo visa facilitar a vida dos “peladeiros” que gostam de se organizar com amigos para marcarem uma pelada. Esta organização costuma tomar bastante tempo, e, como alguns costumam alugar campos para jogar, dinheiro. As principais funcionalidades do aplicativo são: a organização da pelada e a separação equilibrada dos times.
