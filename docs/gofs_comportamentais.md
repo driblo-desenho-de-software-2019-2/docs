@@ -19,7 +19,7 @@ sidebar_label: GOF's Comportamentais
 | 25/10/2019 | 0.10 | Adição da Viabilidade do State| Marcelo Araújo |
 | 25/10/2019 | 0.11 | Adição da Viabilidade do Visitor| Marcelo Araújo |
 | 25/10/2019 | 0.11.2 | Correção do template do Memento, Strategy e Template Method| João Pedro Mota e Luís Cláudio T. Lima|
-| 15/11/2019 | 0.11.3 | Adição de imagens e correção do da tabela do Strategy| João Pedro Mota|
+| 15/11/2019 | 0.11.3 | Adição de imagens e correção da tabela do Strategy| João Pedro Mota|
 
 ## Introdução
 <p align="justify">
