@@ -10,7 +10,7 @@ sidebar_label: Documento Arquitetura
 | ---------- | ------ | -------------------- | --------------- |
 | 08/11/2019 | 0.1 | Adição do template do Documento de Arquitetura | Byron Kamal |
 | 15/11/2019 | 0.2 | Adição das Definições, Acrônimos e Abreviações | Samuel Borges |
-
+| 15/11/2019 | 0.3 | Adição da Representação Arquitetural | Samuel Borges |
 
 ## 1. Introdução
 [A introdução do Documento de Arquitetura de Software fornece uma visão geral do documento inteiro. Ela inclui a finalidade, o escopo, as definições, os acrônimos, as abreviações, as referências e a visão geral do Documento de Arquitetura de Software.]
@@ -24,7 +24,6 @@ Este documento oferece uma visão geral arquitetural abrangente do sistema, usan
  [Uma breve descrição da utilidade do Documento de Arquitetura de Software, do que é afetado por esse documento ou influenciado por ele.]
 
 ### 1.3 Definições, Acrônimos e Abreviações
-[Esta subseção contém as definições de todos os termos, acrônimos e abreviações necessários para interpretar corretamente o Documento de Arquitetura de Software.  Essas informações podem ser fornecidas fazendo referências ao Glossário do projeto.]
 
 * **Driblô** - Nome do sistema a ser desenvolvido
 * **Pelada** - Evento onde pessoas se juntam para jogar partidas de futebol
@@ -42,7 +41,41 @@ Este documento oferece uma visão geral arquitetural abrangente do sistema, usan
 [Esta subseção descreve o que o restante do Documento de Arquitetura de Software contém e explica como o documento está organizado.]
 
 ## 2. Representação Arquitetural
-[Esta seção descreve qual é a arquitetura de software do sistema atual e como ela é representada. Da Visão de Casos de Uso, Visão Lógica, Visão de Processos, Visão de Implantação e Visão de Implementação, enumera as visões necessárias e, para cada visão, explica quais tipos de elementos de modelo ela contém.]
+
+### Diagrama de Relações
+
+![Diagrama de Relações](assets/Diagrama_Relacao.png)
+
+
+A imagem acima mostra a relação entre os microsserviços usados na arquitetura do projeto.
+Abaixo serão explicados os microsservicos e suas funções.
+
+#### API Driblô
+
+Serviço responsável pela parte negocial da aplicação. Ou seja, responsável por: atribuir usuários a peladas e times, marcar gols e assistências de usuários, dividir os times por habilidade, e retornar a represetação dos objetos necessários. Possui um banco de dados próprio.
+
+#### API Autenticação
+
+Serviço responsável pelo registro e autenticação de usuários na aplicação. Possui um banco de dados próprio.
+
+#### Front End
+
+Interface para comunicação com o usuário.
+
+#### Gateway
+
+Serviço responsável pela comunicação entre os diversos serviços da aplicação.
+
+### Model View Controller (MVC)
+
+As APIs utilizam o padrão de projeto MVC para separar a lógica do programa em três elementos.
+
+* **Model:** Camada responsável pela leitura, manipulação e validação dos dados;
+* **Controller:** Camada responsável pela manipulação e validação das requisições do usuário, traduzindo em comandos enviados para enviados para a Model e/ou View;
+* **View:** Camada de interface com o usuário, responsável pela representação dos dados.
+
+No projeto não será utilizada a camada View, visto que a interface será feita em um serviço separado responsável unicamente por isso.
+
 
 ## 3. Metas e Restrições da Arquitetura
 [Esta seção descreve os requisitos e objetivos do software que têm algum impacto sobre a arquitetura; por exemplo, segurança, garantia, privacidade, uso de um produto desenvolvido internamente e pronto para ser usado, portabilidade, distribuição e reutilização. Ela também captura as restrições especiais que podem ser aplicáveis: estratégia de design e implementação, ferramentas de desenvolvimento, estrutura das equipes, cronograma, código-fonte legado e assim por diante.]
