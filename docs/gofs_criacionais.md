@@ -9,7 +9,9 @@
 | 24/10/2019 | 0.4 | Adição dos problemas solucionados pelos padrões | Henrique Martins |
 | 24/10/2019 | 0.5 | Adição exemplo de padrão factory-method driblo| Luís Cláudio T. Lima |
 | 24/10/2019 | 0.6 | Adição da viabilidade ao projeto do modelo Abstract Factory| Rafael Teodosio, Samuel Borges |
-| 24/10/2019 | 0.7 | Atualizando modelo factory-method| Luís Cláudio T. Lima|
+|24/10/2019  | 0.7 | Adição padrão Singleton | Byron Kamal |
+| 24/10/2019 | 0.8 | Atualizando modelo factory-method| Luís Cláudio T. Lima|
+| 15/11/2019 | 0.9 | Adicionando imagem ao singleton e correção de texto| João Pedro Mota|
 
 ## Introdução
 
@@ -152,8 +154,6 @@ Prototype é um padrão de projeto de software criacional que permite a criaçã
 | ------- | :-----: |
 | Problema 1 | Não | 
 | Problema 2 | Não |
-
-(Dizer porque soluções são úteis ou não)
  
 O padrão prototype é usando quando a necessidade de especificar o tipo de objeto instaciado em tempo de execução, o que não será necessário no Driblô.
 
@@ -165,35 +165,30 @@ O padrão prototype é usando quando a necessidade de especificar o tipo de obje
 
 Singleton é um padrão de projeto de software que garante a existência de apenas uma instância de uma classe, mantendo um ponto global de acesso ao seu objeto.
 
-[![Exemplo](assets/exemplo_singleton.png)](assets/exemplo_singleton.png)
+[![Exemplo](assets/exemplo_singleton.png)](assets/exemplo_singleton.jpg)
 
 ### Estrutura mínima
 
-[![Diagrama](assets/singleton.png)](assets/singleton.png)
-
-### Problemas solucionados pelo padrão
-
- 1. Como é possível garantir que uma classe tenha apenas uma instância?
- 1. Como a instância única de uma classe pode ser acessada facilmente?
- 1. Como uma classe pode controlar sua instanciação?
- 1. Como o número de instâncias de uma classe pode ser restrito?
+[![Diagrama](assets/singleton.png)](assets/singleton.jpg)
 
 ### Benefícios
 
- 1. Você pode ter certeza de que uma classe possui apenas uma única instância.
- 1. Você ganha um ponto de acesso global para essa instância.
- 1. O objeto singleton é inicializado somente quando solicitado pela primeira vez.
+<br />
+<ul>
+ <li> Você pode ter certeza de que uma classe possui apenas uma única instância. </li>
+ <li> Você ganha um ponto de acesso global para essa instância. </li>
+ <li> O objeto singleton é inicializado somente quando solicitado pela primeira vez. </li>
+</ul>
+<br/>
+
 
 ### Aplicável no Driblô?
 
-| Problema | Solução é útil ao Driblô? |
-| ------- | :-----: |
-| Problema 1 |  | 
-| Problema 2 |  |
-| Problema 3 |  | 
-| Problema 4 |  |
+<p align="justify">
+Este padrão é utilizado no dentro do projeto por exemplo dentro da instância da classe **App**. Dentro do projeto esta classe é instaciada somente uma vez e pode ser chamada por outros componentes do código sem a necessidade de rodar o código novamente. A seguir temos na linha 23 (marcado com a Toggle vermelho) exemplo do Singleton utilizado no projeto:
+</p>
 
-(Dizer porque soluções são úteis ou não)
+[![Código Singleton](assets/padroes_gof/singleton.png)](assets/padroes_gof/singleton.png)
 
 ---
 
@@ -238,3 +233,5 @@ Singleton é um padrão de projeto de software que garante a existência de apen
 [Refactoring Guru - Singleton](https://refactoring.guru/design-patterns/singleton)
 
 [w3sDesign](http://w3sdesign.com/?gr=s02&ugr=proble#gf)
+
+[Java Code Geeks](https://www.javacodegeeks.com/2013/02/singleton-design-pattern-an-introspection-and-best-practices.html)
