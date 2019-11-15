@@ -10,6 +10,7 @@ sidebar_label: Documento Arquitetura
 | ---------- | ------ | -------------------- | --------------- |
 | 08/11/2019 | 0.1 | Adição do template do Documento de Arquitetura | Byron Kamal |
 | 15/11/2019 | 0.2 | Adição tópico visão geral de introdução e tópico de qualidade | Luís Cláudio T. Lima |
+| 15/11/2019 |0.3| Adição MER e DER - Tópico Visão de Dados | Byron Kamal|
 
 ## 1. Introdução
 [A introdução do Documento de Arquitetura de Software fornece uma visão geral do documento inteiro. Ela inclui a finalidade, o escopo, as definições, os acrônimos, as abreviações, as referências e a visão geral do Documento de Arquitetura de Software.]
@@ -71,8 +72,17 @@ Para cada classe significativa no pacote, inclua o respectivo nome, uma breve de
 ## 8. Visão da Implementação 
 [Esta seção descreve a estrutura geral do modelo de implementação, a divisão do software em camadas e os subsistemas no modelo de implementação e todos os componentes significativos do ponto de vista da arquitetura.]
 
-## 9. Visão de Dados (opcional)
-[Uma descrição da perspectiva de armazenamento de dados persistentes do sistema. Esta seção será opcional se os dados persistentes forem poucos ou inexistentes ou se a conversão entre o Modelo de Design e o Modelo de Dados for trivial.]
+## 9. Visão de Dados
+### 9.1 Modelo Entidade-Relacionamento (M-ER)
+#### Versão 1
+[![MER](assets/mer.png)](assets/mer.png)
+
+### 9.2 Diagrama Entidade-Relacionamento (D-ER)
+#### Versao 1
+[![DER v1](assets/der_v1.png)](assets/der_v1.png)
+
+#### Versao 2
+[![DER v2](assets/der_v2.png)](assets/der_v2.png)
 
 ## 10. Tamanho e Desempenho 
 [Uma descrição das principais características de dimensionamento do software que têm um impacto na arquitetura, bem como as restrições do desempenho desejado.]
