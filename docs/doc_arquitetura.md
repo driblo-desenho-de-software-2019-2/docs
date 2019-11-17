@@ -10,13 +10,14 @@ sidebar_label: Documento Arquitetura
 | ---------- | ------ | -------------------- | --------------- |
 | 08/11/2019 | 0.1 | Adição do template do Documento de Arquitetura | Byron Kamal |
 | 15/11/2019 | 0.2 | Adição tópico visão geral de introdução e tópico de qualidade | Luís Cláudio T. Lima |
-| 15/11/2019 |0.3| Adição MER e DER - Tópico Visão de Dados | Byron Kamal|
+| 15/11/2019 | 0.3 | Adição MER e DER - Tópico Visão de Dados | Byron Kamal|
 | 15/11/2019 | 0.4 | Adição tópico Estilos e padrões arquiteturais| Byron Kamal|
 | 15/11/2019 | 0.5 | Adição tópico Metas e Restrições da Arquitetura| Rafael Teodosio|
 | 15/11/2019 | 0.6 | Adição tópico Introdução e Escopo| João Pedro Mota|
 | 15/11/2019 | 0.7 | Adição das Definições, Acrônimos e Abreviações | Samuel Borges |
 | 15/11/2019 | 0.8 | Adição da Representação Arquitetural | Samuel Borges |
 | 15/11/2019 | 0.9 | Adição da finalidade na introdução | Marcelo Araújo |
+| 17/11/2019 | 1.0 | Adição de algumas referências | Henrique Martins |
 
 ## 1. Introdução
 Este documento visa apresentar a arquitetura de software a ser aplicada no sistema  Driblô, de forma que facilite a visualização dos requisitos e da estrutura para os envolvidos.
@@ -40,7 +41,10 @@ O aplicativo Driblo visa facilitar a vida dos “peladeiros” que gostam de se 
 * **MVC** - Padrão de arquitetura de software focado no reuso de código e a separação de conceitos em três camadas interconectadas.
 
 ### 1.4 Referências
-[Esta subseção fornece uma lista completa dos documentos mencionados em outra parte do Documento de Arquitetura de Software. Identifique cada documento por título, número do relatório (se aplicável), data e organização de publicação. Especifique as fontes a partir das quais as referências podem ser obtidas. Essas informações podem ser fornecidas por um anexo ou outro documento.]
+
+[Tutorial](http://www.linhadecodigo.com.br/artigo/3343/como-documentar-a-arquitetura-de-software.aspx) - Como Documentar a Arquitetura de Software
+[Translate-me](https://translate-me.github.io/docs/documentos/projeto/doc_de_arquitetura/) - Documento de Arquitetura
+
 ### 1.5 Visão Geral
 
 Este tópico visa detalhar as soluções arquiteturais desenvolvidas no sistema. Desta forma,serão abordados os seguintes aspectos:
@@ -106,7 +110,8 @@ No projeto não será utilizada a camada View, visto que a interface será feita
 
 ## 4. Visão de Casos de Uso 
 [Esta seção lista casos de uso ou cenários do modelo de casos de uso quando eles representam funcionalidade central e significativa do sistema final ou, quando têm uma grande cobertura arquitetural — eles experimentam muitos elementos arquiteturais ou quando enfatizam ou ilustram um ponto complexo e específico da arquitetura.]
-4.1 Realizações de Casos de Uso
+
+### 4.1 Realizações de Casos de Uso
 [Esta seção ilustra o funcionamento do software, apresentando algumas realizações (ou cenários) de casos de uso selecionadas e explica como os diversos elementos do modelo de design contribuem para a respectiva funcionalidade.]
 
 ## 5. Visão Lógica 
