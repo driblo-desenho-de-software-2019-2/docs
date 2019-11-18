@@ -19,6 +19,9 @@ sidebar_label: GOF's Comportamentais
 | 25/10/2019 | 0.10 | Adição da Viabilidade do State| Marcelo Araújo |
 | 25/10/2019 | 0.11 | Adição da Viabilidade do Visitor| Marcelo Araújo |
 | 25/10/2019 | 0.11.2 | Correção do template do Memento, Strategy e Template Method| João Pedro Mota e Luís Cláudio T. Lima |
+| 18/11/2019 | 0.12 | Adição dos exemplos em trechos de código que foi implementado o padrão Strategy| Matheus Rodrigues |
+| 18/11/2019 | 0.13 | Adição dos exemplos em trechos de código que foi implementados o padrão de projeto Mediator| Matheus Rodrigues |
+| 18/11/2019 | 0.14 | Adição dos exemplos em trechos de código que foi implementado o padrão de projeto Observer| Matheus Rodrigues |
 
 ## Introdução
 <p align="justify">
@@ -285,10 +288,19 @@ O Observer é um padrão de projeto de software que define uma dependência um-p
 
 | Problema | Solução é útil ao Driblô? |
 | ------- | :-----: |
-| Problema 1 |  |
-| Problema 2 |  |
+| Problema 1 | sim |
+| Problema 2 | sim |
 
-(Dizer porque soluções são úteis ou não)
+***Evento criado para a atualização do placar em tempo real, este evento é disparado para todos usuários que acompanham a partida***
+
+[![antes-overall](assets/observe-exemplo.png)](assets/assets/observe-exemplo.png)
+<p></p>
+
+***Evento criado para informar o nome do time e quantos gols aquele time possue, este evento é disparado para o backend***
+
+[![antes-overall](assets/observer-exemplo1.png)](assets/assets/observer-exemplo1.png)
+
+Se fez necessário a comunicação bidirecional para a marcação do placar da partida em andamento, para que todos os usuários possam acompanhar os gols em tempo real. Para isso, a biblioteca *socket.io* permitiu a comunicação em tempo real, baseada em eventos, então quando o administrador marca o gol da partida, o placar que fica na pagina de pelada é atualizado automaticamente para todos os usuários.
 
 ---
 
