@@ -18,6 +18,7 @@ sidebar_label: Documento Arquitetura
 | 15/11/2019 | 0.8 | Adição da Representação Arquitetural | Samuel Borges |
 | 15/11/2019 | 0.9 | Adição da finalidade na introdução | Marcelo Araújo |
 | 17/11/2019 | 1.0 | Adição de algumas referências | Henrique Martins |
+| 17/11/2019 | 1.1 | Corrigindo erro do tópico 1.4 | Henrique Martins |
 
 ## 1. Introdução
 Este documento visa apresentar a arquitetura de software a ser aplicada no sistema  Driblô, de forma que facilite a visualização dos requisitos e da estrutura para os envolvidos.
@@ -43,6 +44,7 @@ O aplicativo Driblo visa facilitar a vida dos “peladeiros” que gostam de se 
 ### 1.4 Referências
 
 [Tutorial](http://www.linhadecodigo.com.br/artigo/3343/como-documentar-a-arquitetura-de-software.aspx) - Como Documentar a Arquitetura de Software
+
 [Translate-me](https://translate-me.github.io/docs/documentos/projeto/doc_de_arquitetura/) - Documento de Arquitetura
 
 ### 1.5 Visão Geral
