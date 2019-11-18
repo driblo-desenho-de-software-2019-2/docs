@@ -201,8 +201,8 @@ Mediador é um padrão de projeto usado frequentemente quando deseja-se encapsul
 ### Benefícios
 
  1. Diminuí consideravelmente o acoplamento (entre os Colegas) e consequentemente aumenta o reuso.
- 1. Ocorre a eliminação de relacionamentos muitos para muitos (N para N)
- 1. A política de comunicações fica centralizada no Mediator, logo, podemos alterar essa política sem precisar alterar os Colegas. 
+ 2. Ocorre a eliminação de relacionamentos muitos para muitos (N para N)
+ 3. A política de comunicações fica centralizada no Mediator, logo, podemos alterar essa política sem precisar alterar os Colegas. 
 
 ### Aplicável no Driblô?
 
@@ -211,11 +211,21 @@ Mediador é um padrão de projeto usado frequentemente quando deseja-se encapsul
 | Problema 1 | Sim |
 | Problema 2 | Sim |
 
-(Dizer porque soluções são úteis ou não)
+O padrão ***Mediator*** foi implementado no serviço ***Driblo***, é um padrão de projeto que promove o acoplamento livre de objetos, removendo a necessidade das classes se comunicarem diretamente, este padrão foi muito útil para tratar a interação entre entidades.
 
-Na modelagem do banco de dados, é possível ver que a entidade de usuário está ligada a todas outras entidades do banco, além de possuir relacionamentos N para N, o que pode trazer um acoplamento forte dessa classe, assim o mediator se torna uma solução para esses problema, um exemplo seria quando o usuário participa da pelada deve existir um mediador entre usuário e a pelada.  
+***Trecho da controladora responsável pelo relacionamento entre jogador e pelada***
+
+[![mediator userpelada](assets/mediator-exemplo2.png)](assets/mediator-exemplo2.png)
+
+***Trecho da controladora responsável pelo relacionamento entre jogador e time***
+
+[![mediator userpelada](assets/mediator-exemplo1.png)](assets/mediator-exemplo1.png)
+
+Como pode ser observado, foi necessário a criação de uma controladora que possue o comportamento de mediador, e por sua vez, retira a responsabilidade de um objeto especifico em se relacionar com um ou mais objetos, deixando essa responsabilidade de interação com a controladora.
 
 ---
+
+<br>
 
 ## Memento
 
