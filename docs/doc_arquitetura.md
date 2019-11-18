@@ -19,6 +19,7 @@ sidebar_label: Documento Arquitetura
 | 15/11/2019 | 0.9 | Adição da finalidade na introdução | Marcelo Araújo |
 | 17/11/2019 | 1.0 | Adição de algumas referências | Henrique Martins |
 | 17/11/2019 | 1.1 | Corrigindo erro do tópico 1.4 | Henrique Martins |
+| 17/11/2019 | 1.2 | Adição da Visão de Casos de Uso | Samuel Borges |
 
 ## 1. Introdução
 Este documento visa apresentar a arquitetura de software a ser aplicada no sistema  Driblô, de forma que facilite a visualização dos requisitos e da estrutura para os envolvidos.
@@ -112,9 +113,33 @@ No projeto não será utilizada a camada View, visto que a interface será feita
 
 ## 4. Visão de Casos de Uso 
 [Esta seção lista casos de uso ou cenários do modelo de casos de uso quando eles representam funcionalidade central e significativa do sistema final ou, quando têm uma grande cobertura arquitetural — eles experimentam muitos elementos arquiteturais ou quando enfatizam ou ilustram um ponto complexo e específico da arquitetura.]
+### 4.1 Especificações dos casos de uso
+| Casos de Uso       | API Relacionada | Descrição|
+| :------------- | :----------: | :------------- |
+|  UC01 - Registro | API de Autenticação | O usuário registra suas informações na aplicação, é necessário para ter acesso às funcionalidades da aplicação| 
+|  UC02 - Login  | API de Autenticação |O usuário valida suas informações e consegue acesso às outras funcionalidades|
+|  UC03 - Criar Pelada | API Driblô | O usuário cria e agenda uma pelada |
+|  UC04 - Alterar informações da Pelada | API Driblô | O usuário muda as informações da pelada|
+|  UC05 - Adicionar membros à Pelada | API Driblô | O usuário adiciona outros usuários ao grupo da pelada|
+|  UC06 - Visualizar membros da Pelada | API Driblô | O usuário visualiza a lista de membros que fazem parte do grupo da Pelada em questão|
+|  UC07 - Atualizar regras da Pelada | API Driblô | O usuário altera as regras vigentes da Pelada em questão|
+|  UC08 - Marcar Gols | API Driblô | O usuário marca os gols feitos durante a partida, guardando as informacao de quem fez o gol e de quem ajudou a fazê-lo|
+|  UC09 - Visualizar Gols da Pelada | API Driblô | O usuário visualiza a lista de gols marcados durante a partida|
 
 ### 4.1 Realizações de Casos de Uso
-[Esta seção ilustra o funcionamento do software, apresentando algumas realizações (ou cenários) de casos de uso selecionadas e explica como os diversos elementos do modelo de design contribuem para a respectiva funcionalidade.]
+
+#### 4.1.1 Diagrama de Colaboração da API de Autenticação
+
+![Diagrama de Colaboração Auth](assets/colaboracao_autenticacao_1.0.png)
+
+O diagrama acima ilustra as os casos de uso relacionados à API de autenticação, que é responsável pelo registro e validação de usuários e possui banco de dados próprio.
+
+#### 4.1.2 Diagrama de Colaboração da API do Driblô
+
+![Diagrama de Colaboração Driblô](assets/colaboracao_user_3.0.png)
+
+O diagrama acima ilustra as os casos de uso relacionados à API do driblô, que é responsável por toda a parte negocial da aplicação e também possui banco de dados próprio.
+
 
 ## 5. Visão Lógica 
 [Esta seção descreve as partes significativas do ponto de vista da arquitetura do modelo de design, como sua divisão em subsistemas e pacotes. Além disso, para cada pacote significativo, ela mostra sua divisão em classes e utilitários de classe. Apresente as classes significativas do ponto de vista da arquitetura e descreva suas responsabilidades, bem como alguns relacionamentos, operações e atributos de grande importância.]
