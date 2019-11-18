@@ -330,8 +330,9 @@ O padrão Strategy é um padrão comportamental que permite selecionar um algori
 
 ### Problemas solucionados pelo padrão
 
- 1. Como uma classe pode ser configurada com um algoritmo em tempo de execução, em vez de implementar um algoritmo diretamente?
- 1. Como um algoritmo pode ser selecionado e trocado em tempo de execução?
+ 1. Uma classe pode ser configurada com um algoritmo em tempo de execução, em vez de implementar um algoritmo diretamente
+
+ 2. Um algoritmo pode ser selecionado e trocado em tempo de execução.
 
 ### Benefícios
 
@@ -346,8 +347,35 @@ O padrão Strategy é um padrão comportamental que permite selecionar um algori
 | ------- | :-----: |
 | Problema 1 | Sim  |
 | Problema 2 | Sim |
-Durante a formação dos times, há formas diferentes de serem balanceados de acordo com a habilidade dos jogadores, quantidade de participantes e etc. Além diso,é necessário que esta escolha seja feita em tempo de execução, pois não há como prever quem realmente estará presente no dia do jogo.
-Com o padrão Strategy espera-se que o nosso app possua uma alta performance na geração e balanceamento dos times. 
+
+O padrão ***Strategy*** foi implementado no serviço ***User*** do projeto, este padrão foi muito util para o calculo do ***Overall*** do jogador, visto que para cada tipo posição, o peso da das habilidades(velocidade, chute, defesa, passe, drible) variavam, então ao invés de criar uma enorme estrura condicional, o algoritmo escolhido para o calculo do ***Overall*** é definido em tempo de execução, isso tudo se deve a dinamicidade que o javascript proporciona na exportação de funcões.
+
+***Trecho dos algoritmos para o cálculo do Overall - Antigo***
+
+[![antes-overall](assets/antes-overall.png)](assets/strategy.png)
+
+***Chamada do algoritmo para o calculo do Overall - Antigo***
+
+[![antes-overall](assets/antes-overall-laco.png)](assets/strategy.png)
+
+<br>
+
+***Import dos algoritmos em apenas um objeto***
+
+[![import-overall](assets/import-overall.png)](assets/import-overall.png)
+
+
+
+***Trecho dos algoritmos para o cálculo do Overall - Refatorado***
+
+[![depois-overall](assets/depois-overall.png)](assets/depois-overall.png)
+
+***Chamada do algoritmo para o calculo do Overall - Refatorado***
+
+[![antes-overall](assets/depois-overall-laco.png)](assets/depois-overall-laco.png)
+
+
+Como pode ser observado, o arquivo que contém os algoritmos de calcular o overall, exporta suas funções mapeando cada uma delas com chave-valor, desse modo, a *controller* de usuário importa esse objeto e em tempo de execução invoca a função especifica passando como chave a posição do jogador.
 
 ---
 
