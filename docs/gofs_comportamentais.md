@@ -18,7 +18,8 @@ sidebar_label: GOF's Comportamentais
 | 25/10/2019 | 0.9 | Adição da Viabilidade do Memento| João Pedro Mota e Luís Cláudio T. Lima |
 | 25/10/2019 | 0.10 | Adição da Viabilidade do State| Marcelo Araújo |
 | 25/10/2019 | 0.11 | Adição da Viabilidade do Visitor| Marcelo Araújo |
-| 25/10/2019 | 0.11.2 | Correção do template do Memento, Strategy e Template Method| João Pedro Mota e Luís Cláudio T. Lima |
+| 25/10/2019 | 0.11.2 | Correção do template do Memento, Strategy e Template Method| João Pedro Mota e Luís Cláudio T. Lima|
+| 15/11/2019 | 0.11.3 | Adição de imagens e correção da tabela do Strategy| João Pedro Mota|
 
 ## Introdução
 <p align="justify">
@@ -346,6 +347,7 @@ O padrão Strategy é um padrão comportamental que permite selecionar um algori
 | ------- | :-----: |
 | Problema 1 | Sim  |
 | Problema 2 | Sim |
+
 Durante a formação dos times, há formas diferentes de serem balanceados de acordo com a habilidade dos jogadores, quantidade de participantes e etc. Além diso,é necessário que esta escolha seja feita em tempo de execução, pois não há como prever quem realmente estará presente no dia do jogo.
 Com o padrão Strategy espera-se que o nosso app possua uma alta performance na geração e balanceamento dos times. 
 
