@@ -112,7 +112,6 @@ No projeto não será utilizada a camada View, visto que a interface será feita
 - A aplicação deve ser terminada até o final da disciplina de Desenho e Arquitetura de Software.
 
 ## 4. Visão de Casos de Uso 
-[Esta seção lista casos de uso ou cenários do modelo de casos de uso quando eles representam funcionalidade central e significativa do sistema final ou, quando têm uma grande cobertura arquitetural — eles experimentam muitos elementos arquiteturais ou quando enfatizam ou ilustram um ponto complexo e específico da arquitetura.]
 ### 4.1 Especificações dos casos de uso
 | Casos de Uso       | API Relacionada | Descrição|
 | :------------- | :----------: | :------------- |
