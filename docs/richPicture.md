@@ -29,7 +29,7 @@ Alguns integrantes do grupo ficaram responsáveis pela produção dos Rich Pictu
 
 ## 4. RichPictures
 
-## Problemática
+### Problemática
 
 Rich Picture com foco nos problemas e dificuldades enfrentados pelos frequentadores de futebol amador.<br>
 
@@ -43,7 +43,7 @@ Rich Picture com foco na aplicação e escopo do projeto.
 
 [![Problemática](assets/richpicture_problematica_v02.png)](assets/richpicture_problematica_v02.png)
 
-## Aplicação
+### Aplicação
 
 Rich Picture com foco na aplicação e escopo do projeto.<br>
 

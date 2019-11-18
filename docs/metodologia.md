@@ -10,28 +10,28 @@ sidebar_label: Metodologia
 | :--------: | :----: | :-----------------------------------: | :--------------------------------------------: |
 | 5/09/2019  |  0.1   |         Criação do documento          | Byron Kamal, Caio Oliveira, Matheus Rodrigues  |
 | 5/09/2019  |  0.2   |   Criação dos tópicos 1,2,3,4,5 e 6   | Byron Kamal, Caio Oliveira, Matheus Rodrigues  |
-| 05/09/2019 |  0.3   | Tópico 7.1 - Diagrama de Metodologia  | Byron Kamal, Caio Oliveira e Marcelo Magalhães |
-| 05/09/2019 | 0.3.1  | Tópico 7.2 - Diagrama Sprint Planning |        Byron Kamal e Marcelo Magalhães         |
-| 05/09/2019 | 0.3.2  |  Tópico 7.3 - Diagrama Sprint Review e Tópico 7.4 - Fluxo do Projeto  |                  Byron Kamal                   |
+| 05/09/2019 |  0.3   | Tópico 8.1 - Diagrama de Metodologia  | Byron Kamal, Caio Oliveira e Marcelo Magalhães |
+| 05/09/2019 | 0.3.1  | Tópico 8.2 - Diagrama Sprint Planning |        Byron Kamal e Marcelo Magalhães         |
+| 05/09/2019 | 0.3.2  |  Tópico 8.3 - Diagrama Sprint Review e Tópico 8.4 - Fluxo do Projeto  |                  Byron Kamal                   |
 | 6/09/2019  |  0.4   |          Revisão ortógrafica          |                João Pedro Mota                 |
-| 6/09/2019  |  0.5   |          Tópico 7.5 diagrama da decisão das tecnologias e tópico 7.6 diagrama da entrega contínua|                Matheus Rodrigues |
+| 6/09/2019  |  0.5   |          Tópico 8.5 diagrama da decisão das tecnologias e tópico 8.6 diagrama da entrega contínua|                Matheus Rodrigues |
 | 6/09/2019  |  0.6   |          Correção de erro             |                Henrique Martins                |
-| 6/09/2019  |  0.7   |  Tópico 7.7 diagrama do seminário     |                Henrique Martins                |
-| 6/09/2019  |  0.8   |  Tópico 7.8 diagrama do backlog do produto     |                Marcelo Araújo                |
-| 6/09/2019  |  0.9   |  Tópico 7.9 diagrama do administrador     |                Rafael Teodosio, Samuel Borges, João Mota                |
-| 6/09/2019  |  1.0   |  Tópico 7.9.1 diagrama do usuário comum     |                Rafael Teodosio, Samuel Borges, João Mota                |
+| 6/09/2019  |  0.7   |  Tópico 8.7 diagrama do seminário     |                Henrique Martins                |
+| 6/09/2019  |  0.8   |  Tópico 8.8 diagrama do backlog do produto     |                Marcelo Araújo                |
+| 6/09/2019  |  0.9   |  Tópico 8.9 diagrama do administrador     |                Rafael Teodosio, Samuel Borges, João Mota                |
+| 6/09/2019  |  1.0   |  Tópico 8.9.1 diagrama do usuário comum     |                Rafael Teodosio, Samuel Borges, João Mota                |
 
 ## 1.Introdução
 
 <p align='justify'>
 O documento de metodologia tem por finalidade demonstrar quais aspectos das metodologias já conhecidas serão usadas para o desenvolvimento do projeto Driblô, os aspectos foram discutidos e aprovados pelo grupo durantes as reuniões.
 
-## 2.Objetivo
+## 2. Objetivo
 
 <p align='justify'>
 Apresentar como será o funcionamento da equipe, em relação a metodologia usada para o desenvolvimento do aplicativo Driblô.
 
-## 3.Metodologia
+## 3. Metodologia
 
 <p align='justify'>
 
@@ -74,7 +74,7 @@ Os artefatos gerados servem para que facilitar a visão e a produtividade do pro
 - **Product backlog** lista que contém todas as funcionalidades desejada para o produto.
 - **Sprint backlog** lista com as funcionalidades que seram implementadas na sprint.
 
-## 4. Kanban
+## 5. Kanban
 
 <p align='justify'>
 
@@ -87,7 +87,7 @@ O kanban é uma ferramenta ágil e visual.
 - **Visual** pois, o kanban funciona com cartões que indicam as tarefas a serem executadas e colunas que indicam o status de execução da tarefa, (
   a fazer, fazendo e feito)
 
-## 5. eXtreme Programming
+## 6. eXtreme Programming
 
 <p align='justify'>
 
@@ -120,7 +120,7 @@ Para conseguir seguir os valores fundamentais do XP são usadas práticas que re
 - **Refatoração**
 - **Integração Contínua**
 
-## 6. Metodologia Driblô
+## 7. Metodologia Driblô
 
 <p align='justify'>
 
@@ -187,7 +187,7 @@ Padrão de código para que que o código possa ser mantido por qualquer membro 
   <p align='justify'>
   Integração contínua para que uma funcionalidade não precise esperar uma nova release, assim diminuindo a possibilidade de conflitos e erros no código.
 
-## 7. Diagramas
+## 8. Diagramas
 
 ### Introdução
 
@@ -201,44 +201,44 @@ Servirá para auxiliar o grupo no entendimento dos fluxos e processos de desenvo
 
 Foi feito uma reunião com o scrum master para definição dos temas dos diagramas e seus autores. Foi utilizado as ferramentas [Bizagi](https://www.bizagi.com/pt) e o [bpmn.io](https://bpmn.io/) para confecção dos artefatos.
 
-#### 7.1 Metodologia - Versão 1.0
+#### 8.1 Metodologia - Versão 1.0
 
 [![Metodologia](assets/funciomaneto_sprint.png)](assets/funciomaneto_sprint.png)
 
-#### 7.2 Sprint Planning - Versão 1.0
+#### 8.2 Sprint Planning - Versão 1.0
 
 [![Processo Sprint Planning](assets/processo_sprint_planning.png)](assets/processo_sprint_planning.png)
 
-#### 7.3 Sprint Review - Versão 1.0
+#### 8.3 Sprint Review - Versão 1.0
 
 [![Processo Sprint Planning](assets/processo_sprint_review.png)](assets/processo_sprint_review.png)
 
-#### 7.4 Fluxo do Projeto 1.0
+#### 8.4 Fluxo do Projeto 1.0
 
 [![Processo Sprint Planning](assets/processo.jpeg)](assets/processo.jpeg)
 
-#### 7.5 Processo da decisão das tecnologias 1.0
+#### 8.5 Processo da decisão das tecnologias 1.0
 [![Tecnologias](assets/tecnologias.png)](assets/tecnologias.png)
 
-#### 7.6 Entrega contínua
+#### 8.6 Entrega contínua
 [![Entrega contínua](assets/entrega_continua.png)](assets/entrega_continua.png)
 
-#### 7.7 Seminário
+#### 8.7 Seminário
 ##### Seminário - V1.0
 [![Seminário1.0](assets/Seminário%201.0.png)](assets/Seminário%201.0.png)
 ##### Seminário - V1.1
 [![Seminário1.1](assets/Seminário%201.1.png)](assets/Seminário%201.1.png)
 
-#### 7.8 Backlog do produto - Versão 1.0
+#### 8.8 Backlog do produto - Versão 1.0
 [![Backlog do produto](assets/backlog.svg)](assets/backlog.svg)
 
-#### 7.9 Administrador - Versão 1.0
+#### 8.9 Administrador - Versão 1.0
 [![Backlog do produto](assets/BPMN_do_Administrador_v01.png)](assets/BPMN_do_Administrador_v01.png)
 
-#### 7.9.1 Usuário Comum - Versão 1.0
+#### 8.9.1 Usuário Comum - Versão 1.0
 [![Usuario Comum](assets/BPMN_geral_usuario.png)](assets/BPMN_geral_usuario.png)
 
-### 8. Referências
+### 9. Referências
 
 - O que é BPMN (Business Process Model and Notation) e como aplicar essa notação na Modelagem de Processos. Disponível em: <https://www.euax.com.br/2017/02/o-que-e-bpmn-business-process-model-and-notation/>. Acessado em: 04/09/2019
 - MANUAL DE MODELAGEM DE PROCESSOS COM BIZAGI MODELER. Disponível em: <http://www.sgc.goias.gov.br/upload/arquivos/2017-04/manual-de-modelagem-de-processos-usando-bizagi.pdf>. Acessado em: 05/09/2019.

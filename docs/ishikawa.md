@@ -16,11 +16,11 @@ sidebar_label: Causa e Efeito
 
 O Diagrama de Causa-Efeito, também chamado de “Diagrama de Ishikawa” ou Diagrama de Espinha de Peixe, tem como objetivo identificar as causas de problemas que devem ser resolvidos através de uma representação gráfica.
 
-## 2.Objetivo
+## 2. Objetivo
 
 Este documento tem como objetivo mostrar algumns dos principais problemas enfrentados para organizar uma partida de futebol informal, utilizando o Diagrama de Causa-Efeito.
 
-## 3.Metodologia
+## 3. Metodologia
 
 Alguns integrantes do grupo ficaram responsáveis pela produção do Diagrama Causa-Efeito, sendo que eles froam produzidos com o auxílio da ferrementa Draw.io.
 
@@ -28,7 +28,7 @@ Alguns integrantes do grupo ficaram responsáveis pela produção do Diagrama Ca
 
 Diagrama de causa e efeito representando as possiveis dificuldades encontradas no processo de marcar uma partidada de futebol amador. <br>
 
-**Versão 1.0**
+### Versão 1.0
 [![Causa e Efeito](assets/ishikawa_agendamento_v01.png)](assets/ishikawa_agendamento_v01.png)
 
 ### Versão 1.1

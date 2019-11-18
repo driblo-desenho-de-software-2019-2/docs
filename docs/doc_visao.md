@@ -4,8 +4,6 @@ title: Documento de Visão
 sidebar_label: Documento de Visão
 ---
 
-# Documento de Visão
-
 ### Histórico de versão
 
 | **Data**   | **Versão** | **Descrição**                            | **Autor(es)**        |
