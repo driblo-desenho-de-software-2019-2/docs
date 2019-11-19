@@ -30,6 +30,7 @@
   },
   "Iniciativas Extras": {
     "Documentos do Projeto": [
+      "docArquitetura",
       "docVisao",
       "NFR",
       "backlog",
