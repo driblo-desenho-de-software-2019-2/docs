@@ -199,11 +199,7 @@ Os diagramas de sequência demonstram o fluxo de troca de informações entre os
 
 [![Fluxo de grupo](assets/Diagrama_de_Sequencia_Funcionamento_grupos.png)](assets/Diagrama_de_Sequencia_Funcionamento_grupos.png)
 
-
-## 6. Visão de Processos 
-[Esta seção descreve a decomposição do sistema em processos leves (threads simples de controle) e processos pesados (agrupamentos de processos leves). Organize a seção em grupos de processos que se comunicam ou interagem. Descreva os modos principais de comunicação entre processos, como transmissão de mensagens e interrupções.]
-
-## 7. Visão de Implantação
+## 6. Visão de Implantação
 
 Diagrama de implementação serve para descrever a estrutura geral do modelo de implementação, dar uma visão de como seria implementado em hardware a arquitetura proposta. Mostra o software em camadas e os subsistemas
 no modelo de implementação e todos os componentes significativos do ponto de vista da arquitetura.
@@ -211,29 +207,29 @@ no modelo de implementação e todos os componentes significativos do ponto de v
 #### Versão 1
 [![Implantação](assets/implantacao.png)](assets/implantacao.png)
 
-## 9. Visão de Dados
-### 9.1 Modelo Entidade-Relacionamento (M-ER)
+## 7. Visão de Dados
+### 7.1 Modelo Entidade-Relacionamento (M-ER)
 #### Versão 1
 [![MER](assets/mer.png)](assets/mer.png)
 
-### 9.2 Diagrama Entidade-Relacionamento (D-ER)
+### 7.2 Diagrama Entidade-Relacionamento (D-ER)
 #### Versao 1
 [![DER v1](assets/der_v1.png)](assets/der_v1.png)
 
 #### Versao 2
 [![DER v2](assets/der_v2.png)](assets/der_v2.png)
 
-## 10. Estilos/padrões arquiteturais
-### 10.1 Arquitetura Monolítica vs Distribuída
+## 8. Estilos/padrões arquiteturais
+### 8.1 Arquitetura Monolítica vs Distribuída
 No projeto optou-se por uma arquitetura baseada em microserviços, que segue uma estrutura distribuída. Nesse modelo tem como base a organização do software em diversos sistemas independentes que se comunicam, no caso desse projeto via protocolo HTTP, e formam um sistema maior. Além de permitir uma alta coesão e um baixo acoplamento, uma arquitetura distribuída facilita questões de infraestrutura, como facilidade de gerenciamento de múltiplos servidores e tolerância a falhas.
 
-### 10.2 MVC
+### 8.2 MVC
 O Node JS, utilizado no backend do projeto, se baseia em um modelo  MVC (Model-View-Controller). O projeto apresenta as tradicionais camadas Model e Controller, porém o papel da View, que tem o papel de decidir como e qual dado será exibido, é substituído pelo front-end, desenvolvido em React Native. A parte de abstração e comunicação com o Banco de Dados é feito através do ORM (Object-relational mapping) Sequelize.
 
 ### Cliente-servidor
 Mesmo utilizando uma arquitetura baseada em microserviços, o projeto é dividido back-end e o front-end. Por mais que a aplicação seja um aplicativo mobile, a interface ainda se trata de um cliente e todo o sistema por trás que recebe as requisições de um servidor, funcionando como um modelo cliente-servidor clássico. Além disso, alguns serviços específicos no back-end, como o de autenticação, tem o papel apenas de registrar os usuários em um banco independente e renovar/criar tokens de acesso para os mesmos, servido basicamente como um servidor 
 
-## 11. Qualidade 
+## 9. Qualidade 
 
 A arquitetura utilizada contribui para com o software em diversos aspectos. Os padrões arquiteturais das nossas principais frentes do sistema contribuem para a escalabilidade da aplicação, pois contribui altamente para a separação clara de responsabilidades e seus componentes podem ser facilmente substituídos por outros de sua própria implementação. Essa característica da clara separação de conceitos do MVC trás diversos outros benefícios para a aplicação em geral, como testabilidade e manutenabilidade.
 
