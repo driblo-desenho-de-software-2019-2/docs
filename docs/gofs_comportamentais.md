@@ -291,6 +291,8 @@ O Observer é um padrão de projeto de software que define uma dependência um-p
 | Problema 1 | sim |
 | Problema 2 | sim |
 
+O padrão ***Observer*** foi implementado para a comunicação em tempo real entre o ***Frontend*** e o serviço ***User***.
+
 ***Evento criado para a atualização do placar em tempo real, este evento é disparado para todos usuários que acompanham a partida***
 
 [![antes-overall](assets/observe-exemplo.png)](assets/assets/observe-exemplo.png)
