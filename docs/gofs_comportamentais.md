@@ -19,6 +19,9 @@ sidebar_label: GOF's Comportamentais
 | 25/10/2019 | 0.10 | Adição da Viabilidade do State| Marcelo Araújo |
 | 25/10/2019 | 0.11 | Adição da Viabilidade do Visitor| Marcelo Araújo |
 | 25/10/2019 | 0.11.2 | Correção do template do Memento, Strategy e Template Method| João Pedro Mota e Luís Cláudio T. Lima |
+| 18/11/2019 | 0.12 | Adição dos exemplos em trechos de código que foi implementado o padrão Strategy| Matheus Rodrigues |
+| 18/11/2019 | 0.13 | Adição dos exemplos em trechos de código que foi implementados o padrão de projeto Mediator| Matheus Rodrigues |
+| 18/11/2019 | 0.14 | Adição dos exemplos em trechos de código que foi implementado o padrão de projeto Observer| Matheus Rodrigues |
 
 ## Introdução
 <p align="justify">
@@ -201,8 +204,8 @@ Mediador é um padrão de projeto usado frequentemente quando deseja-se encapsul
 ### Benefícios
 
  1. Diminuí consideravelmente o acoplamento (entre os Colegas) e consequentemente aumenta o reuso.
- 1. Ocorre a eliminação de relacionamentos muitos para muitos (N para N)
- 1. A política de comunicações fica centralizada no Mediator, logo, podemos alterar essa política sem precisar alterar os Colegas. 
+ 2. Ocorre a eliminação de relacionamentos muitos para muitos (N para N)
+ 3. A política de comunicações fica centralizada no Mediator, logo, podemos alterar essa política sem precisar alterar os Colegas. 
 
 ### Aplicável no Driblô?
 
@@ -211,11 +214,21 @@ Mediador é um padrão de projeto usado frequentemente quando deseja-se encapsul
 | Problema 1 | Sim |
 | Problema 2 | Sim |
 
-(Dizer porque soluções são úteis ou não)
+O padrão ***Mediator*** foi implementado no serviço ***Driblo***, é um padrão de projeto que promove o acoplamento livre de objetos, removendo a necessidade das classes se comunicarem diretamente, este padrão foi muito útil para tratar a interação entre entidades.
 
-Na modelagem do banco de dados, é possível ver que a entidade de usuário está ligada a todas outras entidades do banco, além de possuir relacionamentos N para N, o que pode trazer um acoplamento forte dessa classe, assim o mediator se torna uma solução para esses problema, um exemplo seria quando o usuário participa da pelada deve existir um mediador entre usuário e a pelada.  
+***Trecho da controladora responsável pelo relacionamento entre jogador e pelada***
+
+[![mediator userpelada](assets/mediator-exemplo2.png)](assets/mediator-exemplo2.png)
+
+***Trecho da controladora responsável pelo relacionamento entre jogador e time***
+
+[![mediator userpelada](assets/mediator-exemplo1.png)](assets/mediator-exemplo1.png)
+
+Como pode ser observado, foi necessário a criação de uma controladora que possue o comportamento de mediador, e por sua vez, retira a responsabilidade de um objeto especifico em se relacionar com um ou mais objetos, deixando essa responsabilidade de interação com a controladora.
 
 ---
+
+<br>
 
 ## Memento
 
@@ -275,10 +288,21 @@ O Observer é um padrão de projeto de software que define uma dependência um-p
 
 | Problema | Solução é útil ao Driblô? |
 | ------- | :-----: |
-| Problema 1 |  |
-| Problema 2 |  |
+| Problema 1 | sim |
+| Problema 2 | sim |
 
-(Dizer porque soluções são úteis ou não)
+O padrão ***Observer*** foi implementado para a comunicação em tempo real entre o ***Frontend*** e o serviço ***User***.
+
+***Evento criado para a atualização do placar em tempo real, este evento é disparado para todos usuários que acompanham a partida***
+
+[![antes-overall](assets/observe-exemplo.png)](assets/assets/observe-exemplo.png)
+<p></p>
+
+***Evento criado para informar o nome do time e quantos gols aquele time possue, este evento é disparado para o backend***
+
+[![antes-overall](assets/observer-exemplo1.png)](assets/assets/observer-exemplo1.png)
+
+Se fez necessário a comunicação bidirecional para a marcação do placar da partida em andamento, para que todos os usuários possam acompanhar os gols em tempo real. Para isso, a biblioteca *socket.io* permitiu a comunicação em tempo real, baseada em eventos, então quando o administrador marca o gol da partida, o placar que fica na pagina de pelada é atualizado automaticamente para todos os usuários.
 
 ---
 
@@ -330,8 +354,9 @@ O padrão Strategy é um padrão comportamental que permite selecionar um algori
 
 ### Problemas solucionados pelo padrão
 
- 1. Como uma classe pode ser configurada com um algoritmo em tempo de execução, em vez de implementar um algoritmo diretamente?
- 1. Como um algoritmo pode ser selecionado e trocado em tempo de execução?
+ 1. Uma classe pode ser configurada com um algoritmo em tempo de execução, em vez de implementar um algoritmo diretamente
+
+ 2. Um algoritmo pode ser selecionado e trocado em tempo de execução.
 
 ### Benefícios
 
@@ -346,8 +371,35 @@ O padrão Strategy é um padrão comportamental que permite selecionar um algori
 | ------- | :-----: |
 | Problema 1 | Sim  |
 | Problema 2 | Sim |
-Durante a formação dos times, há formas diferentes de serem balanceados de acordo com a habilidade dos jogadores, quantidade de participantes e etc. Além diso,é necessário que esta escolha seja feita em tempo de execução, pois não há como prever quem realmente estará presente no dia do jogo.
-Com o padrão Strategy espera-se que o nosso app possua uma alta performance na geração e balanceamento dos times. 
+
+O padrão ***Strategy*** foi implementado no serviço ***User*** do projeto, este padrão foi muito util para o calculo do ***Overall*** do jogador, visto que para cada tipo posição, o peso da das habilidades(velocidade, chute, defesa, passe, drible) variavam, então ao invés de criar uma enorme estrura condicional, o algoritmo escolhido para o calculo do ***Overall*** é definido em tempo de execução, isso tudo se deve a dinamicidade que o javascript proporciona na exportação de funcões.
+
+***Trecho dos algoritmos para o cálculo do Overall - Antigo***
+
+[![antes-overall](assets/antes-overall.png)](assets/strategy.png)
+
+***Chamada do algoritmo para o calculo do Overall - Antigo***
+
+[![antes-overall](assets/antes-overall-laco.png)](assets/strategy.png)
+
+<br>
+
+***Import dos algoritmos em apenas um objeto***
+
+[![import-overall](assets/import-overall.png)](assets/import-overall.png)
+
+
+
+***Trecho dos algoritmos para o cálculo do Overall - Refatorado***
+
+[![depois-overall](assets/depois-overall.png)](assets/depois-overall.png)
+
+***Chamada do algoritmo para o calculo do Overall - Refatorado***
+
+[![antes-overall](assets/depois-overall-laco.png)](assets/depois-overall-laco.png)
+
+
+Como pode ser observado, o arquivo que contém os algoritmos de calcular o overall, exporta suas funções mapeando cada uma delas com chave-valor, desse modo, a *controller* de usuário importa esse objeto e em tempo de execução invoca a função especifica passando como chave a posição do jogador.
 
 ---
 

@@ -10,6 +10,7 @@ sidebar_label: Léxicos
 | ---------- | ------ | -------------------- | --------------- |
 | 22/08/2019 | 0.1 | Criação de documento e adição tópicos 1, 2, 3 e 5| Byron Kamal |
 |22/08/2019|0.2|Adição dos Léxicos (tópico 4)| Matheus Rodrigues|
+|18/11/2019|0.3|Adição do léxico de overall| Matheus Rodrigues|
 
 ## 1.Introdução
 Este modelo auxilia no entendimento e simplificação da compreensão do contexto do Driblô, pois pega termos específicos, os define e mostra onde são utilizados e quando podem ocorrer, trazendo uma familiarização com o escopo do Driblô.
@@ -86,6 +87,14 @@ Foram levantados termos que foram julgados importantes para compreensão do dom�
 |**Sinônimo**| - |
 |**Noção**| Vontade excessiva. |
 |**Impacto**| O peladeiro chegou no lance com raça.<br>O jogador marcou o gol na base da raça<br>Você é um jogador que tem raça.|
+
+###  Overall
+|         |        |
+| ------- | ------ |
+|**Nome**| **Overall**|
+|**Sinônimo**| - |
+|**Noção**| Nível definido a partir das habilidades inseridas. |
+|**Impacto**| O overall do jogador é 97.<br>O overall do atacante é calculado diferentemente do overall do zagueiro.|
 
 ## 5.Conclusão
 Até o momento foram elicitados 8 léxicos, que estão descritos acima. 
