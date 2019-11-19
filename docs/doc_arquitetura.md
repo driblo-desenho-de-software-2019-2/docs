@@ -24,6 +24,7 @@ sidebar_label: Documento Arquitetura
 | 18/11/2019 | 1.4 | Adição da Visão da Implementação | Marcelo Araújo |
 | 18/11/2019 | 1.5 | Adição da Visão Lógica, diagrama de classes e parte do diagrama de pacotes | João Pedro Mota |
 | 18/11/2019 | 1.6 | Corrigindo visão de implantação e especificação da gateway | Matheus Rodrigues |
+| 18/11/2019 | 1.7 | Adição do diagrama de pacotes Back-End e Diagramas de Sequência | Rafael Teodosio |
 
 ## 1. Introdução
 Este documento visa apresentar a arquitetura de software a ser aplicada no sistema  Driblô, de forma que facilite a visualização dos requisitos e da estrutura para os envolvidos.
@@ -164,6 +165,40 @@ React Native - Biblioteca JavaScript para desenvolvimento de aplicações mobile
 - Telas - Parte visual e interativa do sistema, dependente dos Componentes e Requisições(Axios).
 - Componentes - Divide a interface em partes independentes permitindo a reutilização e/ou a utilização de forma independente. 
 - Axios - Responsável pelas requisições realizadas às APIs.
+
+#### 5.2.2 Camada Back-End
+
+Autenticação - Pacote responsável pelo controle de usuário
+ - Login - Responsável pelo login do usuário.
+Cadastro - Responsável pelo cadastro do usuário.
+
+Driblô - Responsavel pela Pelada
+ - Grupo - Responsável pela parte organizacional dos participantes.
+ - Partida - Responsável pelo controle e andamento das partidas.
+
+#### 5.2.3 PostgreeSQL
+
+PostgreeSQL - Banco de dados utilizado para guardar os dados.
+
+### 5.3 Diagramas de Sequência
+Os diagramas de sequência demonstram o fluxo de troca de informações entre os objetos.
+
+#### 5.3.1 Fluxo Inicial
+
+**Versão 1.0**
+
+[![Fluxo Inicial](assets/Diagrama_de_Sequencia_cadastro_login.png)](assets/Diagrama_de_Sequencia_cadastro_login.png)
+
+#### 5.3.2 Grupos e Membros
+**Versão 1.0**
+
+[![Fluxo Inicial](assets/Diagrama_de_Sequencia_grupos_e_membros.png)](assets/Diagrama_de_Sequencia_grupos_e_membros.png)
+
+#### 5.3.3 Funcionamento do grupo
+**Versão 1.0**
+
+[![Fluxo de grupo](assets/Diagrama_de_Sequencia_Funcionamento_grupos.png)](assets/Diagrama_de_Sequencia_Funcionamento_grupos.png)
+
 
 ## 6. Visão de Processos 
 [Esta seção descreve a decomposição do sistema em processos leves (threads simples de controle) e processos pesados (agrupamentos de processos leves). Organize a seção em grupos de processos que se comunicam ou interagem. Descreva os modos principais de comunicação entre processos, como transmissão de mensagens e interrupções.]
