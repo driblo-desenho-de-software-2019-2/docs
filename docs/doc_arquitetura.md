@@ -21,6 +21,7 @@ sidebar_label: Documento Arquitetura
 | 17/11/2019 | 1.1 | Corrigindo erro do tópico 1.4 | Henrique Martins |
 | 17/11/2019 | 1.2 | Adição da Visão de Casos de Uso | Samuel Borges |
 | 18/11/2019 | 1.3 | Remoção do tópico sobre Tamanho e Desempenho | Henrique Martins |
+| 18/11/2019 | 1.4 | Adição da Visão da Implementação | Marcelo Araújo |
 
 ## 1. Introdução
 Este documento visa apresentar a arquitetura de software a ser aplicada no sistema  Driblô, de forma que facilite a visualização dos requisitos e da estrutura para os envolvidos.
@@ -158,7 +159,13 @@ Para cada classe significativa no pacote, inclua o respectivo nome, uma breve de
 [Esta seção descreve uma ou mais configurações da rede física (hardware) na qual o software é implantado e executado. Ela é uma visão do Modelo de Implantação. No mínimo, para cada configuração, ela deve indicar os nós físicos (computadores, CPUs) que executam o software e suas interconexões (barramento, LAN, ponto a ponto, etc.) É incluído também um mapeamento dos processos da Visão de Processos nos nós físicos.]
 
 ## 8. Visão da Implementação 
-[Esta seção descreve a estrutura geral do modelo de implementação, a divisão do software em camadas e os subsistemas no modelo de implementação e todos os componentes significativos do ponto de vista da arquitetura.]
+### 8.1 Diagrama de Implantação
+
+Diagrama de implementação serve para descrever a estrutura geral do modelo de implementação, dar uma visão de como seria implementado em hardware a arquitetura proposta. Mostra o software em camadas e os subsistemas
+no modelo de implementação e todos os componentes significativos do ponto de vista da arquitetura.
+
+#### Versão 1
+[![Implantação](assets/implantacao.png)](assets/implantacao.png)
 
 ## 9. Visão de Dados
 ### 9.1 Modelo Entidade-Relacionamento (M-ER)
