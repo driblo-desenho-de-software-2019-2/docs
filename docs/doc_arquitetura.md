@@ -18,10 +18,11 @@ sidebar_label: Documento Arquitetura
 | 15/11/2019 | 0.8 | Adição da Representação Arquitetural | Samuel Borges |
 | 15/11/2019 | 0.9 | Adição da finalidade na introdução | Marcelo Araújo |
 | 17/11/2019 | 1.0 | Adição de algumas referências | Henrique Martins |
-| 17/11/2019 | 1.1 | Corrigindo erro do tópico 1.4 | Henrique Martins |
+| 17/11/2019 | 1.1 | Corrigindo erro de referências| Henrique Martins |
 | 17/11/2019 | 1.2 | Adição da Visão de Casos de Uso | Samuel Borges |
 | 18/11/2019 | 1.3 | Remoção do tópico sobre Tamanho e Desempenho | Henrique Martins |
 | 18/11/2019 | 1.4 | Adição da Visão da Implementação | Marcelo Araújo |
+| 18/11/2019 | 1.5 | Adição da Visão Lógica, diagrama de classes e parte do diagrama de pacotes | João Pedro Mota |
 
 ## 1. Introdução
 Este documento visa apresentar a arquitetura de software a ser aplicada no sistema  Driblô, de forma que facilite a visualização dos requisitos e da estrutura para os envolvidos.
@@ -143,14 +144,25 @@ O diagrama acima ilustra as os casos de uso relacionados à API do driblô, que 
 
 
 ## 5. Visão Lógica 
-[Esta seção descreve as partes significativas do ponto de vista da arquitetura do modelo de design, como sua divisão em subsistemas e pacotes. Além disso, para cada pacote significativo, ela mostra sua divisão em classes e utilitários de classe. Apresente as classes significativas do ponto de vista da arquitetura e descreva suas responsabilidades, bem como alguns relacionamentos, operações e atributos de grande importância.]
+Este tópico descreve as modelagens conforme o padrão UML, representando aspectos arquiteturais do sistema visão da implementação dos serviços, classes, camadas e pacotes dos serviços existentes.
 
-### 5.1 Visão Geral
-[Esta subseção descreve toda a decomposição do modelo de design em termos de camadas e de hierarquia de pacotes.]
+### 5.1 Diagrama de classe
+ **versão 1.0**
+ 
+ [![Diagrama](assets/Diagrama_Classe_Geral1.0.png)](assets/Diagrama_Classe_Geral1.0.png)
 
-### 5.2 Pacotes de Design Significativos do Ponto de Vista da Arquitetura
-[Para cada pacote significativo, inclua uma subseção com o respectivo nome, uma breve descrição e um diagrama com todos os pacotes e classes significativos nele contidos. 
-Para cada classe significativa no pacote, inclua o respectivo nome, uma breve descrição e, opcionalmente, uma descrição de algumas das suas principais responsabilidades, operações e atributos.]
+**versão 2.0**
+
+ ![Diagrama de Classe V2.0](assets/Diagrama_Classe_Geral2.0.png)
+
+### 5.2 Diagrama de pacotes
+
+#### 5.2.1 Camada Front-end
+
+React Native - Biblioteca JavaScript para desenvolvimento de aplicações mobile com funcionamento assíncrono.
+- Telas - Parte visual e interativa do sistema, dependente dos Componentes e Requisições(Axios).
+- Componentes - Divide a interface em partes independentes permitindo a reutilização e/ou a utilização de forma independente. 
+- Axios - Responsável pelas requisições realizadas às APIs.
 
 ## 6. Visão de Processos 
 [Esta seção descreve a decomposição do sistema em processos leves (threads simples de controle) e processos pesados (agrupamentos de processos leves). Organize a seção em grupos de processos que se comunicam ou interagem. Descreva os modos principais de comunicação entre processos, como transmissão de mensagens e interrupções.]
