@@ -72,6 +72,9 @@
 <tr><td>25/10/2019</td><td>0.10</td><td>Adição da Viabilidade do State</td><td>Marcelo Araújo</td></tr>
 <tr><td>25/10/2019</td><td>0.11</td><td>Adição da Viabilidade do Visitor</td><td>Marcelo Araújo</td></tr>
 <tr><td>25/10/2019</td><td>0.11.2</td><td>Correção do template do Memento, Strategy e Template Method</td><td>João Pedro Mota e Luís Cláudio T. Lima</td></tr>
+<tr><td>18/11/2019</td><td>0.12</td><td>Adição dos exemplos em trechos de código que foi implementado o padrão Strategy</td><td>Matheus Rodrigues</td></tr>
+<tr><td>18/11/2019</td><td>0.13</td><td>Adição dos exemplos em trechos de código que foi implementados o padrão de projeto Mediator</td><td>Matheus Rodrigues</td></tr>
+<tr><td>18/11/2019</td><td>0.14</td><td>Adição dos exemplos em trechos de código que foi implementado o padrão de projeto Observer</td><td>Matheus Rodrigues</td></tr>
 </tbody>
 </table>
 <h2><a class="anchor" aria-hidden="true" id="introducão"></a><a href="#introducão" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Introdução</h2>
@@ -224,9 +227,14 @@ A seguir temos um trecho de código onde o <strong>middlaware</strong> é aplica
 <tr><td>Problema 2</td><td style="text-align:center">Sim</td></tr>
 </tbody>
 </table>
-<p>(Dizer porque soluções são úteis ou não)</p>
-<p>Na modelagem do banco de dados, é possível ver que a entidade de usuário está ligada a todas outras entidades do banco, além de possuir relacionamentos N para N, o que pode trazer um acoplamento forte dessa classe, assim o mediator se torna uma solução para esses problema, um exemplo seria quando o usuário participa da pelada deve existir um mediador entre usuário e a pelada.</p>
+<p>O padrão <strong><em>Mediator</em></strong> foi implementado no serviço <strong><em>Driblo</em></strong>, é um padrão de projeto que promove o acoplamento livre de objetos, removendo a necessidade das classes se comunicarem diretamente, este padrão foi muito útil para tratar a interação entre entidades.</p>
+<p><strong><em>Trecho da controladora responsável pelo relacionamento entre jogador e pelada</em></strong></p>
+<p><a href="/docs/docs/assets/mediator-exemplo2.png"><img src="/docs/docs/assets/mediator-exemplo2.png" alt="mediator userpelada"></a></p>
+<p><strong><em>Trecho da controladora responsável pelo relacionamento entre jogador e time</em></strong></p>
+<p><a href="/docs/docs/assets/mediator-exemplo1.png"><img src="/docs/docs/assets/mediator-exemplo1.png" alt="mediator userpelada"></a></p>
+<p>Como pode ser observado, foi necessário a criação de uma controladora que possue o comportamento de mediador, e por sua vez, retira a responsabilidade de um objeto especifico em se relacionar com um ou mais objetos, deixando essa responsabilidade de interação com a controladora.</p>
 <hr>
+<p><br></p>
 <h2><a class="anchor" aria-hidden="true" id="memento"></a><a href="#memento" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Memento</h2>
 <h3><a class="anchor" aria-hidden="true" id="o-que-e-5"></a><a href="#o-que-e-5" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>O que é?</h3>
 <p>Memento é um padrão de projeto de software documentado no Catálogo Gang of Four, sendo considerado como um padrão comportamental. Ele permite armazenar o estado interno de um objeto em um determinando momento, para que seja possível retorná-lo a este estado, sem que isso cause problemas com o encapsulamento.</p>
@@ -276,11 +284,17 @@ Com o uso do Memento, torna-se possível o acesso a estados anteriores do objeto
 <tr><th>Problema</th><th style="text-align:center">Solução é útil ao Driblô?</th></tr>
 </thead>
 <tbody>
-<tr><td>Problema 1</td><td style="text-align:center"></td></tr>
-<tr><td>Problema 2</td><td style="text-align:center"></td></tr>
+<tr><td>Problema 1</td><td style="text-align:center">sim</td></tr>
+<tr><td>Problema 2</td><td style="text-align:center">sim</td></tr>
 </tbody>
 </table>
-<p>(Dizer porque soluções são úteis ou não)</p>
+<p>O padrão <strong><em>Observer</em></strong> foi implementado para a comunicação em tempo real entre o <strong><em>Frontend</em></strong> e o serviço <strong><em>User</em></strong>.</p>
+<p><strong><em>Evento criado para a atualização do placar em tempo real, este evento é disparado para todos usuários que acompanham a partida</em></strong></p>
+<p><a href="/docs/docs/assets/assets/observe-exemplo.png"><img src="/docs/docs/assets/observe-exemplo.png" alt="antes-overall"></a></p>
+<p></p>
+<p><strong><em>Evento criado para informar o nome do time e quantos gols aquele time possue, este evento é disparado para o backend</em></strong></p>
+<p><a href="/docs/docs/assets/assets/observer-exemplo1.png"><img src="/docs/docs/assets/observer-exemplo1.png" alt="antes-overall"></a></p>
+<p>Se fez necessário a comunicação bidirecional para a marcação do placar da partida em andamento, para que todos os usuários possam acompanhar os gols em tempo real. Para isso, a biblioteca <em>socket.io</em> permitiu a comunicação em tempo real, baseada em eventos, então quando o administrador marca o gol da partida, o placar que fica na pagina de pelada é atualizado automaticamente para todos os usuários.</p>
 <hr>
 <h2><a class="anchor" aria-hidden="true" id="state"></a><a href="#state" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>State</h2>
 <h3><a class="anchor" aria-hidden="true" id="o-que-e-7"></a><a href="#o-que-e-7" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>O que é?</h3>
@@ -319,8 +333,8 @@ Com o uso do Memento, torna-se possível o acesso a estados anteriores do objeto
 <p><a href="/docs/docs/assets/strategy.png"><img src="/docs/docs/assets/strategy.png" alt="Diagrama"></a></p>
 <h3><a class="anchor" aria-hidden="true" id="problemas-solucionados-pelo-padrão-7"></a><a href="#problemas-solucionados-pelo-padrão-7" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Problemas solucionados pelo padrão</h3>
 <ol>
-<li>Como uma classe pode ser configurada com um algoritmo em tempo de execução, em vez de implementar um algoritmo diretamente?</li>
-<li>Como um algoritmo pode ser selecionado e trocado em tempo de execução?</li>
+<li><p>Uma classe pode ser configurada com um algoritmo em tempo de execução, em vez de implementar um algoritmo diretamente</p></li>
+<li><p>Um algoritmo pode ser selecionado e trocado em tempo de execução.</p></li>
 </ol>
 <h3><a class="anchor" aria-hidden="true" id="beneficios-8"></a><a href="#beneficios-8" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Benefícios</h3>
 <ol>
@@ -339,8 +353,19 @@ Com o uso do Memento, torna-se possível o acesso a estados anteriores do objeto
 <tr><td>Problema 2</td><td style="text-align:center">Sim</td></tr>
 </tbody>
 </table>
-<p>Durante a formação dos times, há formas diferentes de serem balanceados de acordo com a habilidade dos jogadores, quantidade de participantes e etc. Além diso,é necessário que esta escolha seja feita em tempo de execução, pois não há como prever quem realmente estará presente no dia do jogo.
-Com o padrão Strategy espera-se que o nosso app possua uma alta performance na geração e balanceamento dos times.</p>
+<p>O padrão <strong><em>Strategy</em></strong> foi implementado no serviço <strong><em>User</em></strong> do projeto, este padrão foi muito util para o calculo do <strong><em>Overall</em></strong> do jogador, visto que para cada tipo posição, o peso da das habilidades(velocidade, chute, defesa, passe, drible) variavam, então ao invés de criar uma enorme estrura condicional, o algoritmo escolhido para o calculo do <strong><em>Overall</em></strong> é definido em tempo de execução, isso tudo se deve a dinamicidade que o javascript proporciona na exportação de funcões.</p>
+<p><strong><em>Trecho dos algoritmos para o cálculo do Overall - Antigo</em></strong></p>
+<p><a href="/docs/docs/assets/strategy.png"><img src="/docs/docs/assets/antes-overall.png" alt="antes-overall"></a></p>
+<p><strong><em>Chamada do algoritmo para o calculo do Overall - Antigo</em></strong></p>
+<p><a href="/docs/docs/assets/strategy.png"><img src="/docs/docs/assets/antes-overall-laco.png" alt="antes-overall"></a></p>
+<p><br></p>
+<p><strong><em>Import dos algoritmos em apenas um objeto</em></strong></p>
+<p><a href="/docs/docs/assets/import-overall.png"><img src="/docs/docs/assets/import-overall.png" alt="import-overall"></a></p>
+<p><strong><em>Trecho dos algoritmos para o cálculo do Overall - Refatorado</em></strong></p>
+<p><a href="/docs/docs/assets/depois-overall.png"><img src="/docs/docs/assets/depois-overall.png" alt="depois-overall"></a></p>
+<p><strong><em>Chamada do algoritmo para o calculo do Overall - Refatorado</em></strong></p>
+<p><a href="/docs/docs/assets/depois-overall-laco.png"><img src="/docs/docs/assets/depois-overall-laco.png" alt="antes-overall"></a></p>
+<p>Como pode ser observado, o arquivo que contém os algoritmos de calcular o overall, exporta suas funções mapeando cada uma delas com chave-valor, desse modo, a <em>controller</em> de usuário importa esse objeto e em tempo de execução invoca a função especifica passando como chave a posição do jogador.</p>
 <hr>
 <h2><a class="anchor" aria-hidden="true" id="template-method"></a><a href="#template-method" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Template Method</h2>
 <h3><a class="anchor" aria-hidden="true" id="o-que-e-9"></a><a href="#o-que-e-9" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>O que é?</h3>
