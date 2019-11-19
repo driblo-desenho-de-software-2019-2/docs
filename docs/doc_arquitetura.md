@@ -12,7 +12,7 @@ sidebar_label: Documento Arquitetura
 | 15/11/2019 | 0.2 | Adição tópico visão geral de introdução e tópico de qualidade | Luís Cláudio T. Lima |
 | 15/11/2019 | 0.3 | Adição MER e DER - Tópico Visão de Dados | Byron Kamal|
 | 15/11/2019 | 0.4 | Adição tópico Estilos e padrões arquiteturais| Byron Kamal|
-| 15/11/2019 | 0.5 | Adição tópico Metas e Restrições da Arquitetura| Rafael Teodosio|
+| 15/11/2019 | 0.5 | Adição tópico Metas e Restrições da Arquitetura| Rafael Teodosio e Henrique Martins|
 | 15/11/2019 | 0.6 | Adição tópico Introdução e Escopo| João Pedro Mota|
 | 15/11/2019 | 0.7 | Adição das Definições, Acrônimos e Abreviações | Samuel Borges |
 | 15/11/2019 | 0.8 | Adição da Representação Arquitetural | Samuel Borges |
@@ -20,6 +20,7 @@ sidebar_label: Documento Arquitetura
 | 17/11/2019 | 1.0 | Adição de algumas referências | Henrique Martins |
 | 17/11/2019 | 1.1 | Corrigindo erro do tópico 1.4 | Henrique Martins |
 | 17/11/2019 | 1.2 | Adição da Visão de Casos de Uso | Samuel Borges |
+| 18/11/2019 | 1.3 | Remoção do tópico sobre Tamanho e Desempenho | Henrique Martins |
 
 ## 1. Introdução
 Este documento visa apresentar a arquitetura de software a ser aplicada no sistema  Driblô, de forma que facilite a visualização dos requisitos e da estrutura para os envolvidos.
@@ -181,11 +182,7 @@ O Node JS, utilizado no backend do projeto, se baseia em um modelo  MVC (Model-V
 ### Cliente-servidor
 Mesmo utilizando uma arquitetura baseada em microserviços, o projeto é dividido back-end e o front-end. Por mais que a aplicação seja um aplicativo mobile, a interface ainda se trata de um cliente e todo o sistema por trás que recebe as requisições de um servidor, funcionando como um modelo cliente-servidor clássico. Além disso, alguns serviços específicos no back-end, como o de autenticação, tem o papel apenas de registrar os usuários em um banco independente e renovar/criar tokens de acesso para os mesmos, servido basicamente como um servidor 
 
-
-## 11. Tamanho e Desempenho 
-[Uma descrição das principais características de dimensionamento do software que têm um impacto na arquitetura, bem como as restrições do desempenho desejado.]
-
-## 12. Qualidade 
+## 11. Qualidade 
 
 A arquitetura utilizada contribui para com o software em diversos aspectos. Os padrões arquiteturais das nossas principais frentes do sistema contribuem para a escalabilidade da aplicação, pois contribui altamente para a separação clara de responsabilidades e seus componentes podem ser facilmente substituídos por outros de sua própria implementação. Essa característica da clara separação de conceitos do MVC trás diversos outros benefícios para a aplicação em geral, como testabilidade e manutenabilidade.
 
