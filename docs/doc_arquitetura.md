@@ -23,6 +23,7 @@ sidebar_label: Documento Arquitetura
 | 18/11/2019 | 1.3 | Remoção do tópico sobre Tamanho e Desempenho | Henrique Martins |
 | 18/11/2019 | 1.4 | Adição da Visão da Implementação | Marcelo Araújo |
 | 18/11/2019 | 1.5 | Adição da Visão Lógica, diagrama de classes e parte do diagrama de pacotes | João Pedro Mota |
+| 18/11/2019 | 1.6 | Corrigindo visão de implantação e especificação da gateway | Matheus Rodrigues |
 
 ## 1. Introdução
 Este documento visa apresentar a arquitetura de software a ser aplicada no sistema  Driblô, de forma que facilite a visualização dos requisitos e da estrutura para os envolvidos.
@@ -89,7 +90,7 @@ Interface para comunicação com o usuário.
 
 #### Gateway
 
-Serviço responsável pela comunicação entre os diversos serviços da aplicação.
+A API Gateway é a API central do projeto, uma fachada entre o frontend e os microsserviços. É responsável por validar as requisições vindas do Frontend redirecionando aos microsserviços apenas requisições autenticadas.
 
 ### Model View Controller (MVC)
 
@@ -167,11 +168,7 @@ React Native - Biblioteca JavaScript para desenvolvimento de aplicações mobile
 ## 6. Visão de Processos 
 [Esta seção descreve a decomposição do sistema em processos leves (threads simples de controle) e processos pesados (agrupamentos de processos leves). Organize a seção em grupos de processos que se comunicam ou interagem. Descreva os modos principais de comunicação entre processos, como transmissão de mensagens e interrupções.]
 
-## 7. Visão de Implantação 
-[Esta seção descreve uma ou mais configurações da rede física (hardware) na qual o software é implantado e executado. Ela é uma visão do Modelo de Implantação. No mínimo, para cada configuração, ela deve indicar os nós físicos (computadores, CPUs) que executam o software e suas interconexões (barramento, LAN, ponto a ponto, etc.) É incluído também um mapeamento dos processos da Visão de Processos nos nós físicos.]
-
-## 8. Visão da Implementação 
-### 8.1 Diagrama de Implantação
+## 7. Visão de Implantação
 
 Diagrama de implementação serve para descrever a estrutura geral do modelo de implementação, dar uma visão de como seria implementado em hardware a arquitetura proposta. Mostra o software em camadas e os subsistemas
 no modelo de implementação e todos os componentes significativos do ponto de vista da arquitetura.
