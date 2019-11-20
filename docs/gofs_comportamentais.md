@@ -220,9 +220,13 @@ O padrão ***Mediator*** foi implementado no serviço ***Driblo***, é um padrã
 
 [![mediator userpelada](assets/mediator-exemplo2.png)](assets/mediator-exemplo2.png)
 
+> Matheus Rodrigues
+
 ***Trecho da controladora responsável pelo relacionamento entre jogador e time***
 
 [![mediator userpelada](assets/mediator-exemplo1.png)](assets/mediator-exemplo1.png)
+
+> Matheus Rodrigues
 
 Como pode ser observado, foi necessário a criação de uma controladora que possue o comportamento de mediador, e por sua vez, retira a responsabilidade de um objeto especifico em se relacionar com um ou mais objetos, deixando essa responsabilidade de interação com a controladora.
 
@@ -296,11 +300,13 @@ O padrão ***Observer*** foi implementado para a comunicação em tempo real ent
 ***Evento criado para a atualização do placar em tempo real, este evento é disparado para todos usuários que acompanham a partida***
 
 [![antes-overall](assets/observe-exemplo.png)](assets/assets/observe-exemplo.png)
+> Matheus Rodrigues
 <p></p>
 
 ***Evento criado para informar o nome do time e quantos gols aquele time possue, este evento é disparado para o backend***
 
 [![antes-overall](assets/observer-exemplo1.png)](assets/assets/observer-exemplo1.png)
+> Matheus Rodrigues
 
 Se fez necessário a comunicação bidirecional para a marcação do placar da partida em andamento, para que todos os usuários possam acompanhar os gols em tempo real. Para isso, a biblioteca *socket.io* permitiu a comunicação em tempo real, baseada em eventos, então quando o administrador marca o gol da partida, o placar que fica na pagina de pelada é atualizado automaticamente para todos os usuários.
 
@@ -378,9 +384,13 @@ O padrão ***Strategy*** foi implementado no serviço ***User*** do projeto, est
 
 [![antes-overall](assets/antes-overall.png)](assets/strategy.png)
 
+> Matheus Rodrigues
+
 ***Chamada do algoritmo para o calculo do Overall - Antigo***
 
 [![antes-overall](assets/antes-overall-laco.png)](assets/strategy.png)
+
+> Matheus Rodrigues
 
 <br>
 
@@ -388,18 +398,21 @@ O padrão ***Strategy*** foi implementado no serviço ***User*** do projeto, est
 
 [![import-overall](assets/import-overall.png)](assets/import-overall.png)
 
-
+> Matheus Rodrigues
 
 ***Trecho dos algoritmos para o cálculo do Overall - Refatorado***
 
 [![depois-overall](assets/depois-overall.png)](assets/depois-overall.png)
 
+> Matheus Rodrigues
+
 ***Chamada do algoritmo para o calculo do Overall - Refatorado***
 
 [![antes-overall](assets/depois-overall-laco.png)](assets/depois-overall-laco.png)
 
+> Matheus Rodrigues
 
-Como pode ser observado, o arquivo que contém os algoritmos de calcular o overall, exporta suas funções mapeando cada uma delas com chave-valor, desse modo, a *controller* de usuário importa esse objeto e em tempo de execução invoca a função especifica passando como chave a posição do jogador.
+Como pode ser observado, o arquivo que contém os algoritmos de calcular o overall, exporta suas funções mapeando cada uma delas com chave-valor, desse modo, a *controller* de usuário importa esse objeto e em tempo de execução invoca a função especifica passando como chave a posição do jogador como é visto na linha 114.
 
 ---
 
