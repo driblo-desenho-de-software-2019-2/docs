@@ -39,6 +39,8 @@ Rich Picture com foco na aplicação e escopo do projeto.
 
 [![Problemática](assets/richpicture_problematica_v01.jpg)](assets/richpicture_problematica_v01.jpg)
 
+> Matheus Rodrigues
+
 #### Versão 1.1
 
 [![Problemática](assets/richpicture_problematica_v02.png)](assets/richpicture_problematica_v02.png)

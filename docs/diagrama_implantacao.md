@@ -15,3 +15,5 @@ sidebar_label: Diagramas de Implantação
 o diagrama de implementação descreve a implementação física de informações geradas pelo programa de software em componentes de hardware. A informação gerada pelo software é chamada de artefato.
 
 [![Implantação](assets/implantacao.png)](assets/implantacao.png)
+
+> Matheus Rodrigues

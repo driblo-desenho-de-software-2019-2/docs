@@ -123,7 +123,7 @@ O cenário a ser aplicado o padrão Command é relacionado a opção do jogador 
 #### Diagrama de classe - versão 1.0
 
 [![Diagrama de classe](assets/Diagrama-classe-command.png)](assets/Diagrama-classe-command.png)
-#### Autor: Matheus Rodrigues
+> Autor: Matheus Rodrigues
 <ul>
 <li> 
 
@@ -153,7 +153,7 @@ Qualquer classe pode funcionar como um Receiver. </li>
 #### Diagrama de sequencia - versão 1.0
 
 [![Diagrama de sequencia](assets/Diagrama-sequencia-command.png)](assets/Diagrama-sequencia-command.png)
-#### Autor: Matheus Rodrigues
+> Autor: Matheus Rodrigues
 
 <p align="justify">
 Primeiro o ListaJogadores cria um novo Command especificando seu Receptor, em seguida este Command é armazenado em um Invoker. O Invoker quando quer chamar a ação do Receptor, usa o método execute do Command que por sua vez chama a ação do Receptor. Deste modo o Invoker não conhece como funciona a ação e também não conhece o Receptor.
