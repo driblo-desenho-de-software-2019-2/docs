@@ -295,7 +295,7 @@ O Observer é um padrão de projeto de software que define uma dependência um-p
 | Problema 1 | sim |
 | Problema 2 | sim |
 
-O padrão ***Observer*** foi implementado para a comunicação em tempo real entre o ***Frontend*** e o serviço ***User***.
+O padrão ***Observer*** foi implementado para a comunicação em tempo real entre o ***Frontend*** e o serviço ***Driblô***.
 
 ***Evento criado para a atualização do placar em tempo real, este evento é disparado para todos usuários que acompanham a partida***
 
@@ -378,7 +378,7 @@ O padrão Strategy é um padrão comportamental que permite selecionar um algori
 | Problema 1 | Sim  |
 | Problema 2 | Sim |
 
-O padrão ***Strategy*** foi implementado no serviço ***User*** do projeto, este padrão foi muito util para o calculo do ***Overall*** do jogador, visto que para cada tipo posição, o peso da das habilidades(velocidade, chute, defesa, passe, drible) variavam, então ao invés de criar uma enorme estrura condicional, o algoritmo escolhido para o calculo do ***Overall*** é definido em tempo de execução, isso tudo se deve a dinamicidade que o javascript proporciona na exportação de funcões.
+O padrão ***Strategy*** foi implementado no serviço ***User*** do projeto, este padrão foi muito util para o calculo do ***Overall*** do jogador, visto que para cada tipo posição, o peso das habilidades(velocidade, chute, defesa, passe, drible) variavam, então ao invés de criar uma enorme estrura condicional, o algoritmo escolhido para o calculo do ***Overall*** é definido em tempo de execução, isso tudo se deve a dinamicidade que o javascript proporciona na exportação de funcões.
 
 ***Trecho dos algoritmos para o cálculo do Overall - Antigo***
 
@@ -412,7 +412,7 @@ O padrão ***Strategy*** foi implementado no serviço ***User*** do projeto, est
 
 > Matheus Rodrigues
 
-Como pode ser observado, o arquivo que contém os algoritmos de calcular o overall, exporta suas funções mapeando cada uma delas com chave-valor, desse modo, a *controller* de usuário importa esse objeto e em tempo de execução invoca a função especifica passando como chave a posição do jogador como é visto na linha 114.
+Como pode ser observado, o arquivo que contém os algoritmos de calcular o overall, exporta suas funções mapeando cada uma delas por chave-valor, desse modo, a *controller* de usuário importa esse objeto e em tempo de execução invoca a função especifica passando como chave a posição do jogador, como é visto na linha 114.
 
 ---
 
