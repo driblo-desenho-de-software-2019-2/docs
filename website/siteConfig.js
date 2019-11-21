@@ -52,10 +52,7 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: "img/favicon.ico",
-  footerIcon: "img/favicon.ico",
-  favicon: "img/favicon.ico",
-
+  
   /* Colors for website */
   colors: {
     primaryColor: "#10C971",

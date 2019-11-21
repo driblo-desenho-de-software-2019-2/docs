@@ -380,13 +380,9 @@ class Index extends React.Component {
             <div className="container">
               <div className="row fullscreen d-flex align-items-center justify-content-center">
                 <div className="banner-content col-lg-8 col-md-12">
-                  <h1 className="wow fadeIn" data-wow-duration="4s">
+                  <h1 className="wow fadeIn" style={{paddingTop: 270, fontFamily: "Times New Roman"}} data-wow-duration="4s">
                     Driblô
                   </h1>
-                  <p className="text-white" style={{ fontSize: 30 }}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt.
-                  </p>
                 </div>
               </div>
             </div>

@@ -1782,7 +1782,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff; }
 
 .home-banner-area {
-  background: url(../img/header-bg.png) no-repeat top center;
+  background: url(../img/home1.png) no-repeat top center;
   background-size: cover; }
   @media (max-width: 767.98px) {
     .home-banner-area .fullscreen {
@@ -1872,10 +1872,13 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin: 0 auto; }
 
 .banner-area {
-  background: url(../img/banner-bg.png) no-repeat top center;
+  background: url(../img/home1.png) no-repeat top center;
   background-size: cover;
   min-height: 512px; }
 
+.fixedHeaderContainer header .headerTitle{
+  display: none;
+}
 @media (max-width: 991px) {
   .about-area .about-left {
     margin-bottom: 50px; } }
